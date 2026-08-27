@@ -1,0 +1,72 @@
+.tabelas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tabelas table {
+    flex: 1 1 320px;
+    max-width: 450px;
+    min-width: 280px;
+}
+
+.tabelas table {
+    width: 100%;
+    background: rgb(7, 96, 108);
+    padding: 12px;
+    border-collapse: collapse;
+    overflow: hidden;
+    transition: box-shadow .3s ease, transform .3s ease;
+    box-shadow: 0 0 10px rgb(7, 38, 64);
+    font-family: "Comic Sans MS", cursive;
+}
+
+.tabelas table:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgb(7, 38, 64);
+}
+
+.tabelas thead {
+    background: aquamarine;
+}
+
+.tabelas tr:nth-child(even) {
+    background: rgb(24, 56, 68);
+}
+
+.tabelas tr {
+    transition: background-color .15s ease;
+}
+
+.tabelas tbody tr:hover {
+    background: #378c96;
+}
+
+.tabelas th {
+    color: #004e57;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tabelas td {
+    padding: 10px;
+    color: #ddd;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.tabelas tr {
+    transition: .2s;
+}
+
+.tabelas tr:nth-child(even) {
+    background: rgb(24, 56, 68);
+}
+
+.tabelas tbody tr:hover {
+    background: rgb(55, 140, 150);
+}

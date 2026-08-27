@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+.mainContainer {
+    background: rgb(37, 53, 54);
+    margin: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    overflow-x: auto;
+    margin-top: 100px;
+}
+
+.tituloMain {
+    font-size: 45px;
+    text-align: center;
+    font-family: Andale Mono, monospace;
+    color: rgb(10, 25, 36);
+    margin-bottom: 20px;
+}
+
+.textoMain {
+    font-size: 22px;
+    text-align: center;
+    font-family: Andale Mono, monospace;
+    color: rgb(10, 25, 36);
+    margin-bottom: 20px;
+}
+
+.tabelas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tabelaItem {
+    flex: 1 1 320px;
+    max-width: 450px;
+    min-width: 280px;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.colunaTabela {
+    width: 100px;
+}
+
+.cabecalhoTabela {
+    background-color: rgb(23, 36, 39);
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.celulaTabela {
+    text-align: center;
+    vertical-align: top;
+}
+
+.vazio {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.hidrogenio {
+    cursor: pointer;
+    background-color: rgb(219, 243, 255);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(133, 160, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gasesNobres {
+    cursor: pointer;
+    background-color: rgb(243, 206, 235);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(189, 79, 174);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.metaisAlcalinos {
+    cursor: pointer;
+    background-color: rgb(176, 241, 211);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(19, 172, 192);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.metaisAlcalinoterrosos {
+    cursor: pointer;
+    background-color: rgb(255, 144, 153);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(158, 10, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.semimetais {
+    cursor: pointer;
+    background-color: rgb(245, 208, 153);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(199, 102, 37);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ametais {
+    cursor: pointer;
+    background-color: rgb(163, 215, 245);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(75, 89, 212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blocoP {
+    cursor: pointer;
+    background-color: rgb(208, 247, 145);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(82, 158, 101);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.metalTransicao {
+    cursor: pointer;
+    background-color: rgb(215, 186, 248);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(113, 95, 180);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lantanideos {
+    cursor: pointer;
+    background-color: rgb(254, 255, 222);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(218, 165, 106);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.actinideos {
+    cursor: pointer;
+    background-color: rgb(183, 194, 255);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(121, 84, 207);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.desconhecido {
+    cursor: pointer;
+    background-color: rgb(235, 236, 241);
+    padding: 15px;
+    word-wrap: break-word;
+    position: relative;
+    color: rgb(155, 151, 163);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hidrogenioSigla { color: rgb(113, 142, 235); }
+.hidrogenioNome { color: rgb(133, 160, 247); }
+.gasesNobresSigla { color: rgb(160, 50, 145); }
+.gasesNobresNome { color: rgb(189, 79, 174); }
+.metaisAlcalinosSigla { color: rgb(13, 137, 153); }
+.metaisAlcalinosNome { color: rgb(19, 172, 192); }
+.metaisAlcalinoterrososSigla { color: rgb(138, 5, 105); }
+.metaisAlcalinoterrososNome { color: rgb(158, 10, 121); }
+.semimetaisSigla { color: rgb(148, 42, 9); }
+.semimetaisNome { color: rgb(199, 102, 37); }
+.ametaisSigla { color: rgb(54, 69, 199); }
+.ametaisNome { color: rgb(75, 89, 212); }
+.blocoPSigla { color: rgb(55, 129, 95); }
+.blocoPNome { color: rgb(82, 158, 101); }
+.metalTransicaoSigla { color: rgb(73, 68, 177); }
+.metalTransicaoNome { color: rgb(113, 95, 180); }
+.lantanideosSigla { color: rgb(201, 125, 81); }
+.lantanideosNome { color: rgb(218, 165, 106); }
+.actinideosSigla { color: rgb(85, 37, 197); }
+.actinideosNome { color: rgb(121, 84, 207); }
+.desconhecidoSigla { color: rgb(125, 114, 141); }
+.desconhecidoNome { color: rgb(155, 151, 163); }
+
+.sigla {
+    font-size: 38px;
+    margin: 0;
+    line-height: 1;
+}
+
+.nome {
+    font-size: 10px;
+    margin: 0;
+}
+
+.nAtomico {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.nAtomico span{
+    color: black !important; 
+}
+.familias {
+    background-color: rgb(37, 53, 54);
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 30px;
+    cursor: pointer;
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    font-family: 'Mozilla text', sans-serif;
+}
+
+.espaco {
+    height: 60px;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.p1 { border-left: 30px solid rgb(176, 241, 211); }
+.p2 { border-left: 30px solid rgb(255, 144, 153); }
+.p3 { border-left: 30px solid rgb(215, 186, 248); }
+.p4 { border-left: 30px solid rgb(208, 247, 145); }
+.p5 { border-left: 30px solid rgb(245, 208, 153); }
+.p6 { border-left: 30px solid rgb(163, 215, 245); }
+.p7 { border-left: 30px solid rgb(243, 206, 235); }
+.p8 { border-left: 30px solid rgb(254, 255, 222); }
+.p9 { border-left: 30px solid rgb(183, 194, 255); }
+.p10 { border-left: 30px solid rgb(235, 236, 241); }
+.p11 { border-left: 30px solid rgb(198, 230, 246); }
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.column li{
+    list-style: none;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+
+    .mainContainer {
+        margin: 15px;
+        padding: 20px;
+    }
+    .familias{
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainContainer {
+        margin: 10px;
+        padding: 15px;
+        margin-top: 120px;
+    }
+    .column {
+        font-size: 20px;
+    }
+}
