@@ -32,53 +32,77 @@ export default function Home() {
 
         <div className={styles.all}>
 
-          <div className={styles.title}>
-            <h3>Átomo</h3>
-            <h2>Estrutura e composição da matéria</h2>
+          <div className={styles.infoConfig}>
+            <h2>Átomo</h2>
+            <p className={styles.pinfo}>O átomo é a <span>unidade fundamental da matéria</span> e a <span>menor fração</span> capaz de identificar
+              um elemento químico, pois detém sua identidade. O termo átomo deriva do grego
+              e significa indivisível.
+              Ele é formado por um núcleo, que contém nêutrons e prótons, e por elétrons que
+              circundam o núcleo.</p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Prótons</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Integer vitae justo nec neque tincidunt facilisis. Praesent
-                ullamcorper, sapien non consequat tincidunt, nisl lorem
-                vestibulum ipsum, vitae fermentum erat magna sed neque.</span>
+              Prótons são<span> partículas subatômicas</span> com <span>carga elétrica positiva</span> que
+              ficam no núcleo do átomo. Eles definem o número atômico e ajudam a
+              identificar cada elemento químico na tabela periódica.
             </p>
 
             <h2>Elétrons</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Donec vitae libero sed augue tincidunt consequat. Curabitur
-                tincidunt, sapien vel consequat malesuada, lorem lacus
-                vestibulum erat, at tincidunt magna ipsum vitae nisl.</span>
+              Elétrons são partículas subatômicas com <span>carga elétrica negativa. </span>
+              Os elétrons estão localizados em torno do núcleo do átomo. No entanto, é importante salientar que
+              embora o modelo planetário seja replicado para fins didáticos, <span>os elétrons não se movem em órbitas fixas
+                como planetas ao redor do sol</span>, mas sim em regiões de <span>alta probabilidade</span> de encontrar um elétron.
+              Dessa forma, eles ocupam regiões do
+              espaço chamadas <span>orbitais</span>, que representam as <span>prováveis posições</span> onde podem ser
+              encontrados com base na teoria quântica.
             </p>
 
             <h2>Nêutrons</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                posuere cubilia curae; Sed vitae augue nec libero consequat
-                interdum.</span>
+              Nêutron é uma <span> partícula subatômica neutra, isto é, sem carga elétrica,</span> que é encontrada no núcleo dos átomos,
+              juntamente com os prótons. Nesse sentido, a descoberta dos nêutrons foi fundamental para o desenvolvimento
+              da Física Nuclear e da compreensão da estrutura dos átomos. Eles desempenham um papel crucial na estabilidade dos
+              núcleos atômicos, ajudando a <span>equilibrar as forças elétricas entre os prótons.</span> Além disso, são essenciais em reações
+              nucleares, como em processos de fissão nuclear.
             </p>
             <h2>Íons</h2>
             <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Integer vitae justo nec neque tincidunt facilisis. Praesent
-                ullamcorper, sapien non consequat tincidunt, nisl lorem
-                vestibulum ipsum, vitae fermentum erat magna sed neque.
-              </span>
+              Os íons são <span>espécies químicas eletricamente carregadas resultantes de átomos que
+                perderam ou receberam elétrons.</span> Os átomos são eletricamente neutros por possuírem iguais quantidades de
+              partículas carregadas positivamente (prótons) e negativamente (elétrons).
+              Assim, o átomo neutro, ao receber elétrons adicionais, fica com excesso de carga negativa, formando um
+              íon negativo, e, se o átomo neutro perde
+              seus elétrons originais, ficará com ausência dessas cargas, representada por uma carga numérica
+              positiva, originado um íon positivo.
+              <br></br><br></br>
+              <span>Exemplos de íons negativos:</span>  F-, Cl-, O2-.
+              <br></br>
+              <span> Exemplos de íons positivos:</span>  H+, K+, Fe2+.
+              <br></br><br></br>
+              Os íons podem ser simples, quando formados por um único elemento químico, ou compostos, quando formados por mais de um elemento químico.
+              <br></br><br></br>
+              <span> Exemplos de íons simples:</span>  Na+, Ca2+, Br-, O2-.
+              <br></br>
+              <span> Exemplos de íons compostos:</span>  NH4+, SO4-, CO32-.
             </p>
 
             <h2>Cátions</h2>
             <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Donec vitae libero sed augue tincidunt consequat. Curabitur
-                tincidunt, sapien vel consequat malesuada, lorem lacus
-                vestibulum erat, at tincidunt magna ipsum vitae nisl.
-              </span>
+              Os íons com carga positiva são denominados cátions e são formados por átomos eletricamente neutros que perderam elétrons, conforme representação pela equação abaixo:
+              <br></br>
+              <Image src='/x.png' width={400} height={200} alt="produto" className={styles.imgRep2} />
+              <br></br>
+              O termo n representa a quantidade de elétrons perdidos e a carga gerada no íon. Por exemplo, o átomo de sódio (Na) perde um elétron para formar o íon positivo sódio (Na+). Como esse elemento perde um único elétron, sua carga será 1+:
+              <br></br>
+              <Image src='/na.png' width={400} height={200} alt="produto" className={styles.imgRep2} />
+              <br></br>
+              Já o átomo de cálcio (Ca) perde dois elétrons, formando o íon positivo cálcio (Ca2+). Como esse elemento perde dois elétrons, o cátion resultante possui carga 2+:
+              <br></br>
+              <Image src='/ca.png' width={400} height={200} alt="produto" className={styles.imgRep2} />
+              <br></br>
             </p>
 
             <h2>Ânions</h2>
@@ -131,7 +155,12 @@ export default function Home() {
                 Pellentesque habitant morbi tristique senectus et netus et
                 malesuada fames ac turpis egestas.</span>
             </p>
-
+            <h2>Modelos atômicos</h2>
+            <p className={styles.pinfo}>
+              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas.</span>
+            </p>
             <h2>Massa</h2>
             <p className={styles.pinfo}>
               <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -197,94 +226,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className={styles.tituloSecao}>
-          <h3>Nomenclatura IUPAC</h3>
-          <p>Tabela</p>
-        </div>
 
-
-        <div className={styles.tabelas}>
-
-          <table>
-            <thead>
-              <tr>
-                <th>Prefixo</th>
-                <th>Número de carbonos</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr><td>met</td><td>1</td></tr>
-              <tr><td>et</td><td>2</td></tr>
-              <tr><td>prop</td><td>3</td></tr>
-              <tr><td>but</td><td>4</td></tr>
-              <tr><td>pent</td><td>5</td></tr>
-              <tr><td>hex</td><td>6</td></tr>
-              <tr><td>hept</td><td>7</td></tr>
-              <tr><td>oct</td><td>8</td></tr>
-              <tr><td>non</td><td>9</td></tr>
-              <tr><td>dec</td><td>10</td></tr>
-              <tr><td>undec</td><td>11</td></tr>
-              <tr><td>dodec</td><td>12</td></tr>
-            </tbody>
-          </table>
-
-
-          <table>
-            <thead>
-              <tr>
-                <th>Infixo</th>
-                <th>Ligação</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr><td>an</td><td>Ligação simples</td></tr>
-              <tr><td>en</td><td>Ligação dupla</td></tr>
-              <tr><td>in</td><td>Ligação tripla</td></tr>
-              <tr><td>dien</td><td>Duas ligações duplas</td></tr>
-              <tr><td>diin</td><td>Duas ligações triplas</td></tr>
-              <tr><td>trien</td><td>Três ligações duplas</td></tr>
-              <tr><td>triin</td><td>Três ligações triplas</td></tr>
-              <tr><td>enin</td><td>Uma ligação dupla e uma tripla</td></tr>
-            </tbody>
-          </table>
-
-
-          <table>
-            <thead>
-              <tr>
-                <th>Sufixo</th>
-                <th>Função</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr><td>o</td><td>Hidrocarbonetos</td></tr>
-              <tr><td>ol</td><td>Álcool</td></tr>
-              <tr><td>al</td><td>Aldeído</td></tr>
-              <tr><td>ona</td><td>Cetona</td></tr>
-              <tr><td>óico</td><td>Ácido carboxílico</td></tr>
-              <tr>
-                <td>Éster</td>
-                <td>[Nome do ácido]+oato de [nome do radical]+a</td>
-              </tr>
-              <tr><td>Amina</td><td>Amina</td></tr>
-              <tr><td>Amida</td><td>Amida</td></tr>
-              <tr><td>Ácido sulfônico</td><td>Sulfônico</td></tr>
-              <tr>
-                <td>Éter</td>
-                <td>
-                  Oficial: [Menor radical]+óxi+
-                  [Hidrocarboneto correspondente ao maior radical].
-                  Usual: Éter + nome dos radicais em ordem alfabética
-                  terminados em -ico.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-        </div>
 
       </main>
 

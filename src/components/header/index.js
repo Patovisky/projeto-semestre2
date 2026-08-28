@@ -38,10 +38,7 @@ export default function Header() {
                             <Link href="estequi">Estequiometria</Link>
                             <Link href="termo">Aprofundamento em termoquímica</Link>
                             <Link href="dev">Dev</Link>
-                            <Link href="/">Diagrama de Linus Pauling</Link>
-                            <Link href="/">Estequiometria</Link>
-                            <Link href="/">Aprofundamento em termoquímica</Link>
-                            <Link href="/">Dev</Link>
+                            
                         </div>
                     )}
                 </div>

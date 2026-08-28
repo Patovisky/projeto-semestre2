@@ -28,7 +28,7 @@
     padding: 10px;
 }
 
-.imgRep {
+.imgRep2 {
     box-shadow: 0px 0px 15px -3px #000000;
     margin: 20px;
 }
@@ -66,6 +66,118 @@
 
 .pinfo {
     width: 70%;
+}
+
+.tabelas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tabelas table {
+    width: 100%;
+    flex: 1 1 320px;
+    max-width: 450px;
+    min-width: 280px;
+    background: rgb(7, 96, 108);
+    border-collapse: collapse;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 10px rgb(7, 38, 64);
+    font-family: "Comic Sans MS", cursive;
+}
+
+.tabelas table:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 18px 35px rgba(7, 38, 64, 0.35);
+}
+
+.tabelas thead {
+    background: linear-gradient(135deg, aquamarine, #75e6d0);
+}
+
+.tabelas th {
+    color: #004e57;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px 10px;
+    border-bottom: 2px solid rgba(0, 78, 87, 0.15);
+}
+
+.tabelas tr {
+    transition: background-color 0.2s ease;
+}
+
+.tabelas tr:nth-child(even) {
+    background: rgba(24, 56, 68, 0.75);
+}
+
+.tabelas tbody tr:hover {
+    background: rgb(55, 140, 150);
+}
+
+.tabelas td {
+    padding: 12px 10px;
+    color: #eee;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+    .tabelas {
+        padding: 0 15px 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tabelas {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        margin-top: 30px;
+        padding: 0 10px 40px;
+    }
+
+    .tabelas table {
+        width: 100%;
+        max-width: 500px;
+        min-width: 0;
+    }
+
+    .tabelas th {
+        font-size: 17px;
+        padding: 12px 8px;
+    }
+
+    .tabelas td {
+        font-size: 15px;
+        padding: 10px 8px;
+    }
+}
+
+.tituloSecao {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tituloSecao {
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.tituloSecao::after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 4px;
+    margin: 12px auto 0;
+    background: aquamarine;
+    box-shadow: 0 0 12px rgba(127, 255, 212, 0.7);
 }
 
 @media screen and (max-width: 800px) {
