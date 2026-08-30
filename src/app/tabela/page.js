@@ -387,7 +387,7 @@ export default function Tabela() {
                                 </td>
                                 <td className={styles.gasesNobres}>
                                     <span className={styles.nAtomico}>86</span><br />
-                                    <p className={styles.sigla}>86</p>
+                                    <p className={styles.sigla}>Rn</p>
                                     <p className={styles.nome}>Radônio</p>
                                 </td>
                             </tr>
@@ -480,7 +480,7 @@ export default function Tabela() {
                                 </td>
                                 <td className={styles.desconhecido}>
                                     <span className={styles.nAtomico}>118</span><br />
-                                    <p className={styles.sigla}>86</p>
+                                    <p className={styles.sigla}>Og</p>
                                     <p className={styles.nome}>organessônio</p>
                                 </td>
                             </tr>

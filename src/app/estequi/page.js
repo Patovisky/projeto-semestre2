@@ -31,7 +31,7 @@ export default function Organica() {
 
           <div className={styles.infoConfig}>
             <h2>Produto:</h2>
-            <p className={styles.pinfo}>É a <span>matéria gerada</span> quando os reagentes (substâncias iniciais) se <span>transformam e 
+            <p className={styles.pinfo}>É a <span>matéria gerada</span> quando os reagentes (substâncias iniciais) se <span>transformam e
               se combinam</span> entre si.
               Nas equações químicas, os produtos aparecem sempre do lado direito da seta →, que indica o sentido da transformação.</p>
             <br></br>
@@ -79,6 +79,48 @@ export default function Organica() {
             <Image src='/doisagadoiso2aaaaa.jpg' width={800} height={400} alt="produto" className={styles.imgRep} />
           </div>
 
+          <div className={styles.infoConfig}>
+            <h2>Massa atômica: </h2>
+            <p className={styles.pinfo}>A massa atômica é <span>a unidade que
+              faz referência à massa de um átomo, </span>cujos valores
+              são dimensionados pela unidade de massa atômica expressa por U ou u.m.a (sendo u mais utilizado).
+              1 u equivale a 1/12 de um átomo de carbono-12
+              em seu estado fundamental e é aproximadamente igual a 1,6605402 x 10^−27 kg. </p><br></br><br></br>
+            <h1 className={styles.h1}><span>"Porque carbono-12?"</span> Fiz uma breve pesquisa, não tão aprofundada, mas encontrei
+              um resumo de um artigo IMENSO da IUPAC,
+              traduzi ele e resumi mais um pouco pra simplificar pra vocês:
+              A definição da massa atômica e do mol está ligada à história, à precisão, à mensurabilidade e à repetibilidade.
+              No início do século XIX, John Dalton propôs o hidrogênio como padrão, mas surgiram dificuldades de medição e erros.
+              Por isso, os químicos passaram a utilizar o oxigênio natural como referência.<br></br><br></br>
+              No século XX, os físicos perceberam que a composição isotópica do oxigênio natural
+              varia conforme o local, o tempo e
+              o clima, tornando o padrão menos consistente. Eles propuseram utilizar apenas o
+              oxigênio-16, mas isso provocaria uma
+              mudança muito grande (275 ppm) em relação ao padrão usado pelos químicos, exigindo
+              alterações em livros, tabelas e
+              processos industriais, com enormes custos comerciais.<br></br><br></br>
+              O carbono-12 foi escolhido como um compromisso entre físicos e químicos. Por acaso,
+              definir a massa atômica como 1
+              /12 da massa de um átomo de carbono-12 era muito próximo do antigo padrão baseado
+              no oxigênio natural, causando
+              uma mudança de apenas 42 ppm, em vez dos 275 ppm do oxigênio-16. Além disso, o carbono-12
+              é um isótopo puro e estável,
+              o que atendia à necessidade dos físicos de um padrão mais preciso e reprodutível, enquanto a
+              pequena mudança mantinha a
+              compatibilidade com os padrões químicos e industriais já existentes.
+            </h1>
+            <br></br>
+            <p className={styles.pinfo}><span>Como calcular:</span> A massa atômica para um determinado elemento é
+              a média ponderada das massas dos seus respectivos <span>isótopos</span> relativamente estáveis,
+              em que o peso aplicado na média é a <span>abundância isotópica.</span> Tais valores são revistos
+              a cada dois anos pela Iupac.<br></br><br></br>
+              <span>Exemplo:</span>O cloro apresenta dois isótopos: cloro-35 e cloro-37. O cloro-35 apresenta uma abundância
+              isotópica média de 75,8% e uma massa atômica de 34,969 u aproximadamente, enquanto o cloro-37 
+              apresenta uma abundância isotópica média de 24,2% e uma massa atômica de 36,966 u, aproximadamente.
+              Assim, a massa atômica para o cloro pode ser determinada da seguinte forma:
+            </p>
+            <Image src='/massaAtomica.png' width={500} height={100} alt="pureza" className={styles.imgRep} />
+          </div>
 
 
 
