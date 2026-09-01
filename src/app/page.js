@@ -112,7 +112,8 @@ export default function Home() {
             <p className={styles.pinfo}>
               Os íons com carga positiva são denominados cátions e são
               formados por átomos eletricamente neutros que perderam
-              elétrons, conforme representação pela equação abaixo:</p>
+              elétrons, conforme representação pela equação abaixo:
+            </p>
 
             <Image
               src="/x.png"
@@ -121,7 +122,6 @@ export default function Home() {
               alt="produto"
               className={styles.imgRep2}
             />
-
 
             <p className={styles.pinfo}>
               O termo n representa a quantidade de elétrons perdidos e a
@@ -137,12 +137,12 @@ export default function Home() {
               alt="produto"
               className={styles.imgRep2}
             />
+
             <p className={styles.pinfo}>
               Já o átomo de cálcio (Ca) perde dois elétrons, formando o íon
               positivo cálcio (Ca2+). Como esse elemento perde dois elétrons,
               o cátion resultante possui carga 2+:
             </p>
-
 
             <Image
               src="/ca.png"
@@ -151,95 +151,350 @@ export default function Home() {
               alt="produto"
               className={styles.imgRep2}
             />
-
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Ânions</h2>
             <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                posuere cubilia curae; Sed vitae augue nec libero consequat
-                interdum.
-              </span>
+              Os ânions, por sua vez, possuem <span>carga negativa</span>, pois recebem um ou mais elétrons,
+              resultando num maior número de elétrons em relação ao número de prótons.
+
+              <br></br><br></br>
+
+              <span>Tipos de Ânions</span>
+
+              <br></br><br></br>
+
+              Os ânions monovalentes possuem carga -1;
+              <br></br>
+              Os ânions bivalentes possuem carga -2;
+              <br></br>
+              Os ânions trivalentes possuem carga -3;
+              <br></br>
+              Os ânions tetravalentes possuem carga -4.
+
+              <br></br><br></br>
+
+              <span>Exemplos de Ânions</span>
+
+              <br></br><br></br>
+
+              Cl-1 (cloro)
+              <br></br>
+              Br-1 (bromo)
+              <br></br>
+              F-1 (flúor)
+              <br></br>
+              O-2 (oxigênio)
+              <br></br>
+              S-2 (enxofre)
+              <br></br>
+              N-3 (nitrogênio)
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Quarks</h2>
             <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse potenti. Aliquam erat volutpat. Nam vitae purus
-                interdum, elementum justo vitae, malesuada libero.
-              </span>
+              Atualmente, acreditamos que os quarks são <span>partículas pontuais</span> que constituem os prótons,
+              nêutrons e toda uma classe de partículas de forte interação chamadas <span>hádrons</span>.
+
+              <br></br><br></br>
+
+              Como vimos, os quarks estão confinados dentro das partículas que constituem e movem-se como bolas
+              saltando dentro de uma bola maior. Os quarks têm três tipos de cargas: <span>carga elétrica, sabor e cor</span>
+              (porém, não nos sentidos tradicionais de “sabor” e “cor”, que detectamos com a língua ou os olhos).
+
+              <br></br><br></br>
+
+              Em termos de carga elétrica, os quarks podem ter uma carga que é uma fração da carga de um elétron ou próton:
+              ou <span>-1/3</span> (1/3 da carga negativa de um elétron) ou <span>+2/3</span> (2/3 da carga positiva de um próton).
+
+              <br></br><br></br>
+
+              Os quarks têm seis sabores, que chamamos de <span>up, down, strange, charm, top e bottom</span>.
+              Os sabores do quark estão relacionados com a força fraca responsável pela radioatividade.
+
+              <br></br><br></br>
+
+              Os prótons são formados de <span>dois quarks up e um quark down</span>; os nêutrons são formados de
+              <span>dois quarks down e um quark up</span>.
+
+              <br></br><br></br>
+
+              Além da carga elétrica e do sabor, os quarks podem ter uma destas três cores:
+              <span>vermelha, branca e azul.</span> As cores são a fonte da força forte que une os quarks e explicam
+              o nome cromodinâmica – <span>chromos</span> significa “cor” em grego.
+            </p>
+          </div>
+
+          <div className={styles.infoConfig}>
+            <h2>Férmions</h2>
+            <p className={styles.pinfo}>
+              Basicamente são os <span>“tijolos” constituintes da matéria.</span> Os férmions são partículas que possuem
+              uma propriedade quântica chamada <span>spin</span> (uma espécie de momento angular quântico) de módulo
+              semi-inteiro (½), sendo descritos pelo princípio de Exclusão de Pauli.
+
+              <br></br><br></br>
+
+              Em outras palavras, dois férmions no mesmo nível de energia não podem apresentar os mesmos números
+              quânticos ou ainda ocupar uma mesma posição do espaço no mesmo instante.
+
+              <br></br><br></br>
+
+              Os férmions mais “leves” (de menor massa) são chamados de <span>léptons</span> (do grego: “leve”),
+              e os mais pesados, como os prótons, nêutrons e átomos, formados por estados de quarks ligados pela
+              interação forte, são chamados de <span>hádrons</span> (do grego “forte”).
+
+              <br></br><br></br>
+
+              Trios de quarks são chamados de <span>bárions</span> (prótons e nêutrons), e duplas de quarks são
+              chamadas de <span>mésons</span>.
+
+              <br></br><br></br>
+
+              Os léptons incluem elétrons, múons e taúons. Essas partículas apresentam carga elétrica fundamental
+              (e = 1,6.10-19 C) negativa e possuem massa.
+
+              <br></br><br></br>
+
+              Os quarks também são léptons e são classificados em seis sabores: up, charm, top, down, strange e bottom.
+              Apresentam carga elétrica fracionária, sendo positivas ou negativas, com um ou dois terços da carga fundamental.
+
+              <br></br><br></br>
+
+              Outra classe de léptons são os neutrinos, de massa extremamente pequena e carga elétrica neutra.
+              São divididos em neutrinos eletrônicos, tauônicos e muônicos.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Bósons</h2>
             <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus consequat, neque sed tincidunt faucibus, sapien ipsum
-                fermentum lorem, vitae malesuada erat velit non nisl.
-              </span>
+              Bósons são as partículas responsáveis pela <span>interação existente entre os férmions.</span>
+              Diferentemente deles, essas partículas não apresentam problema em ocupar o mesmo lugar no espaço
+              e ao mesmo tempo.
+
+              <br></br><br></br>
+
+              Apresentam <span>spin inteiro</span>, não possuem massa e podem apresentar carga elétrica.
+              Os bósons são os glúons, fótons, bósons W e Z e o bóson de Higgs. Cada um deles é responsável
+              pela mediação de um tipo de força da natureza.
+
+              <br></br><br></br>
+
+              Os fótons, por exemplo, são os responsáveis pela <span>interação eletromagnética.</span>
+              Em razão de suas propriedades, é possível que um feixe de luz atravesse outro sem que haja
+              qualquer colisão entre eles.
+
+              <br></br><br></br>
+
+              Os glúons, por sua vez, são os mediadores da <span>interação forte</span>, que mantém os quarks unidos,
+              formando os mésons e os bárions.
+
+              <br></br><br></br>
+
+              Os bósons W e Z são os responsáveis pela <span>força eletrofraca</span>, comum nos decaimentos beta.
+
+              <br></br><br></br>
+
+              O bóson de Higgs, por sua vez, é a partícula responsável pela <span>atribuição de massa aos férmions.</span>
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Fóton</h2>
             <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Quisque consectetur sapien vitae magna volutpat, sed tincidunt
-                justo faucibus. Integer consequat neque vitae nisl tincidunt.
-              </span>
+              Os fótons são as <span>partículas elementares da luz.</span>
+
+              <br></br><br></br>
+
+              <span>Características:</span> não têm massa, a energia de cada fóton é dada por
+              <span>E = h ⋅ f</span> e o momento é uma propriedade associada à sua natureza quântica.
+
+              <br></br><br></br>
+
+              Fótons são criados no núcleo das estrelas por meio da <span>fusão nuclear.</span>
+              Também podem ser produzidos pelo aumento da temperatura de certos materiais ou pela aplicação
+              de uma corrente elétrica em outros.
+
+              <br></br><br></br>
+
+              Partículas quânticas como o fóton apresentam a natureza da <span>dualidade onda-partícula.</span>
+
+              <br></br><br></br>
+
+              Enquanto o fóton é a partícula elementar da luz, o elétron é uma partícula massiva e com carga
+              elétrica negativa que está presente nos átomos.
+
+              <br></br><br></br>
+
+              <span>Tipos de fótons:</span> ondas de rádio, micro-ondas, infravermelho, luz visível,
+              ultravioleta, raios X e raios gama.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Glúon</h2>
             <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aenean malesuada ipsum vitae libero tincidunt, at tincidunt
-                mauris faucibus. Donec euismod ligula sit amet lorem.
-              </span>
-            </p>
-          </div>
-
-          <div className={styles.infoConfig}>
-            <h2>Bósons W e Z</h2>
-            <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Morbi tincidunt, lorem vel malesuada tincidunt, justo lacus
-                facilisis erat, vitae aliquet neque libero non urna.
-              </span>
-            </p>
-          </div>
-
-          <div className={styles.infoConfig}>
-            <h2>Bóson de Higgs</h2>
-            <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas.
-              </span>
+              Glúon (ou gluon) é uma <span>partícula subatômica fundamental</span> que atua como a
+              “cola” do universo, mantendo os quarks unidos para formar prótons, nêutrons e outras partículas.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Modelos atômicos</h2>
             <p className={styles.pinfo}>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas.
-              </span>
+              O Modelo Atômico de Dalton, conhecido como o <span>modelo bola de bilhar</span>, possui os seguintes princípios:
+
+              <br></br><br></br>
+
+              Todas as substâncias são formadas de pequenas partículas chamadas átomos;
+              <br></br>
+              Os átomos de diferentes elementos têm diferentes propriedades, mas todos os átomos do mesmo elemento
+              são exatamente iguais;
+              <br></br>
+              Os átomos não se alteram quando formam compostos químicos;
+              <br></br>
+              Os átomos são permanentes e indivisíveis, não podendo ser criados nem destruídos;
+              <br></br>
+              As reações químicas correspondem a uma reorganização de átomos.
+
+              <br></br><br></br>
+
+              <span>Modelo Atômico de Thomson</span>
+
+              <br></br><br></br>
+
+              O Modelo Atômico de Thomson foi o primeiro a realizar a <span>divisibilidade do átomo.</span>
+              Ao pesquisar sobre raios catódicos, o físico inglês propôs esse modelo que ficou conhecido
+              como o modelo pudim de ameixa.
+
+              <br></br><br></br>
+
+              Ele demonstrou que esses raios podiam ser interpretados como sendo um feixe de partículas
+              carregadas de energia elétrica negativa.
+
+              <br></br><br></br>
+
+              Em 1887, Thomson sugeriu que os elétrons eram um constituinte universal da matéria.
+              Ele apresentou as primeiras ideias relativas à estrutura interna dos átomos.
+
+              <br></br><br></br>
+
+              Thomson indicava que os átomos deviam ser constituídos de cargas elétricas positivas e negativas
+              distribuídas uniformemente.
+
+              <br></br><br></br>
+
+              Ele descobriu essa mínima partícula e assim estabeleceu a teoria da natureza elétrica da matéria.
+              Concluiu que os elétrons eram constituintes de todos os tipos de matéria, pois observou que a
+              relação carga/massa do elétron era a mesma para qualquer gás empregado em suas experiências.
+
+              <br></br><br></br>
+
+              Em 1897, Thomson tornou-se reconhecido como o <span>“pai do elétron”.</span>
+
+              <br></br><br></br>
+
+              <span>Modelo Atômico de Rutherford</span>
+
+              <br></br><br></br>
+
+              Em 1911, o físico neozelandês Rutherford colocou uma folha de ouro bastante fina numa câmara metálica.
+              Seu objetivo era analisar a trajetória de partículas alfa a partir do obstáculo criado pela folha de ouro.
+
+              <br></br><br></br>
+
+              Nesse ensaio de Rutherford, observou que algumas partículas ficavam totalmente bloqueadas e outras
+              partículas, que não eram afetadas, ultrapassavam a folha, sofrendo desvios.
+
+              <br></br><br></br>
+
+              Segundo ele, esse comportamento podia ser explicado graças às forças de repulsão elétrica entre essas partículas.
+
+              <br></br><br></br>
+
+              Pelas observações, afirmou que o átomo era nucleado e sua parte positiva se concentrava num volume
+              extremamente pequeno, que seria o próprio núcleo.
+
+              <br></br><br></br>
+
+              O Modelo Atômico de Rutherford, conhecido como <span>modelo planetário</span>, corresponde a um sistema
+              planetário em miniatura, no qual os elétrons se movem em órbitas circulares, ao redor do núcleo.
+
+              <br></br><br></br>
+
+              <span>Modelo Atômico de Rutherford-Bohr</span>
+
+              <br></br><br></br>
+
+              O modelo apresentado por Rutherford foi aperfeiçoado por Bohr. Por esse motivo, o aspecto da estrutura
+              atômica de Bohr também é chamado de Modelo Atômico de Bohr ou Modelo Atômico de Rutherford-Bohr.
+
+              <br></br><br></br>
+
+              A teoria do físico dinamarquês Niels Bohr estabeleceu as seguintes concepções atômicas:
+
+              <br></br><br></br>
+
+              Os elétrons que giram ao redor do núcleo não giram ao acaso, mas descrevem <span>órbitas determinadas.</span>
+
+              <br></br><br></br>
+
+              O átomo é incrivelmente pequeno, mesmo assim a maior parte do átomo é espaço vazio.
+              O diâmetro do núcleo atômico é cerca de cem mil vezes menor que o átomo todo.
+
+              <br></br><br></br>
+
+              Quando a eletricidade passa através do átomo, o elétron pula para a órbita maior e seguinte,
+              voltando depois à sua órbita usual.
+
+              <br></br><br></br>
+
+              Quando os elétrons saltam de uma órbita para a outra resulta luz. Bohr conseguiu prever os
+              comprimentos de onda a partir da constituição do átomo e do salto dos elétrons de uma órbita para a outra.
+
+              <br></br><br></br>
+
+              <span>Modelo Atômico de Schrödinger</span>
+
+              <br></br><br></br>
+
+              Trata-se do modelo atual e o mais aceito pela comunidade científica. Ele nasceu da teoria da
+              mecânica ondulatória proposta por Erwin Schrödinger.
+
+              <br></br><br></br>
+
+              Para Schrödinger, os átomos possuíam <span>regiões prováveis de existência dos elétrons</span>,
+              o que ele chamou de orbitais eletrônicos.
+
+              <br></br><br></br>
+
+              O orbital é uma zona de máxima probabilidade de se encontrar um elétron. Isso porque, segundo
+              modelos matemáticos, seria impossível definir o local exato e velocidade de movimento dessa
+              partícula subatômica.
+
+              <br></br><br></br>
+
+              Através de funções matemáticas, conhecidas por funções ondulatórias, o cientista obteve resultados
+              consideráveis, o que rendeu a ele o prêmio Nobel em 1933.
+
+              <br></br><br></br>
+
+              O princípio da incerteza de Heisenberg contribuiu para a formulação desse modelo atômico.
+              O princípio diz: é impossível definir a posição e velocidade exatas de um elétron num mesmo instante.
+
+              <br></br><br></br>
+
+              Esse fato se dá, pois os elétrons possuem comportamento de <span>onda-partícula</span>, ou seja,
+              ora se comportam como onda, ora como partícula.
+
+              <br></br><br></br>
+
+              Baseado nisso, o cientista definiu o estado de maior concentração de elétrons no orbital como sendo
+              a <span>nuvem eletrônica do átomo.</span> Essa descoberta foi importantíssima para a melhor compreensão
+              das propriedades químicas e físicas dos átomos.
             </p>
           </div>
 
@@ -330,6 +585,7 @@ export default function Home() {
               </span>
             </p>
           </div>
+
           <div className={styles.infoConfig}>
             <h2>Geometria molecular</h2>
             <p className={styles.pinfo}>
@@ -340,6 +596,7 @@ export default function Home() {
               </span>
             </p>
           </div>
+
           <div className={styles.infoConfig}>
             <h2>Polaridade</h2>
             <p className={styles.pinfo}>
@@ -350,6 +607,7 @@ export default function Home() {
               </span>
             </p>
           </div>
+
           <div className={styles.infoConfig}>
             <h2>Forças intermoleculares</h2>
             <p className={styles.pinfo}>
@@ -360,7 +618,6 @@ export default function Home() {
               </span>
             </p>
           </div>
-          
 
         </div>
 
