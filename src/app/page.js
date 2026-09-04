@@ -226,6 +226,13 @@ export default function Home() {
               <span>vermelha, branca e azul.</span> As cores são a fonte da força forte que une os quarks e explicam
               o nome cromodinâmica – <span>chromos</span> significa “cor” em grego.
             </p>
+            <Image
+              src="/quark.jpg"
+              width={600}
+              height={300}
+              alt="produto"
+              className={styles.imgRep2}
+            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -340,12 +347,25 @@ export default function Home() {
               Glúon (ou gluon) é uma <span>partícula subatômica fundamental</span> que atua como a
               “cola” do universo, mantendo os quarks unidos para formar prótons, nêutrons e outras partículas.
             </p>
+
+            <Image
+              src="/moleculaAquark.png"
+              width={500}
+              height={600}
+              alt="produto"
+              className={styles.imgRep2}
+            />
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Modelos atômicos</h2>
             <p className={styles.pinfo}>
-              O Modelo Atômico de Dalton, conhecido como o <span>modelo bola de bilhar</span>, possui os seguintes princípios:
+              <br></br><br></br>
+
+              <span>Modelo Atômico de Dalton</span>
+
+              <br></br><br></br> 
+              conhecido como o <span>modelo bola de bilhar</span>, possui os seguintes princípios:
 
               <br></br><br></br>
 
@@ -361,7 +381,16 @@ export default function Home() {
               As reações químicas correspondem a uma reorganização de átomos.
 
               <br></br><br></br>
-
+              
+            </p>
+            <Image
+              src="/dalton.jpg"
+              width={500}
+              height={500}
+              alt="produto"
+              className={styles.imgRep2}
+            />
+            <p className={styles.pinfo}>
               <span>Modelo Atômico de Thomson</span>
 
               <br></br><br></br>
@@ -396,8 +425,17 @@ export default function Home() {
               Em 1897, Thomson tornou-se reconhecido como o <span>“pai do elétron”.</span>
 
               <br></br><br></br>
-
-              <span>Modelo Atômico de Rutherford</span>
+              
+            </p>
+            <Image
+              src="/modeloThomson.webp"
+              width={500}
+              height={500}
+              alt="produto"
+              className={styles.imgRep2}
+            />
+            <p className={styles.pinfo}>
+              <span>Modelo Atômico de Ernest Rutherford</span>
 
               <br></br><br></br>
 
@@ -424,8 +462,17 @@ export default function Home() {
               planetário em miniatura, no qual os elétrons se movem em órbitas circulares, ao redor do núcleo.
 
               <br></br><br></br>
-
-              <span>Modelo Atômico de Rutherford-Bohr</span>
+              
+            </p>
+            <Image
+              src="/rutherford.webp"
+              width={500}
+              height={500}
+              alt="produto"
+              className={styles.imgRep2}
+            />
+            <p className={styles.pinfo}>
+              <span>Modelo Atômico de Niels Bohr</span>
 
               <br></br><br></br>
 
@@ -456,7 +503,16 @@ export default function Home() {
               comprimentos de onda a partir da constituição do átomo e do salto dos elétrons de uma órbita para a outra.
 
               <br></br><br></br>
-
+              
+            </p>
+            <Image
+              src="/bohr.webp"
+              width={500}
+              height={500}
+              alt="produto"
+              className={styles.imgRep2}
+            />
+            <p className={styles.pinfo}>
               <span>Modelo Atômico de Schrödinger</span>
 
               <br></br><br></br>
@@ -495,7 +551,15 @@ export default function Home() {
               Baseado nisso, o cientista definiu o estado de maior concentração de elétrons no orbital como sendo
               a <span>nuvem eletrônica do átomo.</span> Essa descoberta foi importantíssima para a melhor compreensão
               das propriedades químicas e físicas dos átomos.
+              
             </p>
+            <Image
+              src="/erwin.webp"
+              width={500}
+              height={500}
+              alt="produto"
+              className={styles.imgRep2}
+            />
           </div>
 
           <div className={styles.infoConfig}>
