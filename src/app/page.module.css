@@ -2,7 +2,9 @@
     margin: 0;
     min-height: 100vh;
 }
-
+.link{
+    text-decoration: underline;
+}
 .mainImage {
     position: relative;
     display: flex;
@@ -11,11 +13,29 @@
     width: 100%;
     min-height: 500px;
     padding: 60px;
-    margin-top: 40px;
+    margin-top: 50px;
     overflow: hidden;
     background: linear-gradient(135deg, rgb(121, 248, 255), rgba(255, 251, 236, 0.977));
 }
-
+.quoteDiv{
+    background-color: #cedada;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px -3px #000000;
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.h1{
+    font-size: 16px;
+    font-weight: normal;
+    width: 60%;
+    opacity: 0.9;
+}
+.quoteDiv p{
+    color: black;
+    font-weight: bolder;
+}
 .imgRep2 {
     box-shadow: 0px 0px 15px -3px #000000;
     margin: 20px;
@@ -164,13 +184,13 @@
 
 @media (max-width: 900px) {
     .mainImage {
+        margin-top: 120px;
         min-height: 450px;
         padding: 40px 15px;
     }
 
     .imgRep2 {
         width: 85%;
-        border-radius: 20px 60px 35px 60px;
     }
 
     .textoSobreposto {
@@ -183,33 +203,18 @@
         font-size: 17px;
         top: calc(50% + 75px);
     }
-}
 
-@media (max-width: 600px) {
-    .mainImage {
-        min-height: 360px;
-        padding: 25px 10px;
-    }
-
-    .imgRep2 {
-        width: 95%;
-        margin-top: 35px;
-        border-radius: 15px 40px 25px 40px;
-    }
-
-    .textoSobreposto {
-        font-size: 30px;
-        padding: 10px 15px;
-    }
-
-    .texto {
+    .pinfo {
         width: 80%;
-        font-size: 14px;
     }
 
-    .tituloSecao {
-        margin-top: 40px;
-        font-size: 32px;
+    .infoConfig {
+        font-size: 18px;
+    }
+
+    .infoConfig h2 {
+        text-align: center;
+        max-width: 90%;
     }
 }
 
@@ -228,5 +233,101 @@
     .infoConfig h2 {
         text-align: center;
         max-width: 90%;
+    }
+
+    .imgRep2 {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainImage {
+        margin-top: 200px;
+        min-height: 360px;
+        padding: 25px 10px;
+    }
+
+    .imgRep2 {
+        width: 95%;
+        max-width: 95%;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    .textoSobreposto {
+        font-size: 30px;
+        padding: 10px 15px;
+        max-width: 85%;
+        white-space: normal;
+    }
+
+    .texto {
+        width: 80%;
+        font-size: 14px;
+        top: calc(50% + 65px);
+    }
+
+    .tituloSecao {
+        margin-top: 40px;
+        font-size: 32px;
+    }
+
+    .pinfo {
+        width: 90%;
+    }
+
+    .infoConfig {
+        font-size: 16px;
+    }
+
+    .infoConfig h2 {
+        font-size: 22px;
+        padding: 8px 12px;
+        max-width: 90%;
+    }
+
+    .h1 {
+        width: 80%;
+    }
+
+    .quoteDiv {
+        width: 85%;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainImage {
+        margin-top: 200px;
+        min-height: 320px;
+    }
+
+    .imgRep2 {
+        width: 95%;
+        max-width: 95%;
+    }
+
+    .textoSobreposto {
+        font-size: 25px;
+        padding: 8px 12px;
+        overflow-wrap: break-word;
+    }
+
+    .texto {
+        width: 85%;
+        font-size: 13px;
+    }
+
+    .pinfo {
+        width: 92%;
+    }
+
+    .infoConfig {
+        font-size: 15px;
+    }
+
+    .infoConfig h2 {
+        font-size: 20px;
+        max-width: 92%;
     }
 }

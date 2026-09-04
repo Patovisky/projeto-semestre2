@@ -265,24 +265,108 @@
     font-style: normal;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    .mainContainer {
+        margin: 25px;
+        padding: 25px;
+        margin-top: 100px;
+    }
 
+    .tabelah1 {
+        font-size: 40px;
+    }
+
+    .familias {
+        width: 80%;
+        font-size: 25px;
+    }
+
+    .column {
+        width: 100%;
+    }
+    .mainContainer table {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 768px) {
     .mainContainer {
         margin: 15px;
         padding: 20px;
     }
-    .familias{
+
+    .tabelah1 {
+        font-size: 35px;
+    }
+
+    .familias {
         width: 90%;
+        font-size: 23px;
+        padding: 12px;
+    }
+
+    .column {
+        width: 100%;
+    }
+    .mainContainer table {
+        margin-top: 120px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .mainContainer {
         margin: 10px;
         padding: 15px;
         margin-top: 120px;
     }
+
+    .tabelah1 {
+        font-size: 30px;
+    }
+
+    .familias {
+        width: 90%;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .column li {
+        padding: 5px 0;
+        overflow-wrap: break-word;
+    }
+    .mainContainer table {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainContainer {
+        margin: 8px;
+        padding: 12px;
+        margin-top: 120px;
+    }
+    .mainContainer table {
+        margin-top: 120px;
+    }
+    .tabelah1 {
+        font-size: 26px;
+    }
+
+    .familias {
+        width: 92%;
+        font-size: 18px;
+        padding: 8px;
+    }
+
     .column {
         font-size: 20px;
+    }
+
+    .column li {
+        padding: 4px 0;
     }
 }

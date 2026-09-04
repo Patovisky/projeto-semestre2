@@ -50,6 +50,19 @@ span {
   color: var(--span-color);
 }
 
+/* Scrollbar global */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--span-color);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
