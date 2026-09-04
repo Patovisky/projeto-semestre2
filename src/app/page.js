@@ -612,8 +612,8 @@ export default function Home() {
             <h2>Forças intermoleculares</h2>
             <p className={styles.pinfo}>
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque habitant morbi tristique senectus et netus et
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 malesuada fames ac turpis egestas.
               </span>
             </p>
