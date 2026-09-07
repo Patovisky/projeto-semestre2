@@ -10,7 +10,6 @@ export default function Home() {
       <main className={styles.main}>
 
         <div className={styles.mainImage}>
-
           <Image
             src="/fogo.png"
             width={600}
