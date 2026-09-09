@@ -102,6 +102,9 @@
 .fundoParaImagem{
     background-color: white;
 }
+.link{
+    text-decoration: underline;
+}
 .tabelas th {
     color: #004e57;
     font-size: 20px;

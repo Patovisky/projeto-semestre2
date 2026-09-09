@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Organica() {
   return (
@@ -99,102 +100,346 @@ export default function Organica() {
           <div className={styles.infoConfig}>
             <h2>Introdução à Química Orgânica</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia curae; Integer tincidunt, lorem vitae tincidunt
-              consequat, sapien neque consequat lorem.
+              <br></br><br></br>
+
+              A Química Orgânica é o ramo da química que estuda os <span>compostos de carbono</span>,
+              também chamados de compostos orgânicos. Esses compostos são
+              formados principalmente por átomos de carbono e podem apresentar
+              outros elementos, como hidrogênio, oxigênio, nitrogênio,
+              fósforo e enxofre. Entre os exemplos de compostos orgânicos
+              estão as proteínas, os <span>glicídios, os lipídios, as vitaminas
+                e as enzimas.</span> (veja <Link href="/bioquimica" className={styles.link}>Bioquímica</Link>)
+
+              <br></br><br></br>
+
+              O estudo da Química Orgânica começou a se desenvolver
+              em meados do século XVIII, quando se acreditava que
+              os compostos orgânicos só poderiam ser produzidos por
+              organismos vivos. Essa ideia estava relacionada à Teoria
+              da Força Vital, segundo a qual as substâncias orgânicas
+              não poderiam ser sintetizadas em laboratório porque
+              somente os seres vivos possuíam a energia necessária
+              para produzi-las.
+
+              <br></br><br></br>
+
+              Essa concepção foi questionada em 1828, quando o químico
+              alemão Friedrich Wöhler sintetizou ureia em laboratório
+              a partir do cianato de amônio, um composto considerado
+              inorgânico. O experimento demonstrou que <span>uma substância
+                orgânica poderia ser produzida artificialmente, </span>
+              enfraquecendo a Teoria da Força Vital. A partir
+              disso, a Química Orgânica passou a ser definida
+              principalmente como o ramo da química dedicado ao
+              estudo dos compostos de carbono.
+
+              <br></br><br></br>
+
+
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Propriedades do Carbono</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Curabitur consequat sapien vitae lectus tincidunt, sed faucibus
-              mauris malesuada.
+              O carbono é o principal elemento dos compostos orgânicos.
+              Ele possui número atômico 6 e massa atômica
+              aproximadamente igual a 12. Sua distribuição eletrônica
+              é 1s² 2s² 2p², apresentando quatro elétrons na camada
+              de valência. Por isso, <span>o carbono pode realizar até
+                quatro ligações covalentes,</span> formando uma grande
+              variedade de compostos.
+
+              <br></br><br></br>
+
+              Uma das principais características do carbono é sua
+              capacidade de <span>se ligar a outros átomos de carbono,
+                formando cadeias curtas ou longas e com diferentes
+                disposições. </span>Essa propriedade permite a existência
+              de uma enorme diversidade de compostos orgânicos.
+
+              <br></br><br></br>
+
+              O carbono também pode ser classificado de acordo com a
+              quantidade de outros átomos de carbono aos
+              quais está ligado. É chamado de
+              <span> primário</span> quando está
+              ligado a um carbono,
+              <span> secundário</span> quando está
+              ligado a dois,
+              <span> terciário</span> quando está
+              ligado a três e
+              <span> quaternário</span> quando está
+              ligado a quatro átomos de carbono.
+
+              <br></br><br></br>
+
+              As <span>cadeias carbônicas</span> são estruturas formadas por átomos
+              de carbono ligados entre si, podendo também apresentar outros elementos.
+              Elas podem ser classificadas de acordo com sua estrutura e com os tipos
+              de ligações presentes.
+
+              <br></br><br></br>
+
+              Quanto à forma, as cadeias podem ser <span>abertas</span>,
+              quando possuem extremidades livres; <span>fechadas</span>,
+              quando os átomos de carbono formam um ciclo; ou <span>mistas</span>,
+              quando apresentam simultaneamente uma parte aberta e outra fechada.
+
+              <br></br><br></br>
+
+              As cadeias também podem ser classificadas como
+              <span> homogêneas</span> ou <span>heterogêneas</span>.
+              Uma cadeia homogênea não apresenta <span>heteroátomos </span>
+              entre os carbonos da cadeia principal, enquanto uma cadeia
+              heterogênea possui um heteroátomo, como oxigênio, nitrogênio
+              ou enxofre, inserido na cadeia.
+
+              <br></br><br></br>
+
+              Quanto aos tipos de ligação, as cadeias são consideradas
+              <span> saturadas</span> quando apresentam apenas ligações
+              simples entre os átomos de carbono. Já as
+              <span> insaturadas</span> possuem pelo menos
+              uma ligação dupla ou tripla entre carbonos.
+
+              <br></br><br></br>
+
+              As <span>funções orgânicas</span> são grupos de compostos
+              que apresentam propriedades químicas semelhantes. Elas são
+              identificadas pela presença de determinados <span>grupos
+                funcionais</span>, que influenciam as características e
+              o comportamento das substâncias.
+
+              <br></br><br></br>
+
+              Entre as principais funções orgânicas estão as
+              <span> funções nitrogenadas</span>,
+              que apresentam nitrogênio na estrutura,
+              como aminas, amidas, nitrilas e nitrocompostos;
+              as <span>funções oxigenadas</span>, que possuem
+              oxigênio, como aldeídos, cetonas, ácidos carboxílicos,
+              ésteres, éteres, fenóis e álcoois; e as <span>funções
+                halogenadas</span>, que apresentam elementos da família
+              dos halogênios, como flúor, cloro, bromo, iodo e astato.
+
+              <br></br><br></br>
+
+              Também existem as <span>funções hidrogenadas</span>,
+              representadas principalmente pelos
+              <span>hidrocarbonetos</span>, que são compostos formados
+              apenas por carbono e hidrogênio. Entre eles estão
+              os alcanos, alcenos, alcinos, alcadienos,
+              cicloalcanos e cicloalcenos.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Tetravalência</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Donec vitae sapien vel neque tincidunt consequat.
+              O carbono tem <span>quatro elétrons em sua última camada
+                (camada de valência). </span>
+              Para ficar estável e seguir a regra do octeto, ele precisa compartilhar
+              quatro elétrons. Isso faz com que ele crie sempre <span>quatro ligações
+                químicas.</span>
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Capacidade de Formar Cadeias</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Integer ullamcorper, mauris non faucibus consectetur, justo lorem.
-            </p>
-          </div>
+              Os átomos de carbono possuem a capacidade de se agrupar,
+              formando estruturas chamadas de
+              <span> cadeias carbônicas</span>.
+              Essa capacidade é a principal responsável
+              pela existência de milhões de
+              <span>compostos orgânicos</span>.
 
-          <div className={styles.infoConfig}>
-            <h2>Ligações Carbono-Carbono</h2>
-            <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Suspendisse potenti. Vestibulum tincidunt, ligula vitae consectetur
-              consequat.
+              <br></br><br></br>
+
+              Uma cadeia de carbono pode possuir, além de átomos de carbono,
+              átomos de outros elementos, que podem estar inseridos entre
+              os átomos de carbono. Os elementos que aparecem com maior
+              frequência nas cadeias carbônicas são o oxigênio (O), o
+              nitrogênio (N), o enxofre (S) e o fósforo (P). Nesse contexto,
+              esses átomos são chamados de <span>heteroátomos</span>.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Ligações Simples, Duplas e Triplas</h2>
+
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Aliquam erat volutpat. Sed tincidunt lorem at libero consequat.
+              Uma ligação covalente pelo modelo do <span>orbital molecular</span> forma-se
+              pela interpenetração de um orbital semicheio do átomo A com um orbital
+              semicheio do átomo B, que possuem elétrons de spins contrários. Dessa
+              interpenetração, resulta um <span>orbital molecular</span> contendo um par
+              eletrônico compartilhado.
+
+              <br></br><br></br>
+
+              A interpenetração entre dois orbitais atômicos pode ocorrer de forma linear,
+              quando eles pertencem a um mesmo eixo, formando uma <span>ligação sigma (σ)</span>,
+              ou de forma paralela, quando pertencem a eixos paralelos, formando uma
+              <span>ligação pi (π)</span>.
+
+              <br></br><br></br>
+
+              A <span>ligação sigma (σ)</span> está presente em ligações simples, duplas
+              e triplas. Já a <span>ligação pi (π)</span> ocorre apenas em ligações duplas
+              ou triplas. As ligações pi dependem das ligações sigma, portanto, uma ou
+              duas ligações pi sempre estarão acompanhadas de uma ligação sigma.
+
+              <br></br><br></br>
+
+              Em uma <span>ligação simples</span>, há uma ligação sigma. Em uma
+              <span> ligação dupla</span>, há uma ligação sigma e uma ligação pi. Já em
+              uma <span>ligação tripla</span>, há uma ligação sigma e duas ligações pi.
+
+              <br></br><br></br>
+
+              <span>A – B</span> → uma ligação σ
+              <br></br>
+              <span>A = B</span> → uma ligação σ e uma ligação π
+              <br></br>
+              <span>A ≡ B</span> → uma ligação σ e duas ligações π
             </p>
+            <br></br><br></br>
+            <Image
+              src="/orbitalSigma.png"
+              alt="Alcanos"
+              width={500}
+              height={200}
+            />
+            <br></br><br></br>
+            <Image
+              src="/orbitalPi.png"
+              alt="Alcanos"
+              width={400}
+              height={400}
+            />
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Classificação das Cadeias Carbônicas</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Praesent commodo, mauris sed consequat tincidunt, justo neque
-              consectetur lorem.
+              As cadeias carbônicas são classificadas em quatro
+              critérios principais: <span>quanto ao
+                fechamento (aberta ou fechada), tipo
+                de ligação (saturada ou insaturada),
+                presença de heteroátomo (homogênea
+                ou heterogênea) e disposição dos
+                carbonos (normal ou ramificada)</span>.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
-            <h2>Abertas e Fechadas</h2>
+            <h2>Abertas, Fechadas e Mistas</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Vestibulum tincidunt sapien vitae libero consequat.
+              As cadeias <span>abertas</span>, também chamadas de acíclicas ou alifáticas,
+              possuem duas ou mais extremidades e não apresentam ciclos ou anéis aromáticos.
+
+              <br></br><br></br>
+
+              As cadeias <span>fechadas</span>, também chamadas de cíclicas, possuem os
+              átomos de carbono ligados de modo a formar um ou mais ciclos, não apresentando
+              extremidades livres.
+
+              <br></br><br></br>
+
+              Já as cadeias <span>mistas</span> apresentam simultaneamente uma parte aberta,
+              com pelo menos uma extremidade, e uma parte cíclica.
             </p>
+
+            <Image
+              src="/orbitalPi.png"
+              alt="Exemplos de cadeias abertas, fechadas e mistas"
+              width={400}
+              height={400}
+            />
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Normais e Ramificadas</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Donec consequat sapien vitae justo malesuada.
+              As cadeias <span>normais</span>, também conhecidas como retas ou lineares,
+              apresentam apenas duas extremidades e não possuem ramificações em sua estrutura.
+
+              <br></br><br></br>
+
+              As cadeias <span>ramificadas</span> possuem mais de duas extremidades,
+              apresentando uma ou mais ramificações ao longo da cadeia principal.
             </p>
+
+            <Image
+              src="/orbitalPi.png"
+              alt="Exemplos de cadeias normais e ramificadas"
+              width={400}
+              height={400}
+            />
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Homogêneas e Heterogêneas</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Integer vitae lorem sed sapien malesuada consequat.
+              As cadeias <span>homogêneas</span> não apresentam átomos de outros elementos
+              entre os átomos de carbono que formam a cadeia.
+
+              <br></br><br></br>
+
+              Já as cadeias <span>heterogêneas</span> possuem pelo menos um átomo de outro
+              elemento entre dois átomos de carbono. Esse átomo é chamado de
+              <span>heteroátomo</span>, sendo comuns elementos como oxigênio, nitrogênio,
+              enxofre e fósforo.
             </p>
+
+            <Image
+              src="/orbitalPi.png"
+              alt="Exemplos de cadeias homogêneas e heterogêneas"
+              width={400}
+              height={400}
+            />
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Saturadas e Insaturadas</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Mauris consectetur, sapien vel tincidunt commodo, lorem neque.
+              As cadeias <span>saturadas</span> apresentam somente ligações simples entre
+              os átomos de carbono.
+
+              <br></br><br></br>
+
+              As cadeias <span>insaturadas</span>, por outro lado, possuem pelo menos uma
+              ligação dupla ou tripla entre átomos de carbono.
             </p>
+
+            <Image
+              src="/orbitalPi.png"
+              alt="Exemplos de cadeias saturadas e insaturadas"
+              width={400}
+              height={400}
+            />
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Aromáticas e Não Aromáticas</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Curabitur tincidunt lorem vitae sapien commodo.
+              As cadeias <span>aromáticas</span> são aquelas que possuem pelo menos um
+              <span>anel benzênico</span> em sua estrutura. O anel benzênico é formado
+              por seis átomos de carbono organizados em um ciclo com ligações conjugadas.
+
+              <br></br><br></br>
+
+              As cadeias <span>não aromáticas</span> não apresentam anel benzênico em
+              sua estrutura.
             </p>
+
+            <Image
+              src="/orbitalPi.png"
+              alt="Exemplos de cadeias aromáticas e não aromáticas"
+              width={400}
+              height={400}
+            />
           </div>
 
           <div className={styles.infoConfig}>
