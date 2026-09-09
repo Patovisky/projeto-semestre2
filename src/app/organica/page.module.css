@@ -99,7 +99,9 @@
 .tabelas thead {
     background: linear-gradient(135deg, aquamarine, #75e6d0);
 }
-
+.fundoParaImagem{
+    background-color: white;
+}
 .tabelas th {
     color: #004e57;
     font-size: 20px;
