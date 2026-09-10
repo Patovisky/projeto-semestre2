@@ -2,8 +2,12 @@
     margin: 0;
     min-height: 100vh;
 }
-.link{
+
+.link {
     text-decoration: underline;
+}
+.imgRep2{
+    margin: 40px;
 }
 .mainImage {
     position: relative;
@@ -11,35 +15,35 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 500px;
+    min-height: 450px;
     padding: 60px;
-    margin-top: 50px;
+    margin-top: 100px;
     overflow: hidden;
-    background: linear-gradient(135deg, rgb(121, 248, 255), rgba(255, 251, 236, 0.977));
+    background: #050b08;
+    border-bottom: 2px solid #08ffc9;
 }
-.quoteDiv{
+
+.quoteDiv {
     background-color: #cedada;
     padding: 10px;
     border-radius: 50px;
     box-shadow: 0px 0px 15px -3px #000000;
     margin-bottom: 20px;
-    overflow-wrap: break-word;
-    text-align: center;
+    max-width: 100%;
 }
-.h1{
+
+.quoteDiv p {
+    color: black;
+    font-weight: bolder;
+}
+
+.h1 {
     font-size: 16px;
     font-weight: normal;
     width: 60%;
     opacity: 0.9;
 }
-.quoteDiv p{
-    color: black;
-    font-weight: bolder;
-}
-.imgRep2 {
-    box-shadow: 0px 0px 15px -3px #000000;
-    margin: 20px;
-}
+
 
 @keyframes entrada {
     from {
@@ -53,87 +57,48 @@
     }
 }
 
-@keyframes entradaTexto {
-    from {
-        opacity: 0;
-        transform: translate(-50%, 10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate(-50%, 0);
-    }
-}
-
 .imgRep {
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
     height: 100%;
-    border-radius: 25px 90px 45px 90px;
-    border: 2px solid rgba(255, 255, 255, 0.7);
-    opacity: 0.75;
+    border-radius: 12px;
+    border: 2px solid #08ffc9;
+    opacity: 0.6;
     display: block;
-    margin-top: 60px;
-    box-shadow: 0 20px 50px rgba(7, 38, 64, 0.25);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    margin-top: 20px;
+    box-shadow: 0 0 30px rgba(8, 255, 201, 0.2);
+
+    transition: transform 0.4s ease;
 }
 
 .imgRep:hover {
-    transform: scale(1.015);
-    box-shadow: 0 25px 60px rgba(7, 38, 64, 0.35);
+    transform: scale(1.01);
 }
 
 .textoSobreposto {
-    border-radius: 10px 60px 30px;
+    border-radius: 8px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #f4f2ea;
-    font-size: clamp(35px, 5vw, 65px);
+    color: #08ffc9;
+    font-size: clamp(30px, 5vw, 60px);
     font-weight: 800;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     white-space: nowrap;
     text-align: center;
-    background: rgba(7, 38, 64, 0.28);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 25px rgba(8, 255, 201, 0.4);
+    border: 2px solid #08ffc9;
     padding: 18px 30px;
     animation: entrada 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-.imgRep {
-    box-shadow: 0px 0px 15px -3px #000000;
-    margin: 20px;
-
-}
-
-.texto {
-    position: absolute;
-    top: calc(50% + 90px);
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 40%;
-    max-width: 400px;
-    text-align: center;
-    color: #f4f2ea;
-    font-size: 19px;
-    font-weight: 500;
-    background: rgba(7, 38, 64, 0.28);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    padding: 18px 30px;
-    animation: entrada 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    text-shadow: 0 0 10px rgba(8, 255, 201, 0.6);
 }
 
 .title {
     justify-content: center;
     text-align: center;
-    margin-top: 125px;
+    margin-top: 80px;
     overflow-wrap: break-word;
 }
 
@@ -141,23 +106,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-
-.title h2 {
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-.title h3 {
-    font-size: 36px;
-    color: rgb(8, 255, 201);
-    width: 300px;
-    align-items: center;
-    margin: auto;
-    background-color: #191c25;
-    border: 2px solid #0f1219;
-    border-radius: 20px;
-    padding: 10px;
+    gap: 30px;
+    padding: 20px 0;
 }
 
 .infoConfig {
@@ -165,82 +115,70 @@
     overflow-wrap: break-word;
     flex-direction: column;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .infoConfig h2 {
-    color: rgb(8, 255, 201);
-    margin-top: 50px;
-    margin-bottom: 20px;
-    background-color: #191c25;
-    border: 2px solid #0f1219;
-    border-radius: 20px;
-    padding: 10px;
+    color: #000000;
+    background-color: #08ffc9;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 2px solid #08ffc9;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-weight: bold;
+    box-shadow: 0 0 12px rgba(8, 255, 201, 0.4);
 }
 
 .pinfo {
     width: 70%;
+    background: #000b05;
+    border: 1px solid #8a99964d;
+    padding: 45px;
+    border-radius: 8px;
+    line-height: 1.6;
+    color: #cfdcd5;
+    position: relative;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.pinfo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    background: #181818;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid #333333;
+    
 }
 
-@media (max-width: 900px) {
-    .mainImage {
-        margin-top: 120px;
-        min-height: 450px;
-        padding: 40px 15px;
-    }
-
-    .imgRep2 {
-        width: 85%;
-    }
-
-    .textoSobreposto {
-        font-size: 45px;
-        padding: 15px 22px;
-    }
-
-    .texto {
-        width: 75%;
-        font-size: 17px;
-        top: calc(50% + 75px);
-    }
-
-    .pinfo {
-        width: 80%;
-    }
-
-    .infoConfig {
-        font-size: 18px;
-    }
-
-    .infoConfig h2 {
-        text-align: center;
-        max-width: 90%;
+.pinfo::after {
+    content: "  C:\\user\\pato-tech  ";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    background: #000b05;
+    color: #ffffff;
+    font-size: 11px;
+    height: 31px;
+    padding: 0 14px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #333333;
+    border-bottom: none;
+    z-index: 2;
+}
+@media (max-width: 800px) {
+    .mainImage{
+        margin-top: 200px;
     }
 }
-
-@media screen and (max-width: 800px) {
-    .all {
-        display: flex;
-        overflow-wrap: break-word;
-        flex-wrap: wrap;
-        margin-top: 100px;
-    }
-
-    .pinfo {
-        width: 85%;
-    }
-
-    .infoConfig h2 {
-        text-align: center;
-        max-width: 90%;
-    }
-
-    .imgRep2 {
-        max-width: 90%;
-        height: auto;
-    }
-}
-
 @media (max-width: 600px) {
     .mainImage {
         margin-top: 200px;
@@ -253,28 +191,34 @@
         max-width: 95%;
         height: auto;
         margin-top: 35px;
-    }
+        
 
     .textoSobreposto {
-        font-size: 30px;
+        font-size: 26px;
         padding: 10px 15px;
         max-width: 85%;
         white-space: normal;
+    
     }
 
     .texto {
         width: 80%;
         font-size: 14px;
         top: calc(50% + 65px);
+        
     }
 
     .tituloSecao {
         margin-top: 40px;
         font-size: 32px;
+        
     }
 
     .pinfo {
         width: 90%;
+        background: #111e17;
+        
+        padding: 15px;
     }
 
     .infoConfig {
@@ -282,9 +226,10 @@
     }
 
     .infoConfig h2 {
-        font-size: 22px;
+        font-size: 20px;
         padding: 8px 12px;
         max-width: 90%;
+        
     }
 
     .h1 {
@@ -293,24 +238,27 @@
 
     .quoteDiv {
         width: 85%;
+        
     }
 }
 
 @media (max-width: 400px) {
     .mainImage {
-        margin-top: 200px;
+        margin-top: 300px;
         min-height: 320px;
     }
 
     .imgRep2 {
         width: 95%;
         max-width: 95%;
+        
     }
 
     .textoSobreposto {
-        font-size: 25px;
+        font-size: 22px;
         padding: 8px 12px;
         overflow-wrap: break-word;
+        
     }
 
     .texto {
@@ -320,6 +268,7 @@
 
     .pinfo {
         width: 92%;
+        padding: 12px;
     }
 
     .infoConfig {
@@ -327,7 +276,8 @@
     }
 
     .infoConfig h2 {
-        font-size: 20px;
+        font-size: 18px;
         max-width: 92%;
     }
+}
 }

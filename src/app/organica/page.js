@@ -350,15 +350,16 @@ export default function Organica() {
               Já as cadeias <span>mistas</span> apresentam simultaneamente uma parte aberta,
               com pelo menos uma extremidade, e uma parte cíclica.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/orbitalPi.png"
-              alt="Exemplos de cadeias abertas, fechadas e mistas"
-              width={400}
+              src="/AFeM.png"
+              alt="Exemplos de cadeias normais e ramificadas"
+              width={600}
               height={400}
             />
-          </div>
 
+          </div>
+          <br></br><br></br>
           <div className={styles.infoConfig}>
             <h2>Normais e Ramificadas</h2>
             <p className={styles.pinfo}>
@@ -370,13 +371,14 @@ export default function Organica() {
               As cadeias <span>ramificadas</span> possuem mais de duas extremidades,
               apresentando uma ou mais ramificações ao longo da cadeia principal.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/orbitalPi.png"
+              src="/NeR.png"
               alt="Exemplos de cadeias normais e ramificadas"
-              width={400}
+              width={600}
               height={400}
             />
+            <br></br><br></br>
           </div>
 
           <div className={styles.infoConfig}>
@@ -389,18 +391,18 @@ export default function Organica() {
 
               Já as cadeias <span>heterogêneas</span> possuem pelo menos um átomo de outro
               elemento entre dois átomos de carbono. Esse átomo é chamado de
-              <span>heteroátomo</span>, sendo comuns elementos como oxigênio, nitrogênio,
+              <span> heteroátomo</span>, sendo comuns elementos como oxigênio, nitrogênio,
               enxofre e fósforo.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/orbitalPi.png"
+              src="/HetHomo.png"
               alt="Exemplos de cadeias homogêneas e heterogêneas"
-              width={400}
+              width={450}
               height={400}
             />
           </div>
-
+          <br></br><br></br>
           <div className={styles.infoConfig}>
             <h2>Saturadas e Insaturadas</h2>
             <p className={styles.pinfo}>
@@ -412,13 +414,14 @@ export default function Organica() {
               As cadeias <span>insaturadas</span>, por outro lado, possuem pelo menos uma
               ligação dupla ou tripla entre átomos de carbono.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/orbitalPi.png"
+              src="/SeIn.png"
               alt="Exemplos de cadeias saturadas e insaturadas"
-              width={400}
+              width={450}
               height={400}
             />
+            <br></br><br></br>
           </div>
 
           <div className={styles.infoConfig}>
@@ -433,180 +436,379 @@ export default function Organica() {
               As cadeias <span>não aromáticas</span> não apresentam anel benzênico em
               sua estrutura.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/orbitalPi.png"
+              src="/AroNaro.png"
               alt="Exemplos de cadeias aromáticas e não aromáticas"
-              width={400}
+              width={450}
               height={400}
             />
           </div>
-
-          <div className={styles.infoConfig}>
-            <h2>Tipos de Carbono</h2>
-            <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Donec tincidunt lorem vitae neque consequat.
-            </p>
-          </div>
-
+          <br></br><br></br>
           <div className={styles.infoConfig}>
             <h2>Carbono Primário</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Integer consequat lorem vitae libero tincidunt.
+              Um <span>carbono primário</span> é aquele que está ligado a, no máximo, um
+              outro átomo de carbono na estrutura orgânica. Um carbono que não está ligado
+              a nenhum outro carbono, como o carbono do metano, também pode ser
+              classificado como primário. Porém, alguns autores utilizam o termo
+              <span> carbono nulário</span> para esse caso.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Carbono Secundário</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Vestibulum vitae sapien vel neque consequat tincidunt.
+              O <span>carbono secundário</span> é aquele que está diretamente ligado a
+              dois outros átomos de carbono em uma cadeia carbônica.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Carbono Terciário</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Praesent tincidunt sapien vitae lorem consequat.
+              O <span>carbono terciário</span> é aquele que está diretamente ligado a
+              três outros átomos de carbono em uma cadeia carbônica.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Carbono Quaternário</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Mauris vitae sapien tincidunt, consequat lorem at.
+              O <span>carbono quaternário</span> é aquele que está diretamente ligado a
+              quatro outros átomos de carbono em uma cadeia carbônica.
             </p>
-          </div>
 
-          <div className={styles.infoConfig}>
-            <h2>Representações das Moléculas</h2>
-            <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Donec vitae lorem malesuada, tincidunt sapien sed.
-            </p>
+            <Image
+              src="/nDec.webp"
+              alt="Exemplo de carbono quaternário"
+              width={400}
+              height={400}
+              className={styles.imgRep2}
+            />
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Fórmula Molecular</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Integer consequat sapien vitae neque faucibus.
+              A <span>fórmula molecular</span> indica quais elementos formam uma
+              substância e a quantidade de átomos de cada elemento presente em uma
+              molécula, chamada de <span>atomicidade</span>. Os símbolos dos elementos
+              são acompanhados por números subscritos que indicam suas quantidades.
+              <br /><br />
+              Por exemplo, a água é formada por dois átomos de hidrogênio e um de
+              oxigênio, sendo representada por <span>H₂O</span>. O número 2 indica os
+              dois átomos de hidrogênio, enquanto o oxigênio não precisa de índice por
+              possuir apenas um átomo.
+              <br /><br />
+              O etanol, por sua vez, possui dois átomos de carbono, seis de hidrogênio e
+              um de oxigênio, apresentando a fórmula <span>C₂H₆O</span>.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Fórmula Estrutural</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Vestibulum consequat lorem vitae sapien tincidunt.
+              A <span>fórmula estrutural</span> representa como os átomos de uma molécula
+              estão conectados por meio de suas ligações químicas. Ela permite observar
+              a organização dos átomos, os tipos de ligações presentes e algumas
+              características estruturais da molécula.
+              <br /><br />
+              Essa representação está relacionada à <span>estrutura de Lewis</span>,
+              desenvolvida por Gilbert N. Lewis para explicar as ligações covalentes.
+              Nela, os elétrons de valência são representados por pontos ao redor dos
+              símbolos dos elementos.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
-            <h2>Fórmula Condensada</h2>
+            <h2>Fórmula Estrutural Condensada</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Curabitur sapien neque, tincidunt vitae consequat.
+              A <span>fórmula estrutural condensada</span> simplifica a representação de
+              uma molécula agrupando os átomos de hidrogênio junto aos respectivos
+              átomos de carbono. A quantidade de hidrogênios de cada grupo é indicada
+              por um índice.
+              <br /><br />
+              Esse modelo permite representar estruturas orgânicas de maneira mais
+              compacta, sem precisar desenhar individualmente todas as ligações entre
+              carbono e hidrogênio.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
-            <h2>Fórmula em Bastão</h2>
+            <h2>Fórmula Estrutural em Bastão</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Donec vitae lorem malesuada, tincidunt sapien sed.
-            </p>
-          </div>
-
-          <div className={styles.infoConfig}>
-            <h2>Saturação e Aromaticidade</h2>
-            <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Integer vitae neque tincidunt, malesuada sapien consequat.
+              A <span>fórmula estrutural em bastão</span> é uma forma simplificada de
+              representar estruturas orgânicas. Nessa representação, as ligações
+              químicas são desenhadas como linhas, enquanto os átomos de
+              <span> carbono e hidrogênio</span> geralmente são omitidos.
+              <br /><br />
+              Os carbonos são considerados nos vértices e nas extremidades das linhas.
+              Já átomos diferentes de carbono e hidrogênio, como <span>oxigênio</span>
+              e <span>nitrogênio</span>, são representados normalmente.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Isomeria</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Praesent vitae sapien tincidunt, consequat lorem sed.
+              <span>Isomeria</span> é o fenômeno em que duas ou mais substâncias possuem
+              a mesma fórmula molecular, mas apresentam estruturas diferentes e, por
+              consequência, podem possuir propriedades físicas e químicas distintas.
+              Essas substâncias são chamadas de <span>isômeros</span>.
+              <br /><br />
+              A isomeria pode ser dividida em <span>isomeria plana</span>, também chamada
+              de constitucional, e <span>isomeria espacial</span>, ou
+              estereoisomerismo.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Isomeria Espacial</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Suspendisse vitae sapien tincidunt lorem consequat.
+              A <span>isomeria espacial</span>, ou estereoisomerismo, ocorre quando os
+              isômeros possuem a mesma conectividade entre os átomos, mas diferem no
+              <span> arranjo espacial</span> de seus ligantes.
+              <br /><br />
+              Entre seus principais tipos estão a <span>isomeria geométrica</span>,
+              relacionada aos casos cis-trans e E-Z, e a
+              <span> isomeria óptica</span>, relacionada à quiralidade e aos
+              enantiômeros.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Isomeria Geométrica</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Vestibulum consequat lorem vitae sapien malesuada.
+              A <span>isomeria geométrica</span>, também chamada de isomeria cis-trans,
+              ocorre quando não existe rotação livre em determinada ligação carbono-
+              carbono. Isso pode acontecer em uma <span>ligação dupla</span> de alcenos
+              ou em uma estrutura cíclica, como nos cicloalcanos.
+              <br /><br />
+              Quando os grupos de referência estão do mesmo lado, utiliza-se o
+              estereodescritor <span>cis</span>. Quando estão em lados opostos,
+              utiliza-se <span>trans</span>.
+              <br /><br />
+              Nos casos em que cis e trans não são suficientes, utiliza-se a regra de
+              <span> Cahn-Ingold-Prelog (CIP)</span>. Os ligantes de maior prioridade
+              determinam os estereodescritores <span>Z</span>, quando estão do mesmo
+              lado, e <span>E</span>, quando estão em lados opostos.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Isomeria Óptica</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Donec sapien lorem, tincidunt vitae consequat.
+              A <span>isomeria óptica</span> ocorre quando moléculas apresentam
+              atividade óptica, ou seja, são capazes de desviar o plano da
+              <span> luz polarizada</span>.
+              <br /><br />
+              Ela está relacionada à presença de elementos de <span>quiralidade</span>,
+              como um carbono quiral. As estruturas resultantes podem ser imagens
+              especulares não sobreponíveis umas das outras.
+              <br /><br />
+              Os enantiômeros que desviam a luz para a esquerda são chamados de
+              <span> levogiros</span>, representados por l ou −. Os que desviam para a
+              direita são chamados de <span>dextrogiros</span>, representados por d ou +.
+              Essa característica é determinada experimentalmente e não pode ser
+              identificada apenas observando a estrutura molecular.
+            </p>
+          </div>
+          <div className={styles.infoConfig}>
+            <h2>Isomeria Plana</h2>
+            <p className={styles.pinfo}>
+              A <span>isomeria plana</span>, ou constitucional, ocorre quando os
+              isômeros apresentam diferenças perceptíveis na forma como seus átomos
+              estão conectados na fórmula estrutural.
+              <br /><br />
+              Ela pode ser classificada em <span>isomeria de função</span>, quando os
+              compostos pertencem a funções orgânicas diferentes; <span>isomeria de
+                posição</span>, quando muda a posição de um grupo funcional, insaturação
+              ou ramificação; e <span>isomeria de cadeia</span>, quando ocorre mudança
+              no tipo de cadeia carbônica.
+              <br /><br />
+              Também existem a <span>isomeria de compensação</span>, na qual ocorre
+              alteração na distribuição das cadeias ao redor de um heteroátomo, e a
+              <span> tautomeria</span>, em que dois isômeros coexistem em equilíbrio e
+              podem se transformar um no outro.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
+            <h2>Isomeria de Função</h2>
+            <p className={styles.pinfo}>
+              Na <span>isomeria de função</span>, os isômeros possuem a mesma fórmula
+              molecular, mas pertencem a <span>funções orgânicas diferentes</span>.
+              Alguns exemplos são os pares entre álcoois e éteres, aldeídos e cetonas,
+              e ácidos carboxílicos e ésteres.
+            </p>
+          </div>
+
+          <div className={styles.infoConfig}>
+            <h2>Isomeria de Posição</h2>
+            <p className={styles.pinfo}>
+              Na <span>isomeria de posição</span>, os compostos possuem a mesma função
+              orgânica e a mesma cadeia básica, mas apresentam diferença na posição de
+              um <span>grupo funcional</span>, de uma <span>insaturação</span> ou de
+              uma <span>ramificação</span>.
+            </p>
+          </div>
+
+          <div className={styles.infoConfig}>
+            <h2>Isomeria de Cadeia</h2>
+            <p className={styles.pinfo}>
+              A <span>isomeria de cadeia</span> ocorre quando os isômeros possuem
+              diferentes tipos de cadeia carbônica, mantendo a mesma fórmula molecular.
+              A diferença pode envolver, por exemplo, uma cadeia normal e uma cadeia
+              ramificada ou diferentes formas de organização da cadeia.
+            </p>
+          </div>
+
+          <div className={styles.infoConfig}>
+            <h2>Isomeria de Compensação</h2>
+            <p className={styles.pinfo}>
+              Na <span>isomeria de compensação</span>, também chamada de metameria,
+              ocorre uma alteração na distribuição das cadeias carbônicas ao redor de
+              um <span>heteroátomo</span>, mantendo-se a mesma função orgânica e a
+              mesma fórmula molecular.
+            </p>
+          </div>
+
+          <div className={styles.infoConfig}>
+            <h2>Tautomeria</h2>
+            <p className={styles.pinfo}>
+              A <span>tautomeria</span> é um tipo de isomeria em que dois isômeros,
+              chamados de tautômeros, coexistem em equilíbrio e podem se transformar
+              um no outro.
+              <br /><br />
+              Um exemplo é o equilíbrio entre a forma <span>aldeído e enol</span>,
+              chamado de equilíbrio aldo-enólico, e entre <span>cetona e enol</span>,
+              chamado de equilíbrio ceto-enólico.
+            </p>
+          </div>
+          <div className={styles.infoConfig}>
             <h2>Carbono Quiral</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Integer tincidunt sapien vitae lorem consequat.
+              Um <span>carbono quiral</span>, ou assimétrico, é um átomo de carbono
+              ligado a quatro ligantes diferentes entre si por ligações simples.
+              <br /><br />
+              Como realiza apenas ligações simples, esse carbono apresenta
+              <span> hibridização sp³</span> e geometria <span>tetraédrica</span>.
+              Moléculas quirais não podem ser sobrepostas às suas imagens especulares e,
+              geralmente, não possuem plano de simetria.
+              <br /><br />
+              Para identificar um carbono quiral, é necessário verificar se ele possui
+              quatro grupos diferentes ligados a ele. Esses grupos devem ser analisados
+              considerando toda a estrutura do ligante, e não apenas o átomo diretamente
+              conectado ao carbono.
+              <br /><br />
+              O carbono quiral pode ser encontrado tanto em <span>cadeias abertas</span>
+              quanto em <span>cadeias fechadas</span>. Em representações químicas, é
+              comum indicar esse carbono com um <span>asterisco (*)</span>.
+              <br /><br />
+              A identificação do carbono quiral é importante porque a presença de
+              centros quirais pode originar <span>isomeria óptica</span>. Os diferentes
+              enantiômeros podem apresentar atividades fisiológicas distintas no
+              organismo.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Enantiômeros</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Mauris vitae neque tincidunt, consequat lorem.
+              <span>Enantiômeros</span> são estereoisômeros que possuem estruturas
+              assimétricas e são imagens especulares uma da outra, mas não podem ser
+              sobrepostas.
+              <br /><br />
+              Essa relação pode ser comparada às <span>mãos direita e esquerda</span>:
+              elas são imagens especulares, possuem a mesma composição, mas não podem
+              ser perfeitamente sobrepostas.
+              <br /><br />
+              Os enantiômeros podem apresentar comportamentos diferentes em sistemas
+              biológicos, pois seus organismos podem reconhecer cada uma das formas de
+              maneira distinta. Um exemplo é a <span>adrenalina</span>, cujos
+              enantiômeros apresentam diferentes níveis de atividade biológica.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Diastereoisômeros</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Curabitur consequat lorem vitae libero malesuada.
+              <span>Diastereoisômeros</span> são estereoisômeros que não são imagens
+              especulares uns dos outros. Assim como os enantiômeros, possuem a mesma
+              conectividade entre os átomos, mas diferem no <span>arranjo espacial</span>
+              de seus ligantes.
+              <br /><br />
+              Uma diferença importante é que, enquanto os enantiômeros são imagens
+              especulares entre si, os diastereoisômeros <span>não possuem essa relação
+                de imagem no espelho</span>. Eles podem apresentar propriedades físicas e
+              químicas diferentes.
+              <br /><br />
+              Em determinados casos, os diastereoisômeros podem ser classificados como
+              <span> cis</span> ou <span>trans</span>, de acordo com a posição dos
+              substituintes na molécula.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Funções Orgânicas</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Donec vitae sapien vel neque tincidunt consequat.
+              As <span>funções orgânicas</span> são grupos de compostos que apresentam
+              propriedades químicas semelhantes devido à presença de determinados
+              átomos ou grupos de átomos em suas estruturas.
+              <br /><br />
+              Esses conjuntos de átomos são chamados de <span>grupos funcionais</span>
+              e influenciam diretamente a forma como as moléculas reagem e interagem
+              com outras substâncias.
+              <br /><br />
+              Por exemplo, o grupo <span>hidroxila (–OH)</span>, quando ligado a um
+              carbono saturado, caracteriza a função álcool. Já o grupo
+              <span> carboxila (–COOH)</span> caracteriza os ácidos carboxílicos.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Hibridização</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Vestibulum tincidunt, ligula vitae consectetur consequat.
+              A <span>hibridização</span> é a combinação de orbitais atômicos para formar
+              novos orbitais híbridos, capazes de participar de ligações químicas. Esse
+              conceito ajuda a explicar a <span>geometria molecular</span> e as
+              características das ligações.
+              <br /><br />
+              No carbono, a hibridização ocorre pela reorganização de seus elétrons de
+              valência, permitindo a formação de diferentes tipos de ligações. Os
+              principais tipos são <span>sp, sp² e sp³</span>.
+              <br /><br />
+              A <span>hibridização sp³</span> resulta em quatro orbitais híbridos e
+              geometria tetraédrica, como no metano (CH₄). A
+              <span> hibridização sp²</span> forma três orbitais híbridos e apresenta
+              geometria trigonal plana, como no eteno (C₂H₄). Já a
+              <span> hibridização sp</span> forma dois orbitais híbridos e apresenta
+              geometria linear, como no acetileno (C₂H₂).
+              <br /><br />
+              Uma maneira de determinar a hibridização é observar a quantidade de
+              regiões de densidade eletrônica ao redor do átomo: <span>2 regiões</span>
+              correspondem a sp, <span>3 regiões</span> a sp² e
+              <span>4 regiões</span> a sp³.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
-            <h2>Cadeias Conjugadas e Alternadas</h2>
+            <h2>Cadeias Conjugadas/Alternadas</h2>
             <p className={styles.pinfo}>
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>{" "}
-              Aliquam erat volutpat. Sed tincidunt lorem at libero consequat.
+              Na química orgânica, cadeias alternadas
+              (mais comumente conhecidas como cadeias
+              conjugadas) são cadeias carbônicas que
+              apresentam uma <span>alternância regular
+                entre ligações duplas (ou triplas)
+                e ligações simples.</span> Esse arranjo
+              permite um fenômeno chamado
+              ressonância, onde os elétrons
+              pi (π) não ficam presos a apenas
+              dois átomos, mas se movem
+              livremente por toda a extensão
+              do sistema conjugado <span>(elétrons
+                deslocalizados).</span>
             </p>
           </div>
 
@@ -749,14 +951,14 @@ export default function Organica() {
               ligação dupla entre átomos de carbono. Quando apresentam duas ou
               mais ligações duplas, recebem denominações como dienos e trienos.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/images/placeholder.png"
+              src="/alalal.webp"
               alt="Exemplos de alcadienos"
               width={500}
               height={300}
             />
-
+            <br></br><br></br>
             <p className={styles.pinfo}>
               O sufixo utilizado é <span>-eno</span>. Para duas ligações duplas,
               utiliza-se <span>-dieno</span>; para três, <span>-trieno</span>.
@@ -768,13 +970,6 @@ export default function Organica() {
               A posição da ligação dupla é indicada pelo número do primeiro
               carbono envolvido na ligação.
             </p>
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de nomenclatura de alceno"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -793,26 +988,6 @@ export default function Organica() {
               sais.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de alcino"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de alcinos"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de alcadiino"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -830,12 +1005,6 @@ export default function Organica() {
               prioridade para determinar a numeração.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de alcenino ou enino"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -846,14 +1015,14 @@ export default function Organica() {
               nomenclatura segue as regras dos alcanos, acrescentando-se o
               prefixo <span>ciclo-</span>.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/images/placeholder.png"
+              src="/cicloCiclo.webp"
               alt="Exemplos de cicloalcanos"
-              width={500}
+              width={650}
               height={300}
             />
-
+            <br></br><br></br>
             <p className={styles.pinfo}>
               Já os cicloalcenos, também chamados de ciclenos, são{" "}
               <span>hidrocarbonetos alicíclicos insaturados</span>, contendo
@@ -861,12 +1030,6 @@ export default function Organica() {
               alcenos, também com o acréscimo do prefixo <span>ciclo-</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de cicloalceno"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -892,19 +1055,6 @@ export default function Organica() {
               proporciona a menor numeração possível aos demais substituintes.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Representação de hidrocarboneto aromático"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de compostos aromáticos"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -928,14 +1078,14 @@ export default function Organica() {
               posição do halogênio na cadeia. Os nomes dos substituintes são
               organizados alfabeticamente.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/images/placeholder.png"
+              src="/haletos.webp"
               alt="Exemplos de haletos de alquila"
-              width={500}
-              height={300}
+              width={400}
+              height={400}
             />
-
+            <br></br><br></br>
             <p className={styles.pinfo}>
               Na nomenclatura não oficial, utiliza-se o nome do haleto seguido
               de <span>de</span> e do nome do radical orgânico. Termos como
@@ -970,20 +1120,14 @@ export default function Organica() {
               <span>-ol</span>, podendo ser utilizados -diol, -triol e outros
               quando houver mais de uma hidroxila.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/images/placeholder.png"
+              src="/etanol.webp"
               alt="Exemplo de álcool"
               width={500}
               height={300}
             />
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de álcoois"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -994,20 +1138,14 @@ export default function Organica() {
               Sua nomenclatura segue lógica semelhante à dos hidrocarbonetos
               aromáticos, utilizando o termo <span>fenol</span>.
             </p>
-
+            <br></br><br></br>
             <Image
-              src="/images/placeholder.png"
+              src="/fenol.png"
               alt="Exemplos de fenóis"
-              width={500}
+              width={300}
               height={300}
             />
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de nomenclatura de fenol"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>

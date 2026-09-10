@@ -1,0 +1,286 @@
+.page {
+    box-sizing: border-box;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 125px;
+    overflow-wrap: break-word;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+}
+
+.title h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.title h3 {
+    font-size: 36px;
+    color: rgb(8, 255, 201);
+    width: 300px;
+    max-width: calc(100% - 40px);
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #191c25;
+    border: 2px solid #0f1219;
+    border-radius: 20px;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+
+.imgRep2 {
+    box-shadow: 0px 0px 15px -3px #000000;
+    margin: 40px;
+    max-width: calc(100% - 80px);
+    height: auto;
+}
+
+.quoteDiv {
+    background-color: #cedada;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px -3px #000000;
+    margin-bottom: 20px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.quoteDiv p {
+    color: black;
+    font-weight: bolder;
+}
+
+.infoConfig {
+    display: flex;
+    overflow-wrap: break-word;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.infoConfig h2 {
+    color: #000000;
+    background-color: #08ffc9;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 2px solid #08ffc9;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-weight: bold;
+    box-shadow: 0 0 12px rgba(8, 255, 201, 0.4);
+    max-width: calc(100% - 40px);
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.pinfo {
+    width: 70%;
+    max-width: 100%;
+    background: #0c0c0c;
+    border: 1px solid #333333;
+    padding: 45px 25px 25px 25px;
+    border-radius: 8px;
+    line-height: 1.6;
+    color: #cccccc;
+    font-family: 'Consolas', 'Courier New', monospace;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.pinfo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    background: #181818;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid #333333;
+}
+
+.pinfo::after {
+    content: "  C:\\user\\pato-tech  ";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    background: #0c0c0c;
+    color: #ffffff;
+    font-size: 11px;
+    height: 31px;
+    padding: 0 14px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #333333;
+    border-bottom: none;
+    z-index: 2;
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
+.tabelas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tabelas table {
+    width: 100%;
+    flex: 1 1 320px;
+    max-width: 450px;
+    min-width: 280px;
+    background: rgb(7, 96, 108);
+    border-collapse: collapse;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 10px rgb(7, 38, 64);
+    font-family: "Comic Sans MS", cursive;
+}
+
+.tabelas table:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 18px 35px rgba(7, 38, 64, 0.35);
+}
+
+.tabelas thead {
+    background: linear-gradient(135deg, aquamarine, #75e6d0);
+}
+
+.fundoParaImagem {
+    background-color: white;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.tabelas th {
+    color: #004e57;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px 10px;
+    border-bottom: 2px solid rgba(0, 78, 87, 0.15);
+}
+
+.tabelas tr {
+    transition: background-color 0.2s ease;
+}
+
+.tabelas tr:nth-child(even) {
+    background: rgba(24, 56, 68, 0.75);
+}
+
+.tabelas tbody tr:hover {
+    background: rgb(55, 140, 150);
+}
+
+.tabelas td {
+    padding: 12px 10px;
+    color: #eee;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+    .tabelas {
+        padding: 0 15px 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tabelas {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        margin-top: 30px;
+        padding: 0 10px 40px;
+    }
+
+    .tabelas table {
+        width: 100%;
+        max-width: 500px;
+        min-width: 0;
+    }
+
+    .tabelas th {
+        font-size: 17px;
+        padding: 12px 8px;
+    }
+
+    .tabelas td {
+        font-size: 15px;
+        padding: 10px 8px;
+    }
+}
+
+.tituloSecao {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.tituloSecao::after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 4px;
+    margin: 12px auto 0;
+    background: aquamarine;
+    box-shadow: 0 0 12px rgba(127, 255, 212, 0.7);
+}
+
+@media screen and (max-width: 800px) {
+    .all {
+        display: flex;
+        overflow-wrap: break-word;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .pinfo {
+        width: 90%;
+    }
+
+    .imgRep2 {
+        max-width: calc(100% - 40px);
+        margin: 20px;
+    }
+
+    .tituloSecao {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    .title h3 {
+        margin-top: 150px;
+    }
+}

@@ -10,7 +10,7 @@
     background-color: #000000;
     border-bottom: 2px solid #08ffc9;
     width: 100%;
-    padding: 8px 0;
+    padding: 30px;
     position: fixed;
     z-index: 1000;
     box-shadow: 0 4px 20px rgba(8, 255, 201, 0.15);
@@ -20,6 +20,7 @@
     display: flex;
     gap: 5px;
     list-style: none;
+    background-color: #24393f;
 }
 
 .ulMenu li {
@@ -28,6 +29,10 @@
 
 .ulMenu li a {
     text-decoration: none;
+}
+
+.btnPadrao:hover {
+    background-color: #0b120f88;
 }
 
 .btnPadrao {
@@ -39,6 +44,11 @@
     font-size: 16px;
     font-family: 'Share Tech Mono', monospace;
     color: #08ffc9;
+}
+
+.svg {
+
+    position: relative;
 }
 
 .btnPadrao::after {
@@ -64,10 +74,10 @@
 }
 
 .dropbtn {
-    background: #111e17;
+    background: #000;
     color: #08ffc9;
     padding: 5px 10px;
-    border: 1px solid #08ffc9;
+    border: none;
     cursor: pointer;
     font-size: 16px;
     border-radius: 4px;
@@ -83,6 +93,9 @@
     right: 0;
     min-width: 240px;
     background: #0b120f;
+    background-image: linear-gradient(rgba(18, 16, 16, 0) 50%,
+            rgba(0, 0, 0, 0.445) 50%);
+    background-size: 100% 4px;
     border: 2px solid #08ffc9;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
     z-index: 100;
@@ -102,7 +115,7 @@
 .dropdownContent a:hover {
     background: #111e17;
     color: #ffffff;
-    padding-left: 20px;
+
 }
 
 @media screen and (max-width: 800px) {
@@ -112,5 +125,6 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        background-color: #000;
     }
 }

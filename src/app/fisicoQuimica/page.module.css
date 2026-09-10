@@ -4,17 +4,20 @@
     margin-top: 125px;
     overflow-wrap: break-word;
 }
-.all{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
+
+.all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
 .title h2 {
     font-size: 20px;
     width: 70%;
     align-items: center;
     margin: auto;
 }
+
 .title h3 {
     font-size: 36px;
     color: rgb(8, 255, 201);
@@ -27,42 +30,95 @@
     border-radius: 20px;
     padding: 10px;
 }
-.imgRep{
-   box-shadow: 0px 0px 15px -3px #000000;
-   margin: 20px;
+
+.imgRep {
+    box-shadow: 0px 0px 15px -3px #000000;
+    margin: 20px;
 }
-.quoteDiv{
+
+.quoteDiv {
     background-color: #cedada;
     padding: 10px;
     border-radius: 50px;
     box-shadow: 0px 0px 15px -3px #000000;
     margin-bottom: 20px;
 }
-.quoteDiv p{
+
+.quoteDiv p {
     color: black;
     font-weight: bolder;
 }
-.infoConfig{
+
+.infoConfig {
     display: flex;
     overflow-wrap: break-word;
     flex-direction: column;
     align-items: center;
     font-size: 20px;
 }
-.infoConfig h2{
-    color: rgb(8, 255, 201);
-    margin-top: 50px;
-    margin-bottom: 20px;
-    background-color: #191c25;
-    border: 2px solid #0f1219;
-    border-radius: 20px;
-    padding: 10px;
+
+.infoConfig h2 {
+    color: #000000;
+    background-color: #08ffc9;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 2px solid #08ffc9;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-weight: bold;
+    box-shadow: 0 0 12px rgba(8, 255, 201, 0.4);
 }
-.pinfo{
+
+.pinfo {
     width: 70%;
+    background: #0c0c0c;
+    border: 1px solid #333333;
+    padding: 45px 25px 25px 25px;
+    border-radius: 8px;
+    line-height: 1.6;
+    color: #cccccc;
+    font-family: 'Consolas', 'Courier New', monospace;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin-top: 10px;
 }
+
+.pinfo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    background: #181818;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid #333333;
+}
+
+.pinfo::after {
+    content: "  C:\\user\\pato-tech  ";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    background: #0c0c0c;
+    color: #ffffff;
+    font-size: 11px;
+    height: 31px;
+    padding: 0 14px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #333333;
+    border-bottom: none;
+    z-index: 2;
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
 @media screen and (max-width: 800px) {
-    .all{
+    .all {
         display: flex;
         overflow-wrap: break-word;
         flex-wrap: wrap;

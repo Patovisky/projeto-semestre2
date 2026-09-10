@@ -1,7 +1,8 @@
 .footer {
     margin-top: 60px;
-    background: black;
-    color: white;
+    background: #000000;
+    color: #08ffc9;
+    border-top: 2px solid #08ffc9;
 }
 
 .footerContainer {
@@ -11,31 +12,38 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
     text-align: center;
 }
 
 .footerContainer h2,
 .footerContainer h3 {
-    color: rgb(8, 255, 201);
-    font-family: Arial, Helvetica, sans-serif;
+    color: #08ffc9;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 1px;
 }
 
-.footerCcontainer p {
-    color: #cfcfcf;
+.footerContainer p {
+    color: #8cffea;
     font-size: 15px;
+    opacity: 0.8;
 }
-.duckImage{
-    border-radius: 100px;
-    border: 4px solid black;
-    box-shadow: 0px 1px 38px -13px rgb(8, 255, 201);
+
+.duckImage {
+    border-radius: 50%;
+    border: 2px solid #08ffc9;
+    box-shadow: 0px 0px 20px rgba(8, 255, 201, 0.5);
+    background: #111e17;
 }
+
 .footerLinks a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     transition: .2s;
+    border-bottom: 1px dotted #08ffc9;
 }
 
 .footerLinks a:hover {
     color: rgb(8, 255, 201);
+    text-shadow: 0 0 8px #08ffc9;
 }

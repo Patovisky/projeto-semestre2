@@ -216,6 +216,8 @@
     position: absolute;
     top: 8px;
     left: 10px;
+    background-color: rgb(39, 42, 41);
+    padding: 2px;
     font-weight: bold;
     font-size: 12px;
 }
