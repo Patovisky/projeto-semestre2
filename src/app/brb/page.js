@@ -5,7 +5,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Brb() {
-  
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -59,12 +59,12 @@ export default function Brb() {
               <div className={styles.content1}>
                 <div id="ABOUT" className={styles.tabPane}>
                   <div className={styles.headerBox}>
-                      <div className={styles.headerPath}>
-                        file:///home/user/documents/character/about.txt
-                      </div>
+                    <div className={styles.headerPath}>
+                      file:///home/user/documents/character/about.txt
                     </div>
+                  </div>
                   <div className={styles.scrollContainer}>
-                    
+
                     <h4 className={styles.infoList}>
                       <b>NOME:</b> <span className={styles.alignRight}>Walter White</span> <br />
                       <b>IDADE:</b> <span className={styles.alignRight}>50</span> <br />
@@ -161,12 +161,12 @@ export default function Brb() {
               <div className={styles.content1}>
                 <div id="ABOUT" className={styles.tabPane}>
                   <div className={styles.headerBox}>
-                      <div className={styles.headerPath}>
-                        file:///home/user/documents/character/about.txt
-                      </div>
+                    <div className={styles.headerPath}>
+                      file:///home/user/documents/character/about.txt
                     </div>
+                  </div>
                   <div className={styles.scrollContainer}>
-                    
+
                     <h4 className={styles.infoList} >
                       <b>NOME:</b> <span className={styles.alignRight}>Jesse Pinkman</span> <br />
                       <b>IDADE:</b> <span className={styles.alignRight}>27</span> <br />
@@ -199,6 +199,110 @@ export default function Brb() {
                       severamente machucado, marcas de cicatrizes definitivas
                       e uma barba e cabelo longos e desgrenhados que evidenciam
                       o impacto psicológico e físico de sua jornada.
+                    </p>
+                    <div className={styles.footerBox}>
+                      <div className={styles.wigglyLine}>
+                        <hr className={styles.innerLine} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.mainCard}>
+            <div className={styles.card1}>
+              <div className={styles.card1config}>
+                <div className={styles.card1image}>
+                  <Image
+                    src="/saul.png"
+                    alt="Alcanos"
+                    width={200}
+                    height={200}
+                  />
+                </div>
+              </div>
+              <div className={styles.ul}>
+                <li className={styles.ulItens}>
+                  <Image
+                    src="/folder.svg"
+                    alt="Alcanos"
+                    width={15}
+                    height={15}
+                    className={styles.folder}
+                  />
+                  Dados
+                </li>
+                <li className={styles.ulItens}>
+                  <Image
+                    src="/folder.svg"
+                    alt="Alcanos"
+                    width={15}
+                    height={15}
+                    className={styles.folder}
+                  />
+                  Histórico
+                </li>
+                <li className={styles.ulItens} >
+                  <Image
+                    src="/folder.svg"
+                    alt="Alcanos"
+                    width={15}
+                    height={15}
+                    className={styles.folder}
+                  />
+                  Aparência
+                </li>
+              </div>
+            </div>
+            <div className={styles.content}>
+              <div className={styles.content1}>
+                <div id="ABOUT" className={styles.tabPane}>
+                  <div className={styles.headerBox}>
+                    <div className={styles.headerPath}>
+                      file:///home/user/documents/character/about.txt
+                    </div>
+                  </div>
+                  <div className={styles.scrollContainer}>
+
+                    <h4 className={styles.infoList} >
+                      <b>NOME:</b> <span className={styles.alignRight}>Saul Goodman J̶i̶m̶m̶y̶ ̶M̶c̶G̶i̶l̶l̶</span> <br />
+                      <b>IDADE:</b> <span className={styles.alignRight}>50</span> <br />
+                      <b>OCUPAÇÃO:</b> <span className={styles.alignRight}>Advogado</span> <br />
+                      <b>ANIVERSÁRIO:</b> <span className={styles.alignRight}>12/11/1960</span> <br />
+                    </h4>
+                    <div className={styles.greenDivider}></div>
+                    <h4 className={styles.sectionTitle} ><b>HISTÓRICO</b></h4>
+                    <p className={styles.textContent}>
+                      “
+                      Hi, I'm Saul Goodman. Did you know that you have rights? The
+                      Constitution says you do. And so do I. I believe that until
+                      proven guilty, every man, woman, and child in this country
+                      is innocent. And that's why I fight for you, Albuquerque!
+                      Better call Saul!
+                      „
+                    </p>
+                    <div className={styles.greenDivider}></div>
+                    <h4 className={styles.sectionTitle} ><b>APARÊNCIA</b></h4>
+                    <p className={styles.textContent}>
+                      Saul Goodman (interpretado por Bob Odenkirk) possui
+                      um visual espalhafatoso e deliberadamente cafona,
+                      projetado para chamar a atenção como um advogado de
+                      porta de cadeia extravagante. Ele é reconhecido por
+                      seus ternos de corte largo em cores berrantes e
+                      ultrajantes — como amarelo, rosa, azul-elétrico
+                      e roxo —, sempre combinados com camisas de cores
+                      contrastantes, gravatas de seda chamativas e um
+                      lenço no bolso do paletó. Sua aparência física
+                      inclui o cabelo castanho penteado em um
+                      comb-over perfeitamente alinhado para disfarçar
+                      a calvície na coroa da cabeça e um bronzeado
+                      artificial de salão. Para arrematar o estilo
+                      de vigarista sofisticado, ele nunca deixa de
+                      usar acessórios dourados espessos, como
+                      relógios e anéis grandes, além de uma fita
+                      ou broche de conscientização sempre preso
+                      à lapela para fingir empatia.
                     </p>
                     <div className={styles.footerBox}>
                       <div className={styles.wigglyLine}>
