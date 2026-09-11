@@ -8,12 +8,25 @@
     border: #b8e76d 2px solid;
     justify-content: center;
     width: 40%;
+    max-width: 900px;
     color: #b8e76d;
-    margin: auto;
+    margin: 40px auto 0;
+    box-sizing: border-box;
+    min-width: 0;
 }
 
 .brb {
-    margin-top: 200px;
+    margin-top: 120px;
+    display: flex;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 95%;
+    background-color: #020407;
+    box-sizing: border-box;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
 }
 
 @keyframes moveLines {
@@ -32,14 +45,15 @@
     max-width: 500px;
     margin: 0 auto;
     position: relative;
+    min-width: 0;
 }
 
 .scrollContainer {
     height: 450px;
     overflow-y: auto;
+    overflow-x: hidden;
     padding: 0 14px;
     box-sizing: border-box;
-
     scrollbar-width: thin;
     scrollbar-color: #b8e76d #020407;
 }
@@ -63,12 +77,13 @@
 }
 
 .headerBox {
-    padding: 15px 0px;
+    padding: 15px 0;
     font-size: 0.8em;
     background-blend-mode: multiply;
     position: sticky;
-    top: 0px;
+    top: 0;
     margin-bottom: 15px;
+    z-index: 2;
 }
 
 .headerPath {
@@ -81,13 +96,13 @@
             rgba(0, 0, 0, 0.445) 50%);
     background-size: 100% 4px;
     animation: moveLines 1s infinite linear;
+    overflow-wrap: anywhere;
 }
 
 .infoList {
     font-size: 1rem;
     line-height: 1.6;
     margin: 0;
-
 }
 
 .alignRight {
@@ -95,36 +110,36 @@
 }
 
 .sectionTitle {
-    margin: 15px 0 5px 0;
+    margin: 15px 0 5px;
     font-size: 1.1rem;
 }
 
 .textContent {
     font-size: 0.95rem;
     line-height: 1.4;
-    margin: 0 0 15px 0;
+    margin: 0 0 15px;
 }
 
 .greenDivider {
     display: block;
     padding: 0.5px;
     background: #b8e76d;
-    box-shadow: 0px 0px 2px #000;
-    margin: 15px 0px;
+    box-shadow: 0 0 2px #000;
+    margin: 15px 0;
 }
 
 .footerBox {
     width: 100%;
     background-blend-mode: multiply;
     position: sticky;
-    bottom: 0px;
-    padding: 15px 0px;
-    background-position: 0px -2px;
+    bottom: 0;
+    padding: 15px 0;
+    background-position: 0 -2px;
     margin-top: 15px;
 }
 
 .innerLine {
-    height: 0px;
+    height: 0;
     background-color: #293b0d;
     border: none;
     margin: 0;
@@ -133,10 +148,12 @@
 .content {
     padding: 7px;
     min-height: 303px;
+    min-width: 0;
 }
 
 .card1 {
     padding: 24px;
+    box-sizing: border-box;
 }
 
 .card1config {
@@ -145,8 +162,9 @@
     border: #b8e76d solid 2px;
     align-items: center;
     width: 205px;
+    max-width: 100%;
     justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
 }
 
 .folder {
@@ -156,19 +174,100 @@
 .card1image {
     background-size: cover;
     background-blend-mode: luminosity;
-    box-shadow: 0px 0px 2px #000;
+    box-shadow: 0 0 2px #000;
     opacity: .85;
+    max-width: 100%;
 }
 
 .ulItens {
     border-bottom: 2px solid #b8e76d;
     margin: 10px;
     list-style: none;
+    overflow-wrap: anywhere;
+}
+
+.seriesIntro {
+    width: min(90%, 1100px);
+    margin: 120px auto 50px;
+    border: 2px solid #b8e76d;
+    color: #b8e76d;
+    background-color: #020407;
+    background-image: linear-gradient(rgba(23, 44, 10, 0.932) 50%,
+            rgba(0, 0, 0, 0.445) 50%);
+    background-size: 100% 4px;
+    margin-top: 150px;
+    animation: moveLines 1s infinite linear;
+    box-sizing: border-box;
+}
+
+.introHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #b8e76d;
+    font-family: monospace;
+    font-size: .8rem;
+    overflow-wrap: anywhere;
+}
+
+.introContent {
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.introTitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.introTitle span {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.introTitle small {
+    color: #8cb343;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin-top: 4px;
+}
+
+.introContent p {
+    color: #dce8d0;
+    line-height: 1.6;
+    font-size: .95rem;
+    margin: 0 0 15px;
+}
+
+.introContent p b {
+    color: #b8e76d;
+}
+
+.introData {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+    padding-top: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #293b0d;
+    font-family: monospace;
+    font-size: .75rem;
+}
+
+.introData b {
+    color: #b8e76d;
 }
 
 @media screen and (max-width: 1400px) {
     .mainCard {
         width: 65%;
+    }
+
+    .seriesIntro {
+        margin-top: 190px;
     }
 }
 
@@ -180,7 +279,13 @@
 
 @media screen and (max-width: 768px) {
     .brb {
+        margin-top: 150px;
+        gap: 15px;
+    }
+
+    .seriesIntro {
         margin-top: 200px;
+        margin-bottom: 35px;
     }
 
     .mainCard {
@@ -190,7 +295,7 @@
     }
 
     .card1config {
-        margin: 0 auto 20px auto;
+        margin: 0 auto 20px;
     }
 
     .scrollContainer {
@@ -203,10 +308,77 @@
         margin-left: 10px;
         text-align: left;
     }
+
+    .introHeader {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .introContent {
+        padding: 20px;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 627px) {
     .brb {
+        margin-top: 100px;
+    }
+
+    .seriesIntro {
+        width: 94%;
         margin-top: 250px;
+    }
+
+    .introContent {
+        padding: 15px;
+    }
+
+    .introTitle span {
+        letter-spacing: 1px;
+    }
+
+    .introData {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .mainCard {
+        width: 94%;
+        padding: 10px;
+    }
+
+    .card1 {
+        padding: 15px 8px;
+    }
+
+    .content {
+        padding: 4px;
+    }
+
+    .scrollContainer {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .mainCard {
+        width: 96%;
+    }
+
+    .seriesIntro {
+        width: 94%;
+        margin-top: 270px;
+    }
+
+    .introContent {
+        padding: 12px;
+    }
+
+    .introTitle span {
+        font-size: 1.6rem;
+    }
+
+    .headerPath {
+        font-size: .75rem;
     }
 }
