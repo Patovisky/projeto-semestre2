@@ -19,7 +19,7 @@ export default function Home() {
           />
 
           <div className={styles.textoSobreposto}>
-            Química com pato!
+            Química completa
           </div>
 
         </div>

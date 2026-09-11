@@ -652,6 +652,172 @@ export default function Tabela() {
                         <li className={styles.p11}>Hidrogênio</li>
                     </ul>
                 </div>
+                <div className={styles.infoConfig}>
+                    <h2>Organização da Tabela Periódica</h2>
+                    <p className={styles.pinfo}>
+                        Os <span>períodos</span> correspondem às linhas horizontais numeradas
+                        da Tabela Periódica. Os elementos presentes em um mesmo período
+                        possuem a mesma quantidade de <span>camadas eletrônicas</span>.
+                        Ao todo, existem sete períodos.
+                        <br /><br />
+
+                        <span>1º Período:</span> possui 2 elementos.
+                        <br />
+                        <span>2º Período:</span> possui 8 elementos.
+                        <br />
+                        <span>3º Período:</span> possui 8 elementos.
+                        <br />
+                        <span>4º Período:</span> possui 18 elementos.
+                        <br />
+                        <span>5º Período:</span> possui 18 elementos.
+                        <br />
+                        <span>6º Período:</span> possui 32 elementos.
+                        <br />
+                        <span>7º Período:</span> possui 32 elementos.
+                        <br /><br />
+
+                        Como algumas dessas linhas poderiam ficar muito extensas,
+                        as séries dos <span>lantanídeos</span> e dos
+                        <span> actinídeos</span> costumam ser representadas separadamente
+                        na parte inferior da tabela.
+                    </p>
+                </div>
+
+                <div className={styles.infoConfig}>
+                    <h2>Grupos e Famílias</h2>
+                    <p className={styles.pinfo}>
+                        Os <span>grupos</span>, também conhecidos tradicionalmente como
+                        famílias, correspondem às colunas verticais da Tabela Periódica.
+                        Elementos pertencentes ao mesmo grupo apresentam características
+                        semelhantes e, nos elementos representativos, possuem o mesmo
+                        número de <span>elétrons na camada de valência</span>.
+                        <br /><br />
+
+                        A Tabela Periódica possui <span>18 grupos</span>, numerados de 1
+                        a 18 de acordo com a organização estabelecida pela
+                        <span>IUPAC</span>. Muitos dos elementos presentes nesses grupos
+                        apresentam propriedades químicas semelhantes.
+                        <br /><br />
+
+                        <span>Grupo 1 (Família 1A):</span> Metais alcalinos — lítio,
+                        sódio, potássio, rubídio, césio e frâncio.
+                        <br />
+                        <span>Grupo 2 (Família 2A):</span> Metais alcalino-terrosos —
+                        berílio, magnésio, cálcio, estrôncio, bário e rádio.
+                        <br />
+                        <span>Grupo 13 (Família 3A):</span> Família do Boro — boro,
+                        alumínio, gálio, índio, tálio e nihônio.
+                        <br />
+                        <span>Grupo 14 (Família 4A):</span> Família do Carbono —
+                        carbono, silício, germânio, estanho, chumbo e fleróvio.
+                        <br />
+                        <span>Grupo 15 (Família 5A):</span> Família do Nitrogênio —
+                        nitrogênio, fósforo, arsênio, antimônio, bismuto e moscóvio.
+                        <br />
+                        <span>Grupo 16 (Família 6A):</span> Calcogênios — oxigênio,
+                        enxofre, selênio, telúrio, polônio e livermório.
+                        <br />
+                        <span>Grupo 17 (Família 7A):</span> Halogênios — flúor, cloro,
+                        bromo, iodo, astato e tenesso.
+                        <br />
+                        <span>Grupo 18 (Família 8A):</span> Gases nobres — hélio,
+                        neônio, argônio, criptônio, xenônio, radônio e oganessônio.
+                    </p>
+                </div>
+
+                <div className={styles.infoConfig}>
+                    <h2>Elementos de Transição</h2>
+                    <p className={styles.pinfo}>
+                        Os <span>elementos de transição</span>, também chamados de
+                        metais de transição, ocupam a região central da Tabela
+                        Periódica e pertencem aos grupos de 3 a 12.
+                        <br /><br />
+
+                        <span>Grupo 3 (Família 3B):</span> escândio, ítrio e a série
+                        dos lantanídeos e actinídeos.
+                        <br />
+                        <span>Grupo 4 (Família 4B):</span> titânio, zircônio, háfnio
+                        e rutherfórdio.
+                        <br />
+                        <span>Grupo 5 (Família 5B):</span> vanádio, nióbio, tântalo
+                        e dúbnio.
+                        <br />
+                        <span>Grupo 6 (Família 6B):</span> cromo, molibdênio,
+                        tungstênio e seabórgio.
+                        <br />
+                        <span>Grupo 7 (Família 7B):</span> manganês, tecnécio, rênio
+                        e bóhrio.
+                        <br />
+                        <span>Grupo 8 (Família 8B):</span> ferro, rutênio, ósmio
+                        e hássio.
+                        <br />
+                        <span>Grupo 9 (Família 8B):</span> cobalto, ródio, irídio
+                        e meitnério.
+                        <br />
+                        <span>Grupo 10 (Família 8B):</span> níquel, paládio, platina
+                        e darmstádio.
+                        <br />
+                        <span>Grupo 11 (Família 1B):</span> cobre, prata, ouro
+                        e roentgênio.
+                        <br />
+                        <span>Grupo 12 (Família 2B):</span> zinco, cádmio, mercúrio
+                        e copernício.
+                    </p>
+                </div>
+
+                <div className={styles.infoConfig}>
+                    <h2>Séries dos Lantanídeos e Actinídeos</h2>
+                    <p className={styles.pinfo}>
+                        A <span>série dos lantanídeos</span> é formada por 15 elementos:
+                        lantânio, cério, praseodímio, neodímio, promécio, samário,
+                        európio, gadolínio, térbio, disprósio, hólmio, érbio, túlio,
+                        itérbio e lutécio.
+                        <br /><br />
+
+                        Já a <span>série dos actinídeos</span> também reúne 15 elementos:
+                        actínio, tório, protactínio, urânio, netúnio, plutônio,
+                        amerício, cúrio, berquélio, califórnio, einstênio, férmio,
+                        mendelévio, nobélio e laurêncio.
+                        <br /><br />
+
+                        Essas duas séries são normalmente colocadas abaixo da tabela
+                        principal para evitar que sua representação torne os períodos
+                        ainda mais extensos.
+                    </p>
+                </div>
+
+                <div className={styles.infoConfig}>
+                    <h2>Sistema de Grupos da IUPAC</h2>
+                    <p className={styles.pinfo}>
+                        A <span>União Internacional de Química Pura e Aplicada
+                            (IUPAC)</span> estabeleceu a numeração dos grupos da Tabela
+                        Periódica de 1 a 18. Apesar disso, a antiga identificação
+                        por letras e números, como 1A, 2A e 8B, ainda aparece
+                        frequentemente em materiais didáticos.
+                        <br /><br />
+
+                        Uma característica importante dessa organização é que a antiga
+                        <span> família 8B</span> corresponde atualmente aos
+                        <span> grupos 8, 9 e 10</span>. Essa mudança ajuda a padronizar
+                        a identificação dos elementos em diferentes países.
+                    </p>
+                </div>
+
+                <div className={styles.infoConfig}>
+                    <h2>Posição do Hidrogênio</h2>
+                    <p className={styles.pinfo}>
+                        O <span>hidrogênio</span> aparece na primeira coluna da Tabela
+                        Periódica, acima dos metais alcalinos, principalmente por
+                        apresentar uma configuração eletrônica semelhante à desses
+                        elementos.
+                        <br /><br />
+
+                        Entretanto, o hidrogênio possui características próprias e
+                        <span> não pertence aos metais alcalinos</span>. Por isso,
+                        sua posição na tabela deve ser interpretada levando em conta
+                        suas propriedades químicas e sua configuração eletrônica.
+                    </p>
+                </div>
             </main>
         </div>
     );

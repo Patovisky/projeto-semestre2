@@ -142,6 +142,57 @@
     font-family: 'Consolas', 'Courier New', monospace;
 }
 
+@media (max-width: 900px) {
+    .tabelas {
+        padding: 0 15px 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tabelas {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        margin-top: 30px;
+        padding: 0 10px 40px;
+    }
+
+    .tabelas table {
+        width: 100%;
+        max-width: 500px;
+        min-width: 0;
+    }
+
+    .tabelas th {
+        font-size: 17px;
+        padding: 12px 8px;
+    }
+
+    .tabelas td {
+        font-size: 15px;
+        padding: 10px 8px;
+    }
+}
+
+.tituloSecao {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.tituloSecao::after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 4px;
+    margin: 12px auto 0;
+    background: aquamarine;
+    box-shadow: 0 0 12px rgba(127, 255, 212, 0.7);
+}
+
 @media screen and (max-width: 800px) {
     .all {
         display: flex;
@@ -152,18 +203,22 @@
         max-width: 100%;
     }
 
-    .h1,
-    .title h2,
     .pinfo {
         width: 90%;
-        max-width: 100%;
     }
 
+    .imgRep2 {
+        max-width: calc(100% - 40px);
+        margin: 20px;
+    }
+
+    .tituloSecao {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 486px) {
     .title h3 {
-        max-width: calc(100% - 30px);
-    }
-
-    .imgRep {
-        max-width: calc(100% - 30px);
+        margin-top: 150px;
     }
 }

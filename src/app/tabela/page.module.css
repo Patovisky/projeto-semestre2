@@ -1,26 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
 .mainContainer {
-    background: rgb(37, 53, 54);
+    background: rgb(5, 10, 18);
     margin: 40px;
     padding: 30px;
     border-radius: 20px;
     overflow-x: auto;
     margin-top: 100px;
+    border: 1px solid rgb(22, 47, 65);
+    box-shadow: 0 0 25px rgba(0, 210, 255, 0.08);
 }
 
 .tituloMain {
     font-size: 45px;
     text-align: center;
     font-family: Andale Mono, monospace;
-    color: rgb(10, 25, 36);
+    color: rgb(0, 238, 255);
     margin-bottom: 20px;
+    text-shadow: 0 0 8px rgba(0, 238, 255, 0.8), 0 0 20px rgba(0, 238, 255, 0.35);
 }
 
 .textoMain {
     font-size: 22px;
     text-align: center;
     font-family: Andale Mono, monospace;
-    color: rgb(10, 25, 36);
+    color: rgb(169, 220, 230);
     margin-bottom: 20px;
 }
 
@@ -48,12 +52,15 @@
 }
 
 .cabecalhoTabela {
-    background-color: rgb(23, 36, 39);
-    color: white;
+    background-color: rgb(8, 22, 32);
+    color: rgb(220, 250, 255);
     padding: 15px;
     font-size: 24px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    border: 1px solid rgb(0, 217, 255);
+    box-shadow: 0 0 8px rgba(0, 217, 255, 0.5);
+    text-shadow: 0 0 7px rgba(0, 217, 255, 0.8);
 }
 
 .celulaTabela {
@@ -70,136 +77,234 @@
 
 .hidrogenio {
     cursor: pointer;
-    background-color: rgb(219, 243, 255);
+    background-color: rgb(8, 27, 40);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(133, 160, 247);
+    color: rgb(0, 225, 255);
+    border: 1px solid rgb(0, 180, 220);
+    box-shadow: 0 0 8px rgba(0, 225, 255, 0.35), inset 0 0 12px rgba(0, 225, 255, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .gasesNobres {
     cursor: pointer;
-    background-color: rgb(243, 206, 235);
+    background-color: rgb(37, 10, 38);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(189, 79, 174);
+    color: rgb(255, 79, 220);
+    border: 1px solid rgb(220, 45, 190);
+    box-shadow: 0 0 8px rgba(255, 79, 220, 0.35), inset 0 0 12px rgba(255, 79, 220, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .metaisAlcalinos {
     cursor: pointer;
-    background-color: rgb(176, 241, 211);
+    background-color: rgb(5, 38, 34);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(19, 172, 192);
+    color: rgb(0, 255, 200);
+    border: 1px solid rgb(0, 210, 165);
+    box-shadow: 0 0 8px rgba(0, 255, 200, 0.35), inset 0 0 12px rgba(0, 255, 200, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .metaisAlcalinoterrosos {
     cursor: pointer;
-    background-color: rgb(255, 144, 153);
+    background-color: rgb(42, 8, 25);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(158, 10, 121);
+    color: rgb(255, 75, 145);
+    border: 1px solid rgb(225, 45, 115);
+    box-shadow: 0 0 8px rgba(255, 75, 145, 0.35), inset 0 0 12px rgba(255, 75, 145, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .semimetais {
     cursor: pointer;
-    background-color: rgb(245, 208, 153);
+    background-color: rgb(42, 25, 8);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(199, 102, 37);
+    color: rgb(255, 170, 55);
+    border: 1px solid rgb(230, 130, 25);
+    box-shadow: 0 0 8px rgba(255, 170, 55, 0.35), inset 0 0 12px rgba(255, 170, 55, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .ametais {
     cursor: pointer;
-    background-color: rgb(163, 215, 245);
+    background-color: rgb(8, 20, 45);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(75, 89, 212);
+    color: rgb(65, 155, 255);
+    border: 1px solid rgb(35, 115, 225);
+    box-shadow: 0 0 8px rgba(65, 155, 255, 0.35), inset 0 0 12px rgba(65, 155, 255, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .blocoP {
     cursor: pointer;
-    background-color: rgb(208, 247, 145);
+    background-color: rgb(16, 39, 20);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(82, 158, 101);
+    color: rgb(110, 255, 120);
+    border: 1px solid rgb(65, 210, 80);
+    box-shadow: 0 0 8px rgba(110, 255, 120, 0.3), inset 0 0 12px rgba(110, 255, 120, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .metalTransicao {
     cursor: pointer;
-    background-color: rgb(215, 186, 248);
+    background-color: rgb(27, 12, 48);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(113, 95, 180);
+    color: rgb(180, 105, 255);
+    border: 1px solid rgb(140, 65, 230);
+    box-shadow: 0 0 8px rgba(180, 105, 255, 0.35), inset 0 0 12px rgba(180, 105, 255, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .lantanideos {
     cursor: pointer;
-    background-color: rgb(254, 255, 222);
+    background-color: rgb(45, 34, 8);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(218, 165, 106);
+    color: rgb(255, 215, 80);
+    border: 1px solid rgb(225, 175, 40);
+    box-shadow: 0 0 8px rgba(255, 215, 80, 0.3), inset 0 0 12px rgba(255, 215, 80, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .actinideos {
     cursor: pointer;
-    background-color: rgb(183, 194, 255);
+    background-color: rgb(24, 12, 45);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(121, 84, 207);
+    color: rgb(170, 115, 255);
+    border: 1px solid rgb(125, 65, 220);
+    box-shadow: 0 0 8px rgba(170, 115, 255, 0.35), inset 0 0 12px rgba(170, 115, 255, 0.08);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .desconhecido {
     cursor: pointer;
-    background-color: rgb(235, 236, 241);
+    background-color: rgb(22, 25, 31);
     padding: 15px;
     word-wrap: break-word;
     position: relative;
-    color: rgb(155, 151, 163);
+    color: rgb(150, 165, 180);
+    border: 1px solid rgb(95, 110, 125);
+    box-shadow: 0 0 8px rgba(150, 165, 180, 0.2), inset 0 0 12px rgba(150, 165, 180, 0.05);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.hidrogenioSigla { color: rgb(113, 142, 235); }
-.hidrogenioNome { color: rgb(133, 160, 247); }
-.gasesNobresSigla { color: rgb(160, 50, 145); }
-.gasesNobresNome { color: rgb(189, 79, 174); }
-.metaisAlcalinosSigla { color: rgb(13, 137, 153); }
-.metaisAlcalinosNome { color: rgb(19, 172, 192); }
-.metaisAlcalinoterrososSigla { color: rgb(138, 5, 105); }
-.metaisAlcalinoterrososNome { color: rgb(158, 10, 121); }
-.semimetaisSigla { color: rgb(148, 42, 9); }
-.semimetaisNome { color: rgb(199, 102, 37); }
-.ametaisSigla { color: rgb(54, 69, 199); }
-.ametaisNome { color: rgb(75, 89, 212); }
-.blocoPSigla { color: rgb(55, 129, 95); }
-.blocoPNome { color: rgb(82, 158, 101); }
-.metalTransicaoSigla { color: rgb(73, 68, 177); }
-.metalTransicaoNome { color: rgb(113, 95, 180); }
-.lantanideosSigla { color: rgb(201, 125, 81); }
-.lantanideosNome { color: rgb(218, 165, 106); }
-.actinideosSigla { color: rgb(85, 37, 197); }
-.actinideosNome { color: rgb(121, 84, 207); }
-.desconhecidoSigla { color: rgb(125, 114, 141); }
-.desconhecidoNome { color: rgb(155, 151, 163); }
+.hidrogenioSigla {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 7px rgba(0, 225, 255, 0.8);
+}
+
+.hidrogenioNome {
+    color: rgb(80, 235, 255);
+}
+
+.gasesNobresSigla {
+    color: rgb(255, 55, 215);
+    text-shadow: 0 0 7px rgba(255, 55, 215, 0.8);
+}
+
+.gasesNobresNome {
+    color: rgb(255, 105, 230);
+}
+
+.metaisAlcalinosSigla {
+    color: rgb(0, 255, 200);
+    text-shadow: 0 0 7px rgba(0, 255, 200, 0.8);
+}
+
+.metaisAlcalinosNome {
+    color: rgb(65, 255, 220);
+}
+
+.metaisAlcalinoterrososSigla {
+    color: rgb(255, 50, 135);
+    text-shadow: 0 0 7px rgba(255, 50, 135, 0.8);
+}
+
+.metaisAlcalinoterrososNome {
+    color: rgb(255, 105, 165);
+}
+
+.semimetaisSigla {
+    color: rgb(255, 135, 30);
+    text-shadow: 0 0 7px rgba(255, 135, 30, 0.8);
+}
+
+.semimetaisNome {
+    color: rgb(255, 185, 75);
+}
+
+.ametaisSigla {
+    color: rgb(55, 145, 255);
+    text-shadow: 0 0 7px rgba(55, 145, 255, 0.8);
+}
+
+.ametaisNome {
+    color: rgb(100, 180, 255);
+}
+
+.blocoPSigla {
+    color: rgb(90, 255, 110);
+    text-shadow: 0 0 7px rgba(90, 255, 110, 0.8);
+}
+
+.blocoPNome {
+    color: rgb(130, 255, 145);
+}
+
+.metalTransicaoSigla {
+    color: rgb(175, 90, 255);
+    text-shadow: 0 0 7px rgba(175, 90, 255, 0.8);
+}
+
+.metalTransicaoNome {
+    color: rgb(205, 145, 255);
+}
+
+.lantanideosSigla {
+    color: rgb(255, 200, 55);
+    text-shadow: 0 0 7px rgba(255, 200, 55, 0.8);
+}
+
+.lantanideosNome {
+    color: rgb(255, 225, 100);
+}
+
+.actinideosSigla {
+    color: rgb(165, 100, 255);
+    text-shadow: 0 0 7px rgba(165, 100, 255, 0.8);
+}
+
+.actinideosNome {
+    color: rgb(200, 155, 255);
+}
+
+.desconhecidoSigla {
+    color: rgb(135, 155, 175);
+    text-shadow: 0 0 7px rgba(135, 155, 175, 0.6);
+}
+
+.desconhecidoNome {
+    color: rgb(175, 190, 205);
+}
 
 .sigla {
     font-size: 38px;
@@ -216,26 +321,31 @@
     position: absolute;
     top: 8px;
     left: 10px;
-    background-color: rgb(39, 42, 41);
+    background-color: rgb(3, 10, 16);
     padding: 2px;
     font-weight: bold;
     font-size: 12px;
+    border: 1px solid rgb(45, 75, 90);
 }
-.nAtomico span{
-    color: black !important; 
+
+.nAtomico span {
+    color: rgb(170, 220, 230) !important;
 }
+
 .familias {
-    background-color: rgb(37, 53, 54);
+    background-color: rgb(7, 16, 24);
     width: 50%;
     border-radius: 10px;
     margin: auto;
     font-size: 30px;
     cursor: pointer;
-    color: antiquewhite;
+    color: rgb(170, 225, 235);
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
     font-family: 'Mozilla text', sans-serif;
+    border: 1px solid rgb(0, 190, 220);
+    box-shadow: 0 0 12px rgba(0, 190, 220, 0.25), inset 0 0 15px rgba(0, 190, 220, 0.05);
 }
 
 .espaco {
@@ -245,24 +355,131 @@
     padding: 0;
 }
 
-.p1 { border-left: 30px solid rgb(176, 241, 211); }
-.p2 { border-left: 30px solid rgb(255, 144, 153); }
-.p3 { border-left: 30px solid rgb(215, 186, 248); }
-.p4 { border-left: 30px solid rgb(208, 247, 145); }
-.p5 { border-left: 30px solid rgb(245, 208, 153); }
-.p6 { border-left: 30px solid rgb(163, 215, 245); }
-.p7 { border-left: 30px solid rgb(243, 206, 235); }
-.p8 { border-left: 30px solid rgb(254, 255, 222); }
-.p9 { border-left: 30px solid rgb(183, 194, 255); }
-.p10 { border-left: 30px solid rgb(235, 236, 241); }
-.p11 { border-left: 30px solid rgb(198, 230, 246); }
+.infoConfig {
+    display: flex;
+    overflow-wrap: break-word;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    max-width: 100%;
+}
 
-.column{
+.infoConfig h2 {
+    color: #000000;
+    background-color: #08ffc9;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 2px solid #08ffc9;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-weight: bold;
+    box-shadow: 0 0 12px rgba(8, 255, 201, 0.4);
+    max-width: calc(100% - 40px);
+    text-align: center;
+}
+
+.pinfo {
+    width: 70%;
+    max-width: 100%;
+    background: #0c0c0c;
+    border: 1px solid #333333;
+    padding: 45px 25px 25px 25px;
+    border-radius: 8px;
+    line-height: 1.6;
+    color: #cccccc;
+    font-family: 'Consolas', 'Courier New', monospace;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+}
+
+.pinfo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    background: #181818;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid #333333;
+}
+
+.pinfo::after {
+    content: "  C:\\user\\pato-tech  ";
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    background: #0c0c0c;
+    color: #ffffff;
+    font-size: 11px;
+    height: 31px;
+    padding: 0 14px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #333333;
+    border-bottom: none;
+    z-index: 2;
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
+.p1 {
+    border-left: 30px solid rgb(0, 255, 200);
+}
+
+.p2 {
+    border-left: 30px solid rgb(255, 75, 145);
+}
+
+.p3 {
+    border-left: 30px solid rgb(180, 105, 255);
+}
+
+.p4 {
+    border-left: 30px solid rgb(110, 255, 120);
+}
+
+.p5 {
+    border-left: 30px solid rgb(255, 170, 55);
+}
+
+.p6 {
+    border-left: 30px solid rgb(65, 155, 255);
+}
+
+.p7 {
+    border-left: 30px solid rgb(255, 79, 220);
+}
+
+.p8 {
+    border-left: 30px solid rgb(255, 215, 80);
+}
+
+.p9 {
+    border-left: 30px solid rgb(170, 115, 255);
+}
+
+.p10 {
+    border-left: 30px solid rgb(150, 165, 180);
+}
+
+.p11 {
+    border-left: 30px solid rgb(90, 210, 240);
+}
+
+.column {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.column li{
+
+.column li {
     list-style: none;
     font-style: normal;
 }
@@ -286,8 +503,14 @@
     .column {
         width: 100%;
     }
+
     .mainContainer table {
         margin-top: 120px;
+    }
+
+    .pinfo {
+        width: 85%;
+        max-width: 100%;
     }
 }
 
@@ -310,8 +533,14 @@
     .column {
         width: 100%;
     }
+
     .mainContainer table {
         margin-top: 120px;
+    }
+
+    .pinfo {
+        width: 90%;
+        max-width: 100%;
     }
 }
 
@@ -340,8 +569,15 @@
         padding: 5px 0;
         overflow-wrap: break-word;
     }
+
     .mainContainer table {
         margin-top: 120px;
+    }
+
+    .pinfo {
+        width: 90%;
+        max-width: 100%;
+        padding: 45px 20px 20px 20px;
     }
 }
 
@@ -351,9 +587,11 @@
         padding: 12px;
         margin-top: 120px;
     }
+
     .mainContainer table {
         margin-top: 120px;
     }
+
     .tabelah1 {
         font-size: 26px;
     }
@@ -370,5 +608,12 @@
 
     .column li {
         padding: 4px 0;
+    }
+
+    .pinfo {
+        width: 92%;
+        max-width: 100%;
+        padding: 45px 15px 15px 15px;
+        font-size: 16px;
     }
 }

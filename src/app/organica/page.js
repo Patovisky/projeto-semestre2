@@ -1156,12 +1156,7 @@ export default function Organica() {
               uma ligação dupla.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de enol"
-              width={500}
-              height={300}
-            />
+          
           </div>
 
           <div className={styles.infoConfig}>
@@ -1180,12 +1175,7 @@ export default function Organica() {
               éter.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de éteres"
-              width={500}
-              height={300}
-            />
+           
 
             <p className={styles.pinfo}>
               Os epóxidos são <span>éteres cíclicos de três membros</span>.
@@ -1194,12 +1184,6 @@ export default function Organica() {
               <span>epóxi-</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de epóxidos"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -1211,12 +1195,6 @@ export default function Organica() {
               remoção do hidrogênio da hidroxila.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de alcóxidos e fenóxidos"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -1242,12 +1220,7 @@ export default function Organica() {
               <span>-tiol</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de tióis e compostos sulfurados"
-              width={500}
-              height={300}
-            />
+           
           </div>
 
           <div className={styles.infoConfig}>
@@ -1263,12 +1236,7 @@ export default function Organica() {
               substituição ao <span>-oxi-</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de sulfetos ou tioéteres"
-              width={500}
-              height={300}
-            />
+           
           </div>
 
           <div className={styles.infoConfig}>
@@ -1279,12 +1247,7 @@ export default function Organica() {
               organizados em ordem alfabética.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de dissulfeto"
-              width={500}
-              height={300}
-            />
+          
           </div>
 
           <div className={styles.infoConfig}>
@@ -1301,12 +1264,7 @@ export default function Organica() {
               <span>sulfonatos</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de ácidos sulfônicos"
-              width={500}
-              height={300}
-            />
+           
           </div>
 
           <div className={styles.infoConfig}>
@@ -1327,12 +1285,7 @@ export default function Organica() {
               quantidade de grupos carbônicos ligados ao nitrogênio.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Estrutura de uma amina"
-              width={500}
-              height={300}
-            />
+          
 
             <p className={styles.pinfo}>
               Na nomenclatura, os grupos ligados ao nitrogênio são escritos em
@@ -1341,19 +1294,7 @@ export default function Organica() {
               <span>-di-, -tri- e -tetra-</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de nomenclatura de aminas"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de aminas"
-              width={500}
-              height={300}
-            />
+     
           </div>
 
           <div className={styles.infoConfig}>
@@ -1371,19 +1312,7 @@ export default function Organica() {
               são indicados pelo prefixo <span>N-</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Estrutura de uma amida"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de amidas"
-              width={500}
-              height={300}
-            />
+          
 
             <p className={styles.pinfo}>
               Quando existem duas carbonilas ligadas ao mesmo nitrogênio, o
@@ -1406,12 +1335,6 @@ export default function Organica() {
               <span>cianeto de + nome do radical orgânico</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de nitrilas"
-              width={500}
-              height={300}
-            />
 
             <p className={styles.pinfo}>
               As isonitrilas são relacionadas ao <span>isocianeto de
@@ -1421,12 +1344,6 @@ export default function Organica() {
               carbilamina.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de isonitrila"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -1437,19 +1354,7 @@ export default function Organica() {
               prefixo <span>nitro-</span> seguido do nome do hidrocarboneto.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de nitrocomposto"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de nitrocompostos"
-              width={500}
-              height={300}
-            />
+       
           </div>
 
           <div className={styles.infoConfig}>
@@ -1461,12 +1366,7 @@ export default function Organica() {
               ordem alfabética.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de sal de amônio"
-              width={500}
-              height={300}
-            />
+        
           </div>
 
           <div className={styles.infoConfig}>
@@ -1506,19 +1406,7 @@ export default function Organica() {
               número 1 e utiliza-se o sufixo <span>-al</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Estrutura de aldeído"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de aldeídos"
-              width={500}
-              height={300}
-            />
+           
 
             <p className={styles.pinfo}>
               Para indicar a distância entre grupos funcionais, é comum usar
@@ -1527,12 +1415,6 @@ export default function Organica() {
               carbono entre ele e a carbonila.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Posições alfa, beta e gama"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -1548,19 +1430,7 @@ export default function Organica() {
               carbonila é indicada pelo número do primeiro carbono envolvido.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de cetonas"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Cetonas cíclicas"
-              width={500}
-              height={300}
-            />
+           
 
             <p className={styles.pinfo}>
               Na nomenclatura não oficial, são citados os dois radicais ligados
@@ -1588,19 +1458,7 @@ export default function Organica() {
               tradicionais.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Estrutura de ácido carboxílico"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de ácidos carboxílicos"
-              width={500}
-              height={300}
-            />
+       
           </div>
 
           <div className={styles.infoConfig}>
@@ -1618,19 +1476,7 @@ export default function Organica() {
               Nos sais, acrescenta-se <span>de + nome do cátion</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de ésteres"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de sais orgânicos"
-              width={500}
-              height={300}
-            />
+         
 
             <p className={styles.pinfo}>
               Os ésteres cíclicos formados pela reação entre uma carboxila e
@@ -1638,12 +1484,7 @@ export default function Organica() {
               <span>lactonas</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de lactona"
-              width={500}
-              height={300}
-            />
+            
           </div>
 
           <div className={styles.infoConfig}>
@@ -1659,12 +1500,6 @@ export default function Organica() {
               os nomes são colocados em ordem alfabética e separados por hífen.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de anidridos de ácido"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -1681,12 +1516,6 @@ export default function Organica() {
               podem ser flúor, cloro, bromo ou iodo.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de haletos de acila"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -1703,19 +1532,7 @@ export default function Organica() {
               carbono carbonílico e o átomo ligado ao oxigênio ou ao nitrogênio.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de lactona"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de lactamas"
-              width={500}
-              height={300}
-            />
+          
           </div>
 
           <div className={styles.infoConfig}>
@@ -1726,12 +1543,6 @@ export default function Organica() {
                 orgânicos</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de compostos organometálicos"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
@@ -1743,12 +1554,7 @@ export default function Organica() {
                 magnésio</span>.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de compostos de Grignard"
-              width={500}
-              height={300}
-            />
+            
           </div>
 
           <div className={styles.infoConfig}>
@@ -1764,19 +1570,8 @@ export default function Organica() {
               radicais orgânicos em ordem alfabética seguidos do nome do metal.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de organometálicos"
-              width={500}
-              height={300}
-            />
-
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplo de composto organolítio"
-              width={500}
-              height={300}
-            />
+           
+           
           </div>
 
           <div className={styles.infoConfig}>
@@ -1788,12 +1583,7 @@ export default function Organica() {
               ou átomos formando pontes entre os anéis.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Exemplos de estruturas bicíclicas"
-              width={500}
-              height={300}
-            />
+           
           </div>
 
           <div className={styles.infoConfig}>
@@ -1817,177 +1607,650 @@ export default function Organica() {
               unidades.
             </p>
 
-            <Image
-              src="/images/placeholder.png"
-              alt="Cálculo do índice de deficiência de hidrogênio"
-              width={500}
-              height={300}
-            />
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Reações Orgânicas</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              tincidunt sapien vitae lorem consequat.
+              As <span>reações orgânicas</span> são transformações químicas que
+              ocorrem entre compostos orgânicos, provocando a quebra e a formação
+              de novas ligações químicas.
+
+              <br></br><br></br>
+
+              Essas reações possuem grande importância na indústria, pois permitem
+              a produção de <span>medicamentos, cosméticos, plásticos,
+                combustíveis</span> e diversos outros produtos utilizados no
+              cotidiano.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Reações de Adição</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              vitae neque tincidunt, malesuada sapien consequat.
+              A <span>reação de adição</span> ocorre quando uma molécula recebe
+              novos átomos ou grupos de átomos, geralmente por meio da quebra de
+              uma ligação múltipla.
+
+              <br></br><br></br>
+
+              Esse tipo de reação acontece principalmente em compostos que possuem
+              <span> insaturações</span>, como <span>alcenos</span> e
+              <span> alcinos</span>. Durante o processo, uma ligação dupla ou
+              tripla é transformada em ligações de menor ordem.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Reações de Substituição</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              vitae sapien tincidunt, consequat lorem sed.
+              A <span>reação de substituição</span> ocorre quando um átomo ou grupo
+              de átomos presente em uma molécula é substituído por outro átomo ou
+              grupo.
+
+              <br></br><br></br>
+
+              Esse tipo de reação é comum em <span>alcanos</span>,
+              <span> cicloalcanos</span> e <span>compostos aromáticos</span>.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Reações de Eliminação</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse vitae sapien tincidunt lorem consequat.
+              A <span>reação de eliminação</span> ocorre quando átomos ou grupos
+              ligados à molécula são removidos, levando geralmente à formação de
+              uma <span>ligação dupla</span> ou de outra insaturação.
+
+              <br></br><br></br>
+
+              Esse processo pode ser considerado, em muitos casos, o
+              <span> inverso de uma reação de adição</span>, pois uma molécula
+              perde grupos enquanto uma ligação múltipla é formada.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Reações de Oxidação e Redução</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum consequat lorem vitae sapien malesuada.
+              As reações de <span>oxidação e redução</span>, também chamadas de
+              reações <span>redox</span>, envolvem a transferência de elétrons
+              entre espécies químicas.
+
+              <br></br><br></br>
+
+              Na <span>oxidação</span>, ocorre perda de elétrons e aumento do
+              número de oxidação. Na <span>redução</span>, ocorre ganho de
+              elétrons e diminuição do número de oxidação.
+
+              <br></br><br></br>
+
+              Esses dois processos acontecem simultaneamente. A substância que
+              sofre oxidação atua como <span>agente redutor</span>, enquanto a
+              espécie que sofre redução atua como <span>agente oxidante</span>.
+
+              <br></br><br></br>
+
+              De maneira simplificada, uma reação pode ser representada por:
+
+              <br></br><br></br>
+
+              <span>A + B⁺ → A⁺ + B</span>
+
+              <br></br><br></br>
+
+              Nesse exemplo, A sofre oxidação, perde elétrons e atua como agente
+              redutor. Já B sofre redução, recebe elétrons e atua como agente
+              oxidante.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Esterificação</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              tincidunt sapien vitae libero consequat.
+              A <span>esterificação</span> é uma reação química reversível entre
+              um <span>ácido carboxílico</span> e um <span>álcool</span>, formando
+              um éster e água.
+
+              <br></br><br></br>
+
+              A reação pode ser representada por:
+
+              <br></br><br></br>
+
+              <span>ÁCIDO CARBOXÍLICO + ÁLCOOL → ÉSTER + ÁGUA</span>
+
+              <br></br><br></br>
+
+              Essa reação ocorre lentamente e pode ser acelerada pelo aumento da
+              temperatura e pela presença de um <span>catalisador</span>.
+              Quando realizada nessas condições, é conhecida como
+              <span> esterificação de Fischer</span>.
+
+              <br></br><br></br>
+
+              A reação inversa é chamada de <span>hidrólise de éster</span>,
+              na qual um éster reage com água, formando novamente um ácido
+              carboxílico e um álcool.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Hidrólise</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              vitae neque tincidunt, commodo sapien sed.
+              A <span>hidrólise</span> é uma reação em que uma molécula é
+              quebrada pela participação da água.
+
+              <br></br><br></br>
+
+              De maneira simplificada, uma reação de hidrólise pode ser
+              representada por:
+
+              <br></br><br></br>
+
+              <span>XY + H₂O → HY + XOH</span>
+
+              <br></br><br></br>
+
+              Dependendo da reação, podem ser necessárias condições específicas de
+              <span> temperatura</span> e <span>pressão</span>. A velocidade do
+              processo também pode ser aumentada pela utilização de
+              <span> catalisadores</span>, como ácidos, bases ou enzimas.
+
+              <br></br><br></br>
+
+              A hidrólise possui diversas aplicações, incluindo a
+              <span> saponificação de ácidos graxos</span>, a transformação de
+              açúcares e a preparação de álcoois e ácidos a partir de ésteres.
+
+              <br></br><br></br>
+
+              É importante não confundir <span>hidrólise</span> com
+              <span> desidratação</span>. Na hidrólise, a água participa da
+              quebra da molécula; na desidratação, ocorre a formação ou remoção
+              de água durante o processo.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Combustão</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              consequat lorem sed neque faucibus.
+              A <span>combustão</span> é uma reação química exotérmica entre um
+              combustível e um comburente, liberando energia principalmente na
+              forma de calor.
+
+              <br></br><br></br>
+
+              O <span>combustível</span> é a substância que sofre oxidação e
+              alimenta a reação. Alguns exemplos são gasolina, madeira, álcool,
+              diesel e gás de cozinha.
+
+              <br></br><br></br>
+
+              O <span>comburente</span> é a substância responsável por favorecer
+              a combustão. Na maioria das situações, esse papel é desempenhado
+              pelo <span>oxigênio (O₂)</span>.
+
+              <br></br><br></br>
+
+              Para que a combustão continue, é necessário que exista combustível
+              e comburente em condições adequadas. A reação pode ser interrompida
+              pela retirada de um desses componentes.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
-            <h2>Descarboxilização</h2>
+            <h2>Descarboxilação</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              consequat lorem sed neque faucibus.
+              A <span>descarboxilação</span> é uma reação na qual um grupo
+              carboxila <span>(–COOH)</span> é removido de uma molécula orgânica,
+              geralmente acompanhado pela liberação de <span>CO₂</span>.
+
+              <br></br><br></br>
+
+              Esse processo pode ocorrer em sistemas biológicos e também possui
+              aplicações na indústria química, farmacêutica e alimentícia.
+
+              <br></br><br></br>
+
+              Em termos gerais, a descarboxilação permite transformar uma molécula
+              orgânica em outra de estrutura diferente, com a perda de um átomo
+              de carbono na forma de dióxido de carbono.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
-            <h2>Fenilização</h2>
+            <h2>Fenilação</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              consequat lorem sed neque faucibus.
+              A <span>fenilação</span> é uma reação química que consiste na
+              introdução de um <span>grupo fenil (–C₆H₅)</span> em uma molécula
+              ou cadeia carbônica.
+
+              <br></br><br></br>
+
+              O grupo fenil é derivado do <span>benzeno</span> pela remoção de
+              um átomo de hidrogênio, podendo participar de diferentes reações de
+              substituição e acoplamento.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Hidrogenação</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              consequat lorem sed neque faucibus.
+              A <span>hidrogenação</span> ocorre principalmente em hidrocarbonetos
+              insaturados, como <span>alcenos, alcinos e dienos</span>. Também
+              pode ocorrer em determinadas estruturas aromáticas e cíclicas.
+
+              <br></br><br></br>
+
+              Nessa reação, o composto reage com <span>gás hidrogênio (H₂)</span>
+              na presença de catalisadores, como níquel, platina ou paládio.
+
+              <br></br><br></br>
+
+              Trata-se de uma <span>reação de adição</span>. A ligação π é
+              rompida e os átomos de hidrogênio são incorporados à molécula,
+              formando novas ligações simples.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Neutralização</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              consequat lorem sed neque faucibus.
+              Uma <span>reação de neutralização</span> ocorre quando uma
+              substância ácida reage com uma substância básica, formando
+              geralmente <span>água e um sal</span>.
+
+              <br></br><br></br>
+
+              De acordo com a definição de Arrhenius, a neutralização pode ser
+              representada por:
+
+              <br></br><br></br>
+
+              <span>H⁺ + OH⁻ → H₂O</span>
+
+              <br></br><br></br>
+
+              Um exemplo é a reação entre ácido clorídrico e hidróxido de sódio:
+
+              <br></br><br></br>
+
+              <span>HCl + NaOH → NaCl + H₂O</span>
+
+              <br></br><br></br>
+
+              Nesse processo, o <span>NaCl</span> é formado pelos íons
+              provenientes do ácido e da base. Enquanto a solução permanece
+              aquosa, esses íons continuam dissolvidos no meio.
+
+              <br></br><br></br>
+
+              A neutralização pode ser <span>total</span> ou
+              <span> parcial</span>. Na neutralização total, as quantidades de
+              H⁺ e OH⁻ são suficientes para reagirem completamente.
+
+              <br></br><br></br>
+
+              Um exemplo é:
+
+              <br></br><br></br>
+
+              <span>H₂SO₄ + 2 NaOH → Na₂SO₄ + 2 H₂O</span>
+
+              <br></br><br></br>
+
+              Também pode ocorrer:
+
+              <br></br><br></br>
+
+              <span>3 HCl + Al(OH)₃ → AlCl₃ + 3 H₂O</span>
+
+              <br></br><br></br>
+
+              Na <span>neutralização parcial</span>, existe excesso de H⁺ ou
+              OH⁻. Isso pode levar à formação de <span>hidrogenossais</span> ou
+              <span> hidroxissais</span>.
+
+              <br></br><br></br>
+
+              Exemplos:
+
+              <br></br><br></br>
+
+              <span>H₂CO₃ + NaOH → NaHCO₃ + H₂O</span>
+
+              <br></br>
+
+              <span>HNO₃ + Mg(OH)₂ → Mg(OH)NO₃ + H₂O</span>
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Compostos de Função Mista</h2>
             <p className={styles.pinfo}>
-              Quando uma molécula apresenta <span>mais de um grupo
-                funcional</span>, é necessário determinar qual deles terá
-              prioridade e será responsável pelo sufixo do composto.
+              Quando uma molécula apresenta <span>mais de um grupo funcional</span>,
+              é necessário determinar qual função possui maior prioridade.
+
+              <br></br><br></br>
+
+              A função de maior prioridade será utilizada como
+              <span> função principal</span> e determinará o sufixo do nome da
+              substância. Os demais grupos podem aparecer como prefixos.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Ordem de Prioridade dos Grupos Funcionais</h2>
             <p className={styles.pinfo}>
-              A prioridade dos grupos funcionais, em ordem decrescente, é:
-            </p>
+              A prioridade dos principais grupos funcionais, em ordem decrescente,
+              pode ser apresentada da seguinte maneira:
 
-            <p className={styles.pinfo}>
-              <span>Ácido carboxílico</span>, éster, haleto de acila, amida,
-              nitrila, aldeído, cetona, álcool, tiol, amina, alceno, alcino,
-              alcano, éter, haleto de alquila e nitrocomposto.
+              <br></br><br></br>
+
+              <span>
+                Ácido carboxílico → éster → haleto de acila → amida → nitrila →
+                aldeído → cetona → álcool → tiol → amina → alceno → alcino →
+                alcano → éter → haleto de alquila → nitrocomposto
+              </span>
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Polímeros</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              consequat sapien vitae lorem malesuada.
+              Os <span>polímeros</span> são macromoléculas formadas pela repetição
+              de unidades menores chamadas <span>monômeros</span>.
+
+              <br></br><br></br>
+
+              Eles podem ocorrer naturalmente, como as proteínas e a celulose, ou
+              ser produzidos artificialmente, como diversos tipos de plástico.
+
+              <br></br><br></br>
+
+              Suas propriedades, como <span>resistência, flexibilidade e
+                leveza</span>, fazem com que sejam utilizados em áreas como
+              embalagens, construção civil, medicina e eletrônica.
+
+              <br></br><br></br>
+
+              Também existem <span>polímeros biodegradáveis</span>, desenvolvidos
+              como alternativas a alguns materiais convencionais e que podem
+              contribuir para a redução de determinados impactos ambientais.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Polimerização</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              tincidunt lorem vitae neque consequat.
+              A <span>polimerização</span> é uma reação química na qual moléculas
+              menores, chamadas <span>monômeros</span>, se unem sucessivamente
+              para formar uma macromolécula chamada <span>polímero</span>.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Polímeros de Adição</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum vitae sapien consequat, faucibus lorem.
+              Os <span>polímeros de adição</span> são obtidos pela união de
+              monômeros que possuem, geralmente, ligações múltiplas.
+
+              <br></br><br></br>
+
+              Durante a reação, a <span>ligação dupla carbono-carbono (C=C)</span>
+              é rompida e os monômeros passam a formar uma cadeia maior.
+
+              <br></br><br></br>
+
+              Na polimerização por adição, os átomos presentes nos monômeros são
+              incorporados à estrutura do polímero. Um exemplo bastante conhecido
+              é o <span>polietileno</span>, produzido a partir do etileno.
+
+              <br></br><br></br>
+
+              Esse polímero possui grande importância industrial e é utilizado na
+              fabricação de diversos tipos de <span>embalagens e materiais
+                plásticos</span>.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Polímeros de Condensação</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              consequat lorem vitae libero tincidunt.
+              Os <span>polímeros de condensação</span> são formados pela união de
+              monômeros acompanhada, em muitos casos, pela eliminação de pequenas
+              moléculas, como água, HCl ou amônia.
+
+              <br></br><br></br>
+
+              Dependendo dos monômeros utilizados e da reação envolvida, podem ser
+              formados diferentes materiais com propriedades específicas.
+
+              <br></br><br></br>
+
+              Entre os produtos que podem ser liberados durante essas reações
+              estão <span>água, cloreto de hidrogênio (HCl), amônia (NH₃)</span>
+              e outras pequenas moléculas.
             </p>
           </div>
 
           <div className={styles.infoConfig}>
             <h2>Polímeros Naturais e Sintéticos</h2>
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              sapien neque, tincidunt vitae consequat.
+              Os <span>polímeros naturais</span> são encontrados na natureza.
+              Entre os exemplos estão a amilose, componente do amido, a
+              celulose, presente nas paredes celulares dos vegetais, e a
+              borracha natural.
+
+              <br></br><br></br>
+
+              Já os <span>polímeros sintéticos</span> são produzidos pelo ser
+              humano por meio de processos químicos. Alguns exemplos são o
+              <span> PVC</span> e o <span>poliestireno</span>.
             </p>
+
+            <p className={styles.pinfo}>
+              <span>Exemplo de polímeros naturais:</span>
+            </p>
+
+            <br></br>
+
+            <Image
+              src="/natural.png"
+              alt="Exemplos de polímeros naturais"
+              width={600}
+              height={200}
+            />
+
+            <p className={styles.pinfo}>
+              <span>Exemplo de polímeros sintéticos:</span>
+            </p>
+
+            <br></br>
+
+            <Image
+              src="/sintetico.png"
+              alt="Exemplos de polímeros sintéticos"
+              width={400}
+              height={200}
+            />
+
+            <p className={styles.pinfo}>
+              <span>Maior molécula sintética já construída:</span>
+            </p>
+
+            <br></br>
+
+            <Image
+              src="/macro.png"
+              alt="Representação de uma grande molécula sintética"
+              width={400}
+              height={200}
+            />
           </div>
 
           <div className={styles.infoConfig}>
-            <h2>Extra: Como se dá a cor?</h2>
+            <h2>Extra: Como se dá a cor de determinadas moléculas?</h2>
+
             <p className={styles.pinfo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              sapien neque, tincidunt vitae consequat.
+              A <span>conjugação</span> ocorre quando existe uma alternância de
+              ligações simples e múltiplas em uma estrutura molecular. Esse
+              arranjo permite a <span>deslocalização dos elétrons π</span> ao
+              longo do sistema conjugado.
+
+              <br></br><br></br>
+
+              Uma molécula conjugada pode interagir com a luz, absorvendo
+              determinados comprimentos de onda. Essa absorção está relacionada
+              às diferenças de energia entre os estados eletrônicos da molécula.
+
+              <br></br><br></br>
+
+              A luz visível é formada por diferentes comprimentos de onda, que
+              percebemos como <span>cores</span>. Dependendo da estrutura da
+              molécula, determinados comprimentos de onda são absorvidos enquanto
+              outros são refletidos ou transmitidos.
+
+              <br></br><br></br>
+
+              Por isso, diferentes moléculas podem apresentar diferentes
+              colorações e atuar como <span>pigmentos</span>.
+            </p>
+
+            <p className={styles.pinfo}>
+              <span>Conjugação</span> é melhor compreendida observando moléculas
+              que possuem uma sequência extensa de ligações múltiplas conjugadas.
+
+              <br></br><br></br>
+
+              Um exemplo importante é o <span>beta-caroteno</span>, pigmento
+              alaranjado encontrado em alimentos como a cenoura.
+
+              <br></br><br></br>
+
+              Sua estrutura possui um sistema extenso de ligações conjugadas.
+              Essa conjugação permite que a molécula absorva parte da luz visível,
+              fazendo com que a coloração observada seja predominantemente
+              alaranjada.
+
+              <br></br><br></br>
+
+              A extensão do sistema conjugado influencia a quantidade de energia
+              necessária para promover transições eletrônicas. Assim, mudanças na
+              estrutura podem alterar os comprimentos de onda absorvidos e,
+              consequentemente, a cor observada.
+            </p>
+            <br></br><br></br>
+            <Image
+              src="/betacaroteno.png"
+              alt="Fórmula estrutural do beta-caroteno"
+              width={400}
+              height={200}
+              className={styles.fundoParaImagem}
+            />
+            <br></br><br></br>
+            <p className={styles.pinfo}>
+              O <span>beta-caroteno</span> é um hidrocarboneto, pois sua estrutura
+              apresenta apenas carbono e hidrogênio. Muitos outros pigmentos
+              orgânicos, porém, também possuem átomos de <span>oxigênio,
+                nitrogênio</span> e outros elementos.
+
+              <br></br><br></br>
+
+              Sistemas conjugados também podem aparecer em estruturas que
+              apresentam anéis aromáticos e diferentes grupos funcionais.
+            </p>
+
+            <p className={styles.pinfo}>
+              <span>Pigmentos</span> são substâncias capazes de absorver
+              determinados comprimentos de onda da luz.
+
+              <br></br><br></br>
+
+              A luz branca contém uma ampla faixa de comprimentos de onda
+              correspondentes às diferentes cores do espectro visível. Quando
+              parte dessa luz é absorvida por uma molécula, os comprimentos de
+              onda restantes podem determinar a cor que percebemos.
+
+              <br></br><br></br>
+
+              Dessa forma, a cor observada geralmente corresponde à
+              <span> luz refletida ou transmitida</span>, e não àquela que foi
+              absorvida pela molécula.
+            </p>
+
+            <p className={styles.pinfo}>
+              A energia de um fóton absorvido pode ser convertida em outras formas
+              de energia dentro da molécula.
+
+              <br></br><br></br>
+
+              Parte dessa energia pode ser dissipada como <span>calor</span>,
+              aumentando os movimentos vibracionais e translacionais das
+              moléculas.
+
+              <br></br><br></br>
+
+              Em determinadas situações, a molécula pode liberar parte da energia
+              novamente na forma de luz. Quando essa emissão ocorre rapidamente,
+              o fenômeno é chamado de <span>fluorescência</span>. Quando existe
+              um atraso significativo entre a absorção e a emissão, temos a
+              <span> fosforescência</span>.
+            </p>
+
+            <p className={styles.pinfo}>
+              Em sistemas biológicos mais complexos, a energia luminosa absorvida
+              pode ser direcionada para processos químicos. Um exemplo importante
+              ocorre na <span>fotossíntese</span>, na qual os pigmentos presentes
+              nos organismos fotossintetizantes participam da captura de energia
+              luminosa.
+
+              <br></br><br></br>
+
+              O principal pigmento envolvido nesse processo é a
+              <span> clorofila</span>. Sua estrutura possui um sistema conjugado
+              bastante complexo, contendo átomos de carbono, hidrogênio, oxigênio,
+              nitrogênio e um átomo de <span>magnésio</span> em sua estrutura
+              central.
+
+              <br></br><br></br>
+
+              A região responsável pela absorção de luz está relacionada ao
+              sistema conjugado presente no <span>anel de porfirina</span>.
+            </p>
+            <br></br><br></br>
+            <Image
+              src="/clorofila.png"
+              alt="Fórmula estrutural da clorofila"
+              width={400}
+              height={200}
+              className={styles.fundoParaImagem}
+            />
+            <br></br><br></br>
+            <p className={styles.pinfo}>
+              A <span>hemoglobina</span>, presente no sangue, também possui um
+              sistema baseado em um anel de porfirina. Nesse caso, o metal central
+              é o <span>ferro</span>, enquanto na clorofila o metal central é o
+              magnésio.
+
+              <br></br><br></br>
+
+              Essa diferença estrutural está relacionada às propriedades e às
+              funções distintas dessas moléculas.
+
+              <br></br><br></br>
+
+              Em alguns moluscos, pigmentos respiratórios possuem
+              <span> cobre</span> em vez de ferro, contribuindo para a coloração
+              azulada do sangue desses animais.
+
+              <br></br><br></br>
+
+              Assim, os sistemas conjugados e os <span>anéis de porfirina</span>
+              são exemplos importantes de como a estrutura molecular pode
+              determinar a interação de uma substância com a luz e contribuir para
+              sua coloração.
             </p>
           </div>
 
