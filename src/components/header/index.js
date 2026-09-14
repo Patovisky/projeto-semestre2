@@ -10,11 +10,15 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.allMenu}>
+                <Image
+                            src="/logo.png"
+                            alt="Exemplos de radicais orgânicos"
+                            width={100}
+                            height={50}
+                            className={styles.imgLogo}
+                        />
                 <nav>
-
                     <ul className={styles.ulMenu}>
-                        
-                        
                         <li><Link href="/"><button className={styles.btnPadrao}>Home</button></Link></li>
                         <li><Link href="/organica"><button className={styles.btnPadrao}>Química orgânica</button></Link></li>
                         <li><Link href="/inorganica"><button className={styles.btnPadrao}>Química inorgânica</button></Link></li>
@@ -22,7 +26,7 @@ export default function Header() {
                         <li><Link href="/bioquimica"><button className={styles.btnPadrao}>Bioquímica</button></Link></li>
                         <li><Link href="/analitica"><button className={styles.btnPadrao}>Analítica</button></Link></li>
                         <li><Link href="/brb"><button className={styles.btnPadrao}>BREAKING BAD?!</button></Link></li>
-                        
+
                     </ul>
 
                 </nav>
@@ -41,7 +45,7 @@ export default function Header() {
 
                             <Link href="linus">➤ Diagrama de Linus Pauling</Link>
                             <Link href="estequi">➤ Estequiometria</Link>
-                            
+
 
                         </div>
                     )}

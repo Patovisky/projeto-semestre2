@@ -181,7 +181,7 @@
 }
 @media (max-width: 600px) {
     .mainImage {
-        margin-top: 200px;
+        margin-top: 300px;
         min-height: 360px;
         padding: 25px 10px;
     }

@@ -66,6 +66,11 @@
     width: 100%;
 }
 
+.imgLogo {
+    border-radius: 100px;
+    margin: 10px;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -94,10 +99,8 @@
     max-width: calc(100vw - 20px);
     box-sizing: border-box;
     background: #0b120f;
-    background-image: linear-gradient(
-        rgba(18, 16, 16, 0) 50%,
-        rgba(0, 0, 0, 0.445) 50%
-    );
+    background-image: linear-gradient(rgba(18, 16, 16, 0) 50%,
+            rgba(0, 0, 0, 0.445) 50%);
     background-size: 100% 4px;
     border: 2px solid #08ffc9;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
