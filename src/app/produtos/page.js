@@ -3,9 +3,9 @@ import { useEffect, useEffectEvent } from "react";
 import { useState } from "react";
 import styles from "./page.module.css";
 
-
 export default function Produtos() {
     const [prods, setProds] = useState(null);
+    const [cats, setCats] = useState(null);
     useEffect(() => {
         const fetchProds = async () => {
             try {
@@ -23,14 +23,31 @@ export default function Produtos() {
             } catch (e) {
                 console.log(`${e.message}`)
             }
-
-
         }
-        fetchProds()
+        const fetchCats = async () => {
+            try {
+                const response = await fetch('https://stock.dev.vilhena.ifro.edu.br/api/categorias')
+
+                if (!response.ok) {
+                    throw new Error(`Erro ao buscar categorias ${response.statusText}`)
+                }
+
+                const data = await response.json();
+                console.log(data);
+                setCats(data);
+            } catch (e) {
+                console.log(`${e.message}`)
+            }
+        }
+
+        fetchCats();
+        fetchProds();
     }, [])
+
     return (
         <>
             {
+                cats &&
                 prods &&
                 <table className={styles.table}>
                     <thead>
@@ -45,27 +62,29 @@ export default function Produtos() {
                     </thead>
                     <tbody>
 
-
-                        {prods.map((prod) => (
-                            <tr key={prod.id} className={styles.tr}>
+                        
+                        {prods.map(
+                        (prod) => {
+                        const cat = cats.find((cat)=>(cat.id === prod.categoria_id))
+                            return(
+                                <tr key={prod.id} className={styles.tr} >
                                 <td className={styles.td}>{prod.id}</td>
                                 <td className={styles.td}>{prod.nome}</td>
                                 <td className={styles.td}>{prod.descricao}</td>
-                                <td className={styles.td}>{prod.categoria_id}</td>
+                                <td className={styles.td}>{cat.nome}</td>
                                 <td className={styles.td}>{prod.quantidade_estoque}</td>
                                 <td className={styles.td}>{prod.preco}</td>
                             </tr>
-                        ))}
+                            )
+                            
+                        })}
 
 
                     </tbody>
-                </table>
+                </table >
 
 
             }
         </>
     )
 }
-
-
-

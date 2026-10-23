@@ -21,6 +21,7 @@ export default function Header() {
                     <ul className={styles.ulMenu}>
                         <li><Link href="/"><button className={styles.btnPadrao}>Home</button></Link></li>
                         <li><Link href="/produtos"><button className={styles.btnPadrao}>Produtos</button></Link></li>
+                        <li><Link href="/categorias"><button className={styles.btnPadrao}>Categorias</button></Link></li>
                     </ul>
 
                 </nav>
