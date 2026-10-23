@@ -20,13 +20,7 @@ export default function Header() {
                 <nav>
                     <ul className={styles.ulMenu}>
                         <li><Link href="/"><button className={styles.btnPadrao}>Home</button></Link></li>
-                        <li><Link href="/organica"><button className={styles.btnPadrao}>Química orgânica</button></Link></li>
-                        <li><Link href="/inorganica"><button className={styles.btnPadrao}>Química inorgânica</button></Link></li>
-                        <li><Link href="/fisicoQuimica"><button className={styles.btnPadrao}>Físico-química</button></Link></li>
-                        <li><Link href="/bioquimica"><button className={styles.btnPadrao}>Bioquímica</button></Link></li>
-                        <li><Link href="/analitica"><button className={styles.btnPadrao}>Analítica</button></Link></li>
-                        <li><Link href="/brb"><button className={styles.btnPadrao}>BREAKING BAD?!</button></Link></li>
-
+                        <li><Link href="/produtos"><button className={styles.btnPadrao}>Produtos</button></Link></li>
                     </ul>
 
                 </nav>
