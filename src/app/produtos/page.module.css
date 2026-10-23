@@ -1,3 +1,14 @@
-.div{
-    margin-top: 200px;
+.table{
+    border-collapse: collapse;
+    margin: 200px auto;
+    width: 95%;
+}
+
+.td, .table th{
+    border: 1px solid aliceblue;
+    padding: 5px;
+    text-align: center;
+}
+.table th{
+    background-color: black;
 }
