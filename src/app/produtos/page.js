@@ -27,36 +27,6 @@ export default function Produtos() {
         const fetchCats = async () => {
             try {
                 const response = await fetch('https://stock.dev.vilhena.ifro.edu.br/api/categorias')
-<<<<<<< HEAD
-
-                if (!response.ok) {
-                    throw new Error(`Erro ao buscar categorias ${response.statusText}`)
-                }
-
-                const data = await response.json();
-                console.log(data);
-                setCats(data);
-            } catch (e) {
-                console.log(`${e.message}`)
-            }
-        }
-
-        fetchCats();
-        fetchProds();
-    }, [])
-
-    return (
-        <div className={styles.div}>
-            <h1>Produtos</h1>
-            {prods === null ? <p>Carregando lista de produtos...</p> :
-                <div>
-                    {prods.map((prod) => (
-                        <p key={prod.id}>{prod.nome}</p>
-                    ))}
-                </div>
-            }
-=======
->>>>>>> 01e203c0abf51ba41124f91fbb1f8f15f27c396d
 
                 if (!response.ok) {
                     throw new Error(`Erro ao buscar categorias ${response.statusText}`)
@@ -92,22 +62,22 @@ export default function Produtos() {
                     </thead>
                     <tbody>
 
-                        
+
                         {prods.map(
-                        (prod) => {
-                        const cat = cats.find((cat)=>(cat.id === prod.categoria_id))
-                            return(
-                                <tr key={prod.id} className={styles.tr} >
-                                <td className={styles.td}>{prod.id}</td>
-                                <td className={styles.td}>{prod.nome}</td>
-                                <td className={styles.td}>{prod.descricao}</td>
-                                <td className={styles.td}>{cat.nome}</td>
-                                <td className={styles.td}>{prod.quantidade_estoque}</td>
-                                <td className={styles.td}>{prod.preco}</td>
-                            </tr>
-                            )
-                            
-                        })}
+                            (prod) => {
+                                const cat = cats.find((cat) => (cat.id === prod.categoria_id))
+                                return (
+                                    <tr key={prod.id} className={styles.tr} >
+                                        <td className={styles.td}>{prod.id}</td>
+                                        <td className={styles.td}>{prod.nome}</td>
+                                        <td className={styles.td}>{prod.descricao}</td>
+                                        <td className={styles.td}>{cat.nome}</td>
+                                        <td className={styles.td}>{prod.quantidade_estoque}</td>
+                                        <td className={styles.td}>{prod.preco}</td>
+                                    </tr>
+                                )
+
+                            })}
 
 
                     </tbody>
