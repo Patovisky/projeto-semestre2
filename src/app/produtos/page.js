@@ -2,10 +2,12 @@
 import { useEffect, useEffectEvent } from "react";
 import { useState } from "react";
 import styles from "./page.module.css";
+import CardProd from "@/components/CardProd";
 
 export default function Produtos() {
     const [prods, setProds] = useState(null);
     const [cats, setCats] = useState(null);
+    const [selected, setSelected] = useState(null)
     useEffect(() => {
         const fetchProds = async () => {
             try {
@@ -67,7 +69,7 @@ export default function Produtos() {
                             (prod) => {
                                 const cat = cats.find((cat) => (cat.id === prod.categoria_id))
                                 return (
-                                    <tr key={prod.id} className={styles.tr} >
+                                    <tr key={prod.id} className={styles.tr} onClick={() => setSelected(prod)}>
                                         <td className={styles.td}>{prod.id}</td>
                                         <td className={styles.td}>{prod.nome}</td>
                                         <td className={styles.td}>{prod.descricao}</td>
@@ -84,6 +86,10 @@ export default function Produtos() {
                 </table >
 
 
+            }
+            {selected &&
+            
+            <CardProd />
             }
         </>
     )
