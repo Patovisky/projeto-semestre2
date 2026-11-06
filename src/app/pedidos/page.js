@@ -2,10 +2,12 @@
 import { useEffect, useEffectEvent } from "react";
 import { useState } from "react";
 import styles from "./page.module.css";
+import CardPed from "@/components/CardPed";
 
 export default function Pedidos() {
     const [peds, setPeds] = useState(null);
     const [cats, setCats] = useState(null);
+    const [selected, setSelected] = useState(null)
     useEffect(() => {
         const fetchPeds = async () => {
             try {
@@ -56,7 +58,7 @@ export default function Pedidos() {
                             <th className={styles.th}>CLIENTE</th>
                             <th className={styles.th}>DATA</th>
                             <th className={styles.th}>STATUS</th>
-                            
+
                         </tr>
                     </thead>
                     <tbody>
@@ -66,11 +68,11 @@ export default function Pedidos() {
                             (ped) => {
                                 const cat = cats.find((cat) => (cat.id === ped.cliente_id))
                                 return (
-                                    <tr key={ped.id} className={styles.tr} >
+                                    <tr key={ped.id} className={styles.tr} onClick={() => setSelected(ped)} >
                                         <td className={styles.td}>{ped.id}</td>
-                                        
+
                                         <td className={styles.td}>{cat.nome}</td>
-                                        
+
                                         <td className={styles.td}>{ped.data_pedido}</td>
                                         <td className={styles.td}>{ped.status}</td>
                                     </tr>
@@ -83,6 +85,9 @@ export default function Pedidos() {
                 </table >
 
 
+            }
+            {
+                selected && <CardPed p={selected} />
             }
         </>
     )

@@ -7,7 +7,9 @@ import CardProd from "@/components/CardProd";
 export default function Produtos() {
     const [prods, setProds] = useState(null);
     const [cats, setCats] = useState(null);
-    const [selected, setSelected] = useState(null)
+    const [selected, setSelected] = useState(null);
+    const [busca, setBusca] = useState('');
+
     useEffect(() => {
         const fetchProds = async () => {
             try {
@@ -46,8 +48,14 @@ export default function Produtos() {
         fetchProds();
     }, [])
 
+    const filtro = prods?.filter(p => p.nome.toLowerCase().includes(busca.toLocaleLowerCase()))
+
     return (
         <>
+            <h1>Produtos</h1>
+            {filtro &&
+                filtro.map((f) => (<p key={f.id}>{f.nome}</p>))}
+            <input type="text" placeholder="Busque um produto" onChange={(e) => setBusca(e.target.value)} value={busca} />
             {
                 cats &&
                 prods &&
@@ -87,10 +95,7 @@ export default function Produtos() {
 
 
             }
-            {selected &&
-            
-            <CardProd />
-            }
+            {selected && <CardProd p={selected} />}
         </>
     )
 }
