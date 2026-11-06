@@ -32,6 +32,7 @@
 
 .tr {
     transition: background-color 0.2s ease;
+    cursor: pointer;
 }
 
 .tr:nth-child(even) {

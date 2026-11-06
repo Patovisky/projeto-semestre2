@@ -23,6 +23,7 @@ export default function Header() {
                         <li><Link href="/produtos"><button className={styles.btnPadrao}>Produtos</button></Link></li>
                         <li><Link href="/categorias"><button className={styles.btnPadrao}>Categorias</button></Link></li>
                         <li><Link href="/pedidos"><button className={styles.btnPadrao}>Pedidos</button></Link></li>
+                        <li><Link href="/clientes"><button className={styles.btnPadrao}>Clientes</button></Link></li>
                     </ul>
 
                 </nav>
