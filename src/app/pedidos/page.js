@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import styles from "./page.module.css";
 import CardPed from "@/components/CardPed";
+import Link from 'next/link'
 
 export default function Pedidos() {
     const [peds, setPeds] = useState(null);
@@ -76,12 +77,14 @@ export default function Pedidos() {
                             }
                         </tbody>
                     </table>
+                    
                 )
             }
 
             {
                 selected && <CardPed p={selected} />
             }
+            <Link href="/pedidos/pednew"><button className={styles.btnPadrao}>POST</button></Link>
         </>
     );
 }
