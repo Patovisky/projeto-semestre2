@@ -4,6 +4,7 @@ import { useState } from "react";
 import styles from "./page.module.css";
 import CardPed from "@/components/CardPed";
 import Link from 'next/link'
+import NovoPedido from "./pednew/page";
 
 export default function Pedidos() {
     const [peds, setPeds] = useState(null);
@@ -84,7 +85,7 @@ export default function Pedidos() {
             {
                 selected && <CardPed p={selected} />
             }
-            <Link href="/pedidos/pednew"><button className={styles.btnPadrao}>POST</button></Link>
+            <NovoPedido />
         </>
     );
 }

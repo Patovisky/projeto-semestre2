@@ -4,46 +4,101 @@ import { useState } from "react";
 import styles from "./page.module.css";
 import CardPed from "@/components/CardPed";
 
-const enviarPedido = async (e) => {
-    e.preventDefault();
+export default function NovoPedido() {
+    const [prods, setProds] = useState(null);
+    const [clientes, setClientes] = useState(null);
+    const [idCliente, setIdCliente] = useState('');
+    const [idQuantidade, setIdQuantidade] = useState('');
+    const [idProduto, setIdProduto] = useState('')
 
-    const newPedido = {
-        cliente_id: clienteSelecionado
+    useEffect(() => {
+        const fetchProds = async () => {
+            try {
+                const response = await fetch('https://stock.dev.vilhena.ifro.edu.br/api/produtos')
+
+
+                if (!response.ok) {
+                    throw new Error(`Erro ao buscar produtos ${response.statusText}`)
+                }
+
+
+                const data = await response.json();
+                console.log(data);
+                setProds(data);
+            } catch (e) {
+                console.log(`${e.message}`)
+            }
+        }
+
+        const fetchClientes = async () => {
+            try {
+                const response = await fetch('https://stock.dev.vilhena.ifro.edu.br/api/clientes');
+
+                if (!response.ok) {
+                    throw new Error(`Erro ao buscar clientes ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                console.log(data);
+                setClientes(data);
+            } catch (e) {
+                console.log(`${e.message}`);
+            }
+        };
+        fetchProds();
+        fetchClientes();
+    }, []);
+    const enviarPedido = async (e) => {
+        e.preventDefault();
+ 
+        const newPedido = {
+            cliente_id: Number(idCliente)
+        };
+
+        try {
+            const response = await fetch(
+                'https://stock.dev.vilhena.ifro.edu.br/api/pedidos', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(newPedido),
+            }
+            );
+
+            const data = await response.json();
+
+            if (!response.ok) throw new Error(data.error);
+
+        } catch (error) {
+            alert('Erro ao criar pedido: ' + error.message);
+        }
     };
 
-    try {
-        const response = await fetch(
-            'https://stock.dev.vilhena.ifro.edu.br/api/pedidos', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(newPedido),
-        }
-        );
-
-        const data = await response.json();
-
-        if (!response.ok) throw new Error(data.error);
-
-
-    } catch (error) {
-        alert('Erro ao criar pedido: ' + error.message);
-    }
-};
-
-export default function NovoPedido() {
     return (
         <form onSubmit={enviarPedido}>
             <label>Cliente:</label>
-            <input type="number" placeholder="ID do cliente" required />
+            <select value={idCliente} onChange={(e) => setIdCliente(e.target.value)} required>
+                <option value="">Selecione um cliente</option>
+                {
+                    clientes && clientes.map((cliente) => (
+                        <option key={cliente.id} value={cliente.id}>{cliente.nome}</option>
+                    ))
+                }
+
+            </select>
 
             <label>Produto:</label>
-            <input type="number" placeholder="ID do produto" required />
+            <select value={idProduto} onChange={(e) => setIdProduto(e.target.value)} required>
+                <option value="">Escolha seu produto</option>
+                {prods && prods.map((prod) => (
+                    <option key={prod.id} value={prod.id}>{prod.nome}</option>
+                ))}
+            </select>
 
             <label>Quantidade:</label>
-            <input type="number" placeholder="Quantidade" min="1" required />
+            <input type="number" value={idQuantidade} onChange={(e) => setIdQuantidade(e.target.value)} placeholder="Quantidade" min="1" required />
 
             <button type="submit">Criar pedido</button>
-            <button type="reset">Limpar</button>
+            <button type="reset" onClick={() => { setIdCliente(''); setIdProduto(''); setIdQuantidade('') }}>Limpar</button>
         </form>
     )
 }
