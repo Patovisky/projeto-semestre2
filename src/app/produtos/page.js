@@ -52,10 +52,13 @@ export default function Produtos() {
 
     return (
         <>
+
             <h1>Produtos</h1>
+            
             {filtro &&
                 filtro.map((f) => (<p key={f.id}>{f.nome}</p>))}
             <input type="text" placeholder="Busque um produto" onChange={(e) => setBusca(e.target.value)} value={busca} />
+            {selected && <CardProd p={selected} />}
             {
                 cats &&
                 prods &&
@@ -73,21 +76,28 @@ export default function Produtos() {
                     <tbody>
 
 
-                        {prods.map(
-                            (prod) => {
-                                const cat = cats.find((cat) => (cat.id === prod.categoria_id))
-                                return (
-                                    <tr key={prod.id} className={styles.tr} onClick={() => setSelected(prod)}>
-                                        <td className={styles.td}>{prod.id}</td>
-                                        <td className={styles.td}>{prod.nome}</td>
-                                        <td className={styles.td}>{prod.descricao}</td>
-                                        <td className={styles.td}>{cat.nome}</td>
-                                        <td className={styles.td}>{prod.quantidade_estoque}</td>
-                                        <td className={styles.td}>{prod.preco}</td>
-                                    </tr>
-                                )
+                        {prods.map((prod) => {
+                            const cat = cats.find(
+                                (cat) => Number(cat.id) === Number(prod.categoria_id)
+                            );
 
-                            })}
+                            return (
+                                <tr
+                                    key={prod.id}
+                                    className={styles.tr}
+                                    onClick={() => setSelected(prod)}
+                                >
+                                    <td className={styles.td}>{prod.id}</td>
+                                    <td className={styles.td}>{prod.nome}</td>
+                                    <td className={styles.td}>{prod.descricao}</td>
+                                    <td className={styles.td}>
+                                        {cat ? cat.nome : 'Sem categoria'}
+                                    </td>
+                                    <td className={styles.td}>{prod.quantidade_estoque}</td>
+                                    <td className={styles.td}>{prod.preco}</td>
+                                </tr>
+                            );
+                        })}
 
 
                     </tbody>
@@ -95,7 +105,7 @@ export default function Produtos() {
 
 
             }
-            {selected && <CardProd p={selected} />}
+            
         </>
     )
 }

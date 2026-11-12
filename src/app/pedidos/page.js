@@ -50,6 +50,10 @@ export default function Pedidos() {
 
     return (
         <>
+            <NovoPedido />
+            {
+                selected && <CardPed p={selected} />
+            }
             {
                 !clientes || !peds ? (<h1>carregando</h1>) : (
                     <table className={styles.table}>
@@ -66,7 +70,7 @@ export default function Pedidos() {
                                 const cliente = clientes.find((cliente) => cliente.id === ped.cliente_id);
 
                                 return (
-                                    <tr key={ped.id} className={styles.tr} onClick={() => setSelected({...ped, cliente: cliente})}>
+                                    <tr key={ped.id} className={styles.tr} onClick={() => setSelected({ ...ped, cliente: cliente })}>
                                         <td className={styles.td}>{ped.id}</td>
                                         <td className={styles.td}>{cliente.nome}</td>
                                         <td className={styles.td}>{ped.data_pedido}</td>
@@ -78,14 +82,12 @@ export default function Pedidos() {
                             }
                         </tbody>
                     </table>
-                    
+
                 )
             }
 
-            {
-                selected && <CardPed p={selected} />
-            }
-            <NovoPedido />
+
+
         </>
     );
 }

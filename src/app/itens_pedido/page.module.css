@@ -1,0 +1,40 @@
+
+.table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 200px auto;
+    overflow: hidden;
+}
+
+.th {
+    padding: 16px 18px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.td {
+    padding: 14px 18px;
+    border-bottom: 1px solid;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.tr {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .th,
+    .td {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .th,
+    .td {
+        padding: 8px 5px;
+        font-size: 10px;
+    }
+}

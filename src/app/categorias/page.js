@@ -27,6 +27,7 @@ export default function Categorias() {
     }, [])
     return (
         <>
+        {selected && <CardCat p={selected} />}
             {
                 cats &&
                 <table className={styles.table}>
@@ -50,7 +51,7 @@ export default function Categorias() {
                 </table>
 
             }
-            {selected && <CardCat p={selected} />}
+            
         </>
     )
 }

@@ -29,6 +29,9 @@ export default function Clientes() {
 
     return (
         <>
+        {
+                selected && <CardCli p={selected} />
+            }
             {
                 !clientes ? (<h1>carregando</h1>) : (
                     <table className={styles.table}>
@@ -52,9 +55,7 @@ export default function Clientes() {
                 )
             }
 
-            {
-                selected && <CardCli p={selected} />
-            }
+            
         </>
     );
 }
