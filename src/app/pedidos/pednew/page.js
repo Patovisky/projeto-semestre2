@@ -36,6 +36,7 @@ export default function NovoPedido() {
 
                 if (!response.ok) {
                     throw new Error(`Erro ao buscar clientes ${response.statusText}`);
+                                            
                 }
 
                 const data = await response.json();
@@ -50,7 +51,7 @@ export default function NovoPedido() {
     }, []);
     const enviarPedido = async (e) => {
         e.preventDefault();
- 
+        alert(`Pedido enviado`)
         const newPedido = {
             cliente_id: Number(idCliente)
         };
@@ -63,7 +64,7 @@ export default function NovoPedido() {
                 body: JSON.stringify(newPedido),
             }
             );
-
+            
             const data = await response.json();
 
             if (!response.ok) throw new Error(data.error);
@@ -97,7 +98,7 @@ export default function NovoPedido() {
             <label>Quantidade:</label>
             <input type="number" value={idQuantidade} onChange={(e) => setIdQuantidade(e.target.value)} placeholder="Quantidade" min="1" required />
 
-            <button type="submit">Criar pedido</button>
+            <button type="submit" onSubmit={enviarPedido}>Criar pedido</button>
             <button type="reset" onClick={() => { setIdCliente(''); setIdProduto(''); setIdQuantidade('') }}>Limpar</button>
         </form>
     )
