@@ -55,7 +55,8 @@ export default function NovoPedido() {
 
         const newPedido = {
             cliente_id: Number(idCliente),
-            
+            produto_id: Number(idProduto),
+            quantidade: Number(idQuantidade)
         };
 
         try {

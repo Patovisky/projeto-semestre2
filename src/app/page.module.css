@@ -1,283 +1,69 @@
-.page {
-    margin: 0;
-    min-height: 100vh;
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 0;
+    margin-top: 120px;
+    color: rgb(21, 24, 33);
 }
 
-.link {
-    text-decoration: underline;
-}
-.imgRep2{
-    margin: 40px;
-}
-.mainImage {
-    position: relative;
+.integrantes {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 450px;
-    padding: 60px;
-    margin-top: 100px;
-    overflow: hidden;
-    background: #050b08;
-    border-bottom: 2px solid #08ffc9;
+    gap: 16px;
 }
 
-.quoteDiv {
-    background-color: #cedada;
+.card {
+    background-color: #f6ecfd;
+    width: 50%;
+    min-height: 380px;
+    padding: 35px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foto {
+    background-color: white;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    align-self: center;
+    border: 5px solid rgb(44, 33, 51);
+}
+
+.card h1 {
+    font-size: 40px;
+    margin-top: 85px;
+}
+
+.footer {
+    background-color: #c9d2da;
+    margin-top: 13px;
     padding: 10px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 15px -3px #000000;
-    margin-bottom: 20px;
-    max-width: 100%;
-}
-
-.quoteDiv p {
-    color: black;
-    font-weight: bolder;
-}
-
-.h1 {
-    font-size: 16px;
-    font-weight: normal;
-    width: 60%;
-    opacity: 0.9;
-}
-
-
-@keyframes entrada {
-    from {
-        opacity: 0;
-        transform: translate(-50%, -45%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate(-50%, -50%);
-    }
-}
-
-.imgRep {
-    width: 100%;
-    max-width: 900px;
-    height: 100%;
-    border-radius: 12px;
-    border: 2px solid #08ffc9;
-    opacity: 0.6;
-    display: block;
-    margin-top: 20px;
-    box-shadow: 0 0 30px rgba(8, 255, 201, 0.2);
-
-    transition: transform 0.4s ease;
-}
-
-.imgRep:hover {
-    transform: scale(1.01);
-}
-
-.textoSobreposto {
-    border-radius: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #08ffc9;
-    font-size: clamp(30px, 5vw, 60px);
-    font-weight: 800;
-    letter-spacing: 2px;
-    white-space: nowrap;
     text-align: center;
-    background: rgba(0, 0, 0, 0.85);
-    box-shadow: 0 0 25px rgba(8, 255, 201, 0.4);
-    border: 2px solid #08ffc9;
-    padding: 18px 30px;
-    animation: entrada 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-    text-shadow: 0 0 10px rgba(8, 255, 201, 0.6);
 }
 
-.title {
-    justify-content: center;
-    text-align: center;
-    margin-top: 80px;
-    overflow-wrap: break-word;
+.footer h2 {
+    font-size: 28px;
+    margin: 0;
 }
 
-.all {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 20px 0;
-}
-
-.infoConfig {
-    display: flex;
-    overflow-wrap: break-word;
-    flex-direction: column;
-    align-items: center;
-    font-size: 18px;
-}
-
-.infoConfig h2 {
-    color: #000000;
-    background-color: #08ffc9;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    border: 2px solid #08ffc9;
-    border-radius: 6px;
-    padding: 8px 20px;
-    font-weight: bold;
-    box-shadow: 0 0 12px rgba(8, 255, 201, 0.4);
-}
-
-.pinfo {
-    width: 70%;
-    background: #000b05;
-    border: 1px solid #8a99964d;
-    padding: 45px;
-    border-radius: 8px;
-    line-height: 1.6;
-    color: #cfdcd5;
-    position: relative;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.pinfo::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 36px;
-    background: #181818;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom: 1px solid #333333;
-    
-}
-
-.pinfo::after {
-    content: "  C:\\user\\pato-tech  ";
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 5px;
-    left: 6px;
-    background: #000b05;
-    color: #ffffff;
-    font-size: 11px;
-    height: 31px;
-    padding: 0 14px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border: 1px solid #333333;
-    border-bottom: none;
-    z-index: 2;
-}
-@media (max-width: 800px) {
-    .mainImage{
-        margin-top: 200px;
-    }
-}
-@media (max-width: 600px) {
-    .mainImage {
-        margin-top: 300px;
-        min-height: 360px;
-        padding: 25px 10px;
+@media (max-width: 768px) {
+    .integrantes {
+        flex-direction: column;
     }
 
-    .imgRep2 {
-        width: 95%;
-        max-width: 95%;
-        height: auto;
-        margin-top: 35px;
-        
-
-    .textoSobreposto {
-        font-size: 26px;
-        padding: 10px 15px;
-        max-width: 85%;
-        white-space: normal;
-    
+    .card {
+        width: 100%;
+        min-height: 300px;
     }
 
-    .texto {
-        width: 80%;
-        font-size: 14px;
-        top: calc(50% + 65px);
-        
-    }
-
-    .tituloSecao {
-        margin-top: 40px;
+    .card h1 {
         font-size: 32px;
-        
+        margin-top: 55px;
     }
 
-    .pinfo {
-        width: 90%;
-        background: #111e17;
-        
-        padding: 15px;
-    }
-
-    .infoConfig {
-        font-size: 16px;
-    }
-
-    .infoConfig h2 {
+    .footer h2 {
         font-size: 20px;
-        padding: 8px 12px;
-        max-width: 90%;
-        
     }
-
-    .h1 {
-        width: 80%;
-    }
-
-    .quoteDiv {
-        width: 85%;
-        
-    }
-}
-
-@media (max-width: 400px) {
-    .mainImage {
-        margin-top: 300px;
-        min-height: 320px;
-    }
-
-    .imgRep2 {
-        width: 95%;
-        max-width: 95%;
-        
-    }
-
-    .textoSobreposto {
-        font-size: 22px;
-        padding: 8px 12px;
-        overflow-wrap: break-word;
-        
-    }
-
-    .texto {
-        width: 85%;
-        font-size: 13px;
-    }
-
-    .pinfo {
-        width: 92%;
-        padding: 12px;
-    }
-
-    .infoConfig {
-        font-size: 15px;
-    }
-
-    .infoConfig h2 {
-        font-size: 18px;
-        max-width: 92%;
-    }
-}
 }
