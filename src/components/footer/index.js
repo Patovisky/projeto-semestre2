@@ -9,12 +9,12 @@ export default function Footer() {
     <div className={styles.footerContainer}>
         <Image src='/duckgif.gif' width={100} height={100} alt="blublu" className={styles.duckImage}/>
         <div className={styles.footerTop}>
-            <h2>Química</h2>
+            <h2>StockApi</h2>
             <p>Informações sobre as diversas áreas da química.</p>
         </div>
         <div className={styles.footerInfo}>
             <h3>Projeto front-end II</h3>
-            <p>Desenvolvido por PatoTech</p>
+            <p>Desenvolvido por Ester Ronconi Dias e Marcela Rocha Dias</p>
             <p>© 2026 Todos os direitos reservados.</p>
             <br></br>
             <div className={styles.footerLinks}>

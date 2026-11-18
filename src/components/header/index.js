@@ -1,44 +1,34 @@
+
 'use client'
-import Image from "next/image";
+
 import Link from 'next/link'
 import styles from './Header.module.css'
 import { useState } from 'react'
 
 export default function Header() {
-    const [menu, setMenu] = useState('☰')
+    const [menu, setMenu] = useState(false)
 
     return (
         <header className={styles.header}>
             <div className={styles.allMenu}>
-                
                 <nav>
-                    <ul className={styles.ulMenu}>
-                        <li><Link href="/"><button className={styles.btnPadrao}>Home</button></Link></li>
-                        <li><Link href="/produtos"><button className={styles.btnPadrao}>Produtos</button></Link></li>
-                        <li><Link href="/categorias"><button className={styles.btnPadrao}>Categorias</button></Link></li>
-                        <li><Link href="/pedidos"><button className={styles.btnPadrao}>Pedidos</button></Link></li>
-                        <li><Link href="/clientes"><button className={styles.btnPadrao}>Clientes</button></Link></li>
+                    <ul className={`${styles.ulMenu} ${menu ? styles.menuAberto : ''}`}>
+                        <li><Link href="/" onClick={() => setMenu(false)}>Home</Link></li>
+                        <li><Link href="/produtos" onClick={() => setMenu(false)}>Produtos</Link></li>
+                        <li><Link href="/categorias" onClick={() => setMenu(false)}>Categorias</Link></li>
+                        <li><Link href="/pedidos" onClick={() => setMenu(false)}>Pedidos</Link></li>
+                        <li><Link href="/clientes" onClick={() => setMenu(false)}>Clientes</Link></li>
+                        <li><Link href="/itens_pedido" onClick={() => setMenu(false)}>Itens_pedido</Link></li>
                     </ul>
-
                 </nav>
 
-                <div className={styles.dropdown}>
-                    <button
-                        className={styles.dropbtn}
-                        onClick={() => setMenu(menu === '☰' ? '✕' : '☰')}
-                    >
-                        {menu}
-                    </button>
-
-                    {menu === '✕' && (
-                        <div className={styles.dropdownContent}>
-                            <Link href="/itens_pedido">➤ Itens_pedido</Link>
-
-
-
-                        </div>
-                    )}
-                </div>
+                <button
+                    className={styles.dropbtn}
+                    onClick={() => setMenu(!menu)}
+                    aria-label="Abrir ou fechar menu"
+                >
+                    {menu ? '✕' : '☰'}
+                </button>
             </div>
         </header>
     )

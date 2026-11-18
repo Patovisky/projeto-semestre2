@@ -1,8 +1,8 @@
 .footer {
     margin-top: 60px;
-    background: #000000;
-    color: #08ffc9;
-    border-top: 2px solid #08ffc9;
+    background: #010013;
+    color: #b84dff;
+    border-top: 2px solid #b84dff;
 }
 
 .footerContainer {
@@ -18,32 +18,32 @@
 
 .footerContainer h2,
 .footerContainer h3 {
-    color: #08ffc9;
+    color: #5e17eb;
     font-family: 'Share Tech Mono', monospace;
     letter-spacing: 1px;
 }
 
 .footerContainer p {
-    color: #8cffea;
+    color: #ffd0fa;
     font-size: 15px;
-    opacity: 0.8;
+    
 }
 
 .duckImage {
     border-radius: 50%;
-    border: 2px solid #08ffc9;
-    box-shadow: 0px 0px 20px rgba(8, 255, 201, 0.5);
-    background: #111e17;
+    border: 2px solid #5e17eb;
+    box-shadow: 0px 0px 20px #5e17eb;
+    background: #11101e;
 }
 
 .footerLinks a {
     color: #ffffff;
     text-decoration: none;
     transition: .2s;
-    border-bottom: 1px dotted #08ffc9;
+    border-bottom: 1px dotted #5e17eb;
 }
 
 .footerLinks a:hover {
-    color: rgb(8, 255, 201);
-    text-shadow: 0 0 8px #08ffc9;
+    color: #5e17eb;
+    text-shadow: 0 0 8px #5e17eb;
 }

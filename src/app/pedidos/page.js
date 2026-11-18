@@ -1,15 +1,17 @@
+
 'use client'
-import { useEffect } from "react";
-import { useState } from "react";
+
+import { useEffect, useState } from "react";
 import styles from "./page.module.css";
 import CardPed from "@/components/CardPed";
-import Link from 'next/link'
+import Link from "next/link";
 import NovoPedido from "./pednew/page";
 
 export default function Pedidos() {
     const [peds, setPeds] = useState(null);
     const [clientes, setClientes] = useState(null);
     const [selected, setSelected] = useState(null);
+    const [mostrar, setMostrar] = useState(false)
 
     useEffect(() => {
         const fetchPeds = async () => {
@@ -23,6 +25,7 @@ export default function Pedidos() {
                 const data = await response.json();
                 console.log(data);
                 setPeds(data);
+
             } catch (e) {
                 console.log(`${e.message}`);
             }
@@ -39,6 +42,7 @@ export default function Pedidos() {
                 const data = await response.json();
                 console.log(data);
                 setClientes(data);
+
             } catch (e) {
                 console.log(`${e.message}`);
             }
@@ -49,45 +53,68 @@ export default function Pedidos() {
     }, []);
 
     return (
-        <>
-            <NovoPedido />
-            {
-                selected && <CardPed p={selected} />
-            }
-            {
-                !clientes || !peds ? (<h1>carregando</h1>) : (
+        <main className={styles.container}>
+            <header className={styles.header}>
+                <h1 className={styles.title}>Pedidos</h1>
+                <p className={styles.subtitle}>
+                    Clique em um pedido abaixo para visualizar os detalhes
+                </p>
+            </header>
+            <button className={styles.button} onClick={() => setMostrar(!mostrar)}>
+                {mostrar ? 'Fechar' : 'Mostrar criar pedido'}
+            </button>
+            {mostrar && <NovoPedido />}
+
+            {selected && (
+                <section className={styles.cardWrapper}>
+                    <CardPed p={selected} />
+                </section>
+            )}
+
+            {!clientes || !peds ? (
+                <div className={styles.loading}>
+                    Carregando pedidos...
+                </div>
+            ) : (
+                <div className={styles.tableCard}>
                     <table className={styles.table}>
                         <thead>
-                            <tr className={styles.tr}>
+                            <tr>
                                 <th className={styles.th}>ID</th>
                                 <th className={styles.th}>CLIENTE</th>
                                 <th className={styles.th}>DATA</th>
                                 <th className={styles.th}>STATUS</th>
                             </tr>
                         </thead>
+
                         <tbody>
                             {peds.map((ped) => {
-                                const cliente = clientes.find((cliente) => cliente.id === ped.cliente_id);
+                                const cliente = clientes.find(
+                                    (cliente) => cliente.id === ped.cliente_id
+                                );
 
                                 return (
-                                    <tr key={ped.id} className={styles.tr} onClick={() => setSelected({ ...ped, cliente: cliente })}>
-                                        <td className={styles.td}>{ped.id}</td>
-                                        <td className={styles.td}>{cliente.nome}</td>
+                                    <tr
+                                        key={ped.id}
+                                        className={`${styles.tr} ${selected?.id === ped.id ? styles.trSelected : ''}`}
+                                        onClick={() => setSelected({
+                                            ...ped,
+                                            cliente: cliente
+                                        })}
+                                    >
+                                        <td className={styles.tdId}>#{ped.id}</td>
+                                        <td className={styles.td}>
+                                            {cliente ? cliente.nome : 'Cliente não encontrado'}
+                                        </td>
                                         <td className={styles.td}>{ped.data_pedido}</td>
                                         <td className={styles.td}>{ped.status}</td>
                                     </tr>
                                 );
-                            })
-
-                            }
+                            })}
                         </tbody>
                     </table>
-
-                )
-            }
-
-
-
-        </>
+                </div>
+            )}
+        </main>
     );
 }

@@ -3,8 +3,8 @@
 :root {
   --background: #444c4a;
   --foreground: #d2dfdf;
-  --span-color: #08ffc9;
-  --border-cyber: #08ffc9;
+  --span-color: #b84dff;
+  --border-cyber: #b84dff;
   --card-bg: #111e17;
 }
 
@@ -12,7 +12,7 @@
   :root {
     --background: #0d1117;
     --foreground: #c5e9e1;
-    --span-color: #08ffc9;
+    --span-color: #b84dff;
   }
 }
 
@@ -35,7 +35,6 @@ body {
   font-family: 'Share Tech Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 
   background-image: linear-gradient(
     rgba(18, 16, 16, 0) 50%, 
@@ -57,9 +56,8 @@ a {
 
 span {
   color: var(--span-color);
-  text-shadow: 0 0 8px rgba(8, 255, 201, 0.4);
+  text-shadow: 0 0 8px rgba(184, 77, 255, 0.4);
 }
-
 
 html::-webkit-scrollbar {
   width: 8px;
@@ -70,6 +68,6 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #08ffc9;
+  background: #b84dff;
   border-radius: 4px;
 }

@@ -1,20 +1,25 @@
 .container {
     width: 90%;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 120px auto 0;
     padding: 16px 0;
-    margin-top: 120px;
     color: rgb(21, 24, 33);
 }
 
 .integrantes {
     display: flex;
     gap: 16px;
+    width: 100%;
 }
 
 .card {
-    background-color: #f6ecfd;
+    background-color: #0d0714;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(123, 44, 191, 0.25);
+    border: 2px solid #5e17eb;
+    overflow: hidden;
     width: 50%;
+    min-width: 0;
     min-height: 380px;
     padding: 35px 32px;
     display: flex;
@@ -26,18 +31,27 @@
     background-color: white;
     width: 145px;
     height: 145px;
+    max-width: 100%;
     border-radius: 50%;
     align-self: center;
     border: 5px solid rgb(44, 33, 51);
+    object-fit: cover;
+    object-position: center;
 }
 
 .card h1 {
     font-size: 40px;
-    margin-top: 85px;
+    font-weight: 700;
+    color: #ff2a85;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px #5e17eb;
+    margin: 85px 0 12px 0;
+    overflow-wrap: break-word;
 }
 
 .footer {
-    background-color: #c9d2da;
+    background-color: #5e17eb;
     margin-top: 13px;
     padding: 10px;
     text-align: center;
@@ -48,22 +62,42 @@
     margin: 0;
 }
 
+/* MOBILE */
 @media (max-width: 768px) {
+    .container {
+        width: 92%;
+        margin-top: 100px;
+    }
+
     .integrantes {
         flex-direction: column;
+        gap: 20px;
     }
 
     .card {
         width: 100%;
         min-height: 300px;
+        padding: 25px 20px;
     }
 
     .card h1 {
-        font-size: 32px;
+        font-size: clamp(24px, 6vw, 32px);
         margin-top: 55px;
+        letter-spacing: 1px;
     }
 
     .footer h2 {
         font-size: 20px;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    .integrantes {
+        flex-direction: row;
+    }
+
+    .card {
+        width: 50%;
     }
 }

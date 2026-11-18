@@ -1,28 +1,118 @@
 .container {
-    margin-top: 120px;
-    padding: 20px;
-    background-color: aliceblue;
-    color: black;
+    width: 95%;
+    max-width: 600px;
+    margin: 20px auto 40px auto;
+    padding: 24px;
+    background-color: #0d0714;
+    border: 2px solid #7b2cbf;
+    color: #f3e8ff;
 }
 
 .title {
     margin-bottom: 20px;
+    font-size: 24px;
+    color: #ff2a85;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px #5e17eb;
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
 }
 
 .campo {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
+}
+
+.label {
+    font-size: 15px;
+    color: #ff70a6;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.select,
+.input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    background-color: #12091c;
+    color: #ffffff;
+    border: 2px solid #9d4edd;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #b892ff;
+}
+
+.select:focus,
+.input:focus {
+    border-color: #ff2a85;
 }
 
 .botoes {
     display: flex;
-    gap: 10px;
+    gap: 12px;
     margin-top: 10px;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ff2a85;
+    color: #ffffff;
+    border: 2px solid #ff70a6;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.botao:hover {
+    background-color: #d91e6e;
+}
+
+.botaoLimpar {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #3c096c;
+    color: #f3e8ff;
+    border: 2px solid #9d4edd;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.botaoLimpar:hover {
+    background-color: #5a189a;
+}
+.remove{
+    color: #ff70a6;
+    background: #0d0714;
+    border: 2px solid #7b2cbf;
+    border-radius: 12px;
+    font-size: 17px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 18px;
+    }
+
+    .label,
+    .select,
+    .input,
+    .botao,
+    .botaoLimpar {
+        font-size: 14px;
+    }
 }
