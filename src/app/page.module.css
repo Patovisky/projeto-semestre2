@@ -62,7 +62,7 @@
     margin: 0;
 }
 
-/* MOBILE */
+
 @media (max-width: 768px) {
     .container {
         width: 92%;
@@ -91,7 +91,7 @@
     }
 }
 
-/* DESKTOP */
+
 @media (min-width: 769px) {
     .integrantes {
         flex-direction: row;
